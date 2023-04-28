@@ -1,105 +1,150 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: Esteve Sanpons
+subtitle: Soy un apasionado de la programación
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  Programador de software, diseño y creador de soluciones, tanto grandes como pequeñas.
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-    - text: Home
-      url: /
-    - text: About
-      url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
-
+  - text: Inicio
+    url: /
+  - text: Sobre mí
+    url: /about
+  - text: Blog
+    url: /blog
+  #  - text: Gallery
+  #    url: /gallery
+  #  - text: Shop
+  #    url: /shop
+  - text: Contacto
+    url: /contact
 
 # Edit Author details (For multi authors check _data/authors.yml)
-
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+author_logo2: logo-me.png
+author_logo: logo.png
+author: Esteve Sanpons
+author_bio: Mi nombre es Esteve Sanpons, y me gusta mucho la programación
+author_email: "esteve@aesva.es"
+author_location: Barcelona
+author_website_url: "https://aesva.es"
+typewrite-text: Soy un apasionado de la programación.
+hero_cover_img: fondo.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true
+  - company_name: Mitra Global Service
+    company_year: 2022 - Presente
+    company_logo: mitra.png
+    designation: Responsable d'equipo y programador en C/AL y AL
+    description:
+      Gestionar la operativa, la organización de las tareas y el análisis de los proyectos para el equipo técnico y funcional de la empresa.
+      Fomentar el crecimiento del equipo, al igual que formarlo.
+      Fabricación y desarrollo de producto nuevo para diferentes sectores. Realizando desde pequeñas aplicaciones que resuelven el día a día, hasta grandes desarrollos donde suplen una gran funcionalidad en las empresas.
+    visibility: true
+  - company_name: Grupo Empresas Engel (Ersax Trade, Engel Systems, My Tech Retail, Engel Solar, Logistica Santiga)
+    company_year: 2020 - 2022
+    company_logo: engel.png
+    designation: Responsable del departamento y programador en C/AL
+    description:
+      Organizar y gestionar el departamento entero de Navision para todas las empresas del grupo. Llevando la responsabilidad de las personas a mi cargo, la toma de decisiones y gestión de los diferentes proveedores y del propio del departamento.
+      Recabar los requerimientos necesarios para las empresas del grupo. Analizar y desarrollar todo lo relacionado con Navision.
+      Aparte de la organización, realizar las funciones de programador del departamento.
+    visibility: true
+  - company_name: Netzer Consulting
+    company_year: 2017 - 2020
+    company_logo: netzer.jpg
+    designation: Consultor y programador junior en C/AL
+    description:
+      Consultor y programador en Microsoft Dynamics NAV. Analizar las incidencias y los desarrollos nuevos para después poder desarrollarlos.
+      Realizar todas las tareas desde la toma de requerimientos hasta él cuadre de los objetos. Lenguaje CAL desde la versión 2013 hasta la 2018.
+      Trabajos a destacar. WebServices, conexiones entre bases de datos, interconexión entre extensibles y Navision, entre otros, también, intercomunicar un almacén robotizado y Navision.
+      Ejecución y aplicación de Dll dentro del sistema de Navision para suplir necesidades extras de los clientes, tales como botones más grandes o conexión con básculas externas.
+    visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: true
+  - college_logo: bc.png
+    education_year: 2022 - Presente
+    college_name: Mitra Global Services
+    college_degree: Programador y consultor AL
+    description: Programación del lenguaje AL del ERP Business Central
+    visibility: true
+  - college_logo: html5-css3-js.png
+    education_year: 2022 - Presente
+    college_name: Mitra Global Services
+    college_degree: Programador Javascript, Html y Css
+    description: Programación con integraciones en Business Central con los lenguajes de programación web.
+    visibility: true
+  - college_logo: navision.png
+    education_year: 2017 - 2020
+    college_name: Empresa Netzer Consulting
+    college_degree: Programador y consultor C/AL
+    description: Programación del lenguaje C/AL del ERP Navision
+    visibility: true
+  - college_logo: java-android.png
+    education_year: 2015 - 2016
+    college_name: Escola Espai
+    college_degree: Programador en Android y Java
+    description: Nociones basicas de programación basadas en Java y Android.
+    visibility: true
+  - college_logo: castell-del-quer.jpg
+    education_year: 1996 - 2000
+    college_name: I.E.S. Castell del Quer
+    college_degree: Enseñanza secundaria
+    description: E.S.O.
+    visibility: true
+  - college_logo: pere-vila.png
+    education_year: 1990 - 1996
+    college_name: Escola Pere Vila
+    college_degree: Enseñanza primaria
+    description: Primaria
+    visibility: true
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
+  - project_thumbnail: gamershub.png
+    project_title: Gamers Hub
+    project_description: A Platform built for Gamers and Game Devs
+    project_url: https://gamershub.in
+    visibility: true
+  - project_thumbnail: hack4r.PNG
+    project_title: Hack4r
+    project_description: A Platform built for Hackers and Penetration Testers
+    project_url: https://hack4r.com
+    visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+#twitter_username: johndoe
+github_username: esanpons
+#facebook_username: johndoe
+linkedin_username: estevesanpons
+#behance_username: johndoe
+#instagram_username: johndoe
+#medium_username: johndoe
+telegram_username: Esanpons
+#dribbble_username: johndoe
+#flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 # disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476
+#hyvor_talk_website_id: 476
 
-# wakatime username (coding activity)
-wakatime_username: sujaykundu777
+# wakatime username (coding activity) (es el grafico NO BORRAR)
+#wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+#formspree_email: johndoe@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
-olvy_widget_type: sidebar
+#olvy_organization: devlopr
+#olvy_widget_type: sidebar
 
 # syntax highlighter
 markdown: kramdown
@@ -132,38 +177,35 @@ paginate_path: "/blog/page/:num/"
 #   permalinks:
 #     category: '/category/:name/'
 
-collections:
-  products:
-    output: true
-  authors:
-    output: true
+#collections:
+#  products:
+#    output: true
+#  authors:
+#    output: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "gallery"
     values:
       permalink: /:path/:basename:output_ext
-  -
-    scope:
+  - scope:
       path: ""
       type: authors
     values:
       layout: author
       permalink: /blog/authors/:slug
-  -
-    scope:
-      path: 'assets/**'
+  - scope:
+      path: "assets/**"
     values:
       sitemap: false
 
 # Build settings
 plugins:
   - jekyll-paginate
-  - jekyll-gist
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-admin
+#  - jekyll-gist
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
+#  - jekyll-admin
 
 # Jekyll Admin Config
 jekyll_admin:
@@ -174,7 +216,6 @@ jekyll_admin:
   #   - datafiles
   #   - configuration
   homepage: "posts"
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -225,6 +266,5 @@ exclude:
   - assets/bower_components/lightgallery/test/lightgallery.html
   - assets/bower_components/masonry-layout/README.md
   - assets/bower_components/imagesloaded/README.md
-
 
 destination: ./build
