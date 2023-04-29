@@ -3,12 +3,11 @@ layout: full-width
 ---
 
 <script>
-  $(document).ready(function() {
+  $(document).ready(function () {
     $("#typewriteText").typewrite({
       actions: [{ type: "{{site.typewrite-text}}" }]
     });
   });
 </script>
-    <!-- hero section-->
-    {%- include hero.html -%}
-    
+<!-- hero section-->
+{%- include home_base.html -%}

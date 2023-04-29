@@ -18,8 +18,8 @@ urls:
   #    url: /gallery
   #  - text: Shop
   #    url: /shop
-  - text: Contacto
-    url: /contact
+#  - text: Contacto
+#    url: /contact
 
 # Edit Author details (For multi authors check _data/authors.yml)
 author_logo2: logo-me.png

@@ -1,0 +1,24 @@
+Proyecto des de el PC local.
+----------------------------
+
+--Instalar subsitema de linux
+01. abrir powershell introducir: wsl --install
+02. Reiniciar equipo
+03. abrir ventana de ubuntu del subsistema y configurar usuario y contraseña y que instale todas las dependencias.
+04. sudo apt-get install ruby-full build-essential zlib1g-dev
+05. No se si esto es necesario: ~/.bashrc
+06. echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+07. echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+08. echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+09. source ~/.bashrc
+10. gem install jekyll bundler
+
+
+--instalar lo necesario para ejecutar el proyecto
+1. Copiar el proyecto en la carpeta del subsistema de linux. en la ruta \\wsl$\Ubuntu\home\esanpons\
+2. Abrir VsCode o CMD en la carpeta poner: bash
+3. poner en la consola: sudo bundle config set --local path 'vendor/cache'
+4. poner en la consola:  sudo bundle install
+5. poner en la consola:  sudo bundle add webrick
+6. Este ultimo sirve para ejecutar el servidor:  bundle exec jekyll serve --force_polling --livereload --verbose
+7. abrir: http://localhost:4000
