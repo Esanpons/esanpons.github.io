@@ -5,9 +5,7 @@ title: Cierre de contabilidad
 # if not specified, .name will be used from _data/owner/[language].yml
 author: Esteve Sanpons
 # multiple category is not supported
-category: Funcional
-# multiple tag entries are possible
-tags: [Manuales, Finanzas]
+category: [Funcional, Manuales, Finanzas]
 # disable comments on this page
 comments_disable: true
 
