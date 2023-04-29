@@ -5,11 +5,9 @@ title: Artículos en _bovedas
 
 <h1>Artículos en _bovedas</h1>
 
-{% assign posts = site.articles | where: "custom_category", "Categoría1" %}
-
-<h2>Categoría1</h2>
 <ul>
-    {% for post in posts %}
+    {% assign sorted_posts = site.articles | sort: 'date' | reverse %}
+    {% for post in sorted_posts %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
