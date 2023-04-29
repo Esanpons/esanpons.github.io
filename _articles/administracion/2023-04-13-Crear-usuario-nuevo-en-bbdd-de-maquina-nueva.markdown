@@ -10,6 +10,7 @@ category: Administración
 tags: [Usuarios]
 # disable comments on this page
 comments_disable: true
+custom_category: Categoría1
 
 # publish date
 date: 2023-04-13 08:00:00 +0200
