@@ -1,8 +1,5 @@
 title: Esteve Sanpons
 subtitle: Soy un apasionado de la programación
-description: >- # this means to ignore newlines until "baseurl:"
-  Programador de software, diseño y creador de soluciones, tanto grandes como pequeñas.
-
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
@@ -25,7 +22,11 @@ urls:
 author_logo2: logo-me.png
 author_logo: logo.png
 author: Esteve Sanpons
-author_bio: Mi nombre es Esteve Sanpons, y me gusta mucho la programación
+author_bio: Mi nombre es Esteve Sanpons.
+author_description: Soy programador de software, y diseño y creo soluciones, tanto grandes como pequeñas.
+author_description2: Soy alegre, puntual, entusiasta y pacífico. Me gusta aprender cosas nuevas y siempre tengo ganas de superarme a mí mismo.
+author_birth_date: 8 Enero 1984
+author_languages: Catalán y Castellano
 author_email: "esteve@aesva.es"
 author_location: Barcelona
 author_website_url: "https://aesva.es"
@@ -100,19 +101,6 @@ author_education_details:
     college_name: Escola Pere Vila
     college_degree: Enseñanza primaria
     description: Primaria
-    visibility: true
-
-# Projects
-author_project_details:
-  - project_thumbnail: gamershub.png
-    project_title: Gamers Hub
-    project_description: A Platform built for Gamers and Game Devs
-    project_url: https://gamershub.in
-    visibility: true
-  - project_thumbnail: hack4r.PNG
-    project_title: Hack4r
-    project_description: A Platform built for Hackers and Penetration Testers
-    project_url: https://hack4r.com
     visibility: true
 
 # social links
