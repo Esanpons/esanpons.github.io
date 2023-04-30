@@ -3,6 +3,17 @@
     --link-color: transparent;
   }
 
+
+  [class*=icono-] {
+    color: black;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: black !important;
+  }
+
+
+
   /* change cover_img in config.yml */
   .jumbotron {
     background-color: var(--main-background-color) !important;
@@ -14,15 +25,9 @@
     background-position: center;
   }
 
-  .jumbotron-btns {
-    display: block;
-    margin-top: 50px;
-  }
 
-  .jumbotron-heading,
-  .lead {
-    color: #fff;
-  }
+
+
 
   ::-webkit-scrollbar {
     width: 0px;
@@ -34,12 +39,30 @@
     .jumbotron {
       background-position-x: calc(-65% - 5%);
     }
+
+    #header-home {
+      visibility: visible;
+    }
+
+    .jumbotron-btns {
+      visibility: hidden;
+    }
+
+    #div-menu-home {
+      position: fixed;
+      bottom: -300px;
+    }
   }
 
   /*Samsumg Galaxy SB+*/
   @media screen and (min-width: 301px) and (max-width: 360px) {
     .jumbotron {
       background-position-x: calc(-72% - 5%);
+    }
+
+    #div-menu-home {
+      position: fixed;
+      bottom: 30px;
     }
   }
 
@@ -48,12 +71,31 @@
     .jumbotron {
       background-position-x: calc(-80% - 5%);
     }
+
+    #header-home {
+      visibility: visible;
+    }
+
+    .jumbotron-btns {
+      visibility: hidden;
+    }
+
+    #div-menu-home {
+      position: fixed;
+      bottom: -150px;
+    }
+
   }
 
   /*Iphone 12 pro, pixel 5, */
   @media screen and (min-width: 381px) and (max-width: 400px) {
     .jumbotron {
       background-position-x: calc(-69% - 5%);
+    }
+
+    #div-menu-home {
+      position: fixed;
+      bottom: 30px;
     }
   }
 
@@ -62,6 +104,12 @@
     .jumbotron {
       background-position-x: calc(-68% - 5%);
     }
+
+    #div-menu-home {
+      position: fixed;
+      bottom: 50px;
+    }
+
   }
 
   /*surface duo*/
@@ -69,6 +117,12 @@
     .jumbotron {
       background-position-x: calc(-80% - 5%);
     }
+
+    #div-menu-home {
+      position: fixed;
+      bottom: 20px;
+    }
+
   }
 
   /*Ipad Air, Ipad Mini*/
@@ -76,10 +130,16 @@
     .jumbotron {
       background-position-x: calc(-80% - 5%);
     }
+
+    #div-menu-home {
+      position: fixed;
+      bottom: 150px;
+      left: 10%;
+      right: 10%;
+    }
   }
 
   @media (min-width: 851px) {
-
     #div-menu {
       position: relative;
       height: 100%;
@@ -103,7 +163,7 @@
 <div class="jumbotron">
   <div>
     <div id="div-menu-home">
-      <p class="jumbotron-heading">{{site.author}} !</p>
+      <p class="jumbotron-heading">{{site.author}}</p>
 
       <p class="lead" id="typewriteText"></p>
 

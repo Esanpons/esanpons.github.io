@@ -3,11 +3,17 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "es" }}">
+<html lang="{{ page.lang | default: site.lang | default: " es" }}">
 {%- include head.html -%}
-  <body>
-        <div class="container-fluid">
-            {{ content }}
-        </div>
-  </body>
+
+<body>
+  <div id="header-home">
+    {%- include header-home.html -%}
+  </div>
+
+  <div class="container-fluid">
+    {{ content }}
+  </div>
+</body>
+
 </html>
