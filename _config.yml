@@ -3,7 +3,7 @@ subtitle: Soy un apasionado de la programación
 description: >- # this means to ignore newlines until "baseurl:"
   Programador de software, diseño y creador de soluciones, tanto grandes como pequeñas.
 
-url: "https://aesva.es" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
