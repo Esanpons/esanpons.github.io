@@ -19,7 +19,7 @@ La ruta dentro del menusuite es: Departamentos/ Fabricación/ Diseño de product
 
 Reposición
 
-![such a lovely place](:manual-produccion-image1.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image1.jpg">
 <br><br><br>
 
 - Sistema reposición: "Prod. Pedido" esto lo que hace es configurar este producto para que con la hoja de planificación puedas crear ordenes de producción.
@@ -48,7 +48,7 @@ Reposición
 
 ### Planificación
 
-![such a lovely place](:manual-produccion-image2.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image2.jpg">
 <br><br><br>
 
 - Cantidad mínima pedido: Si en la hoja de planificación te dice que has de fabricar alguna cosa, la cantidad mínima te dirá que es lo mínimo a fabricar.
@@ -61,7 +61,7 @@ La ruta dentro del menusuite es: Departamentos/ Fabricación/ Diseño de product
 
 #### Cabecera
 
-![such a lovely place](:manual-produccion-image3.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image3.jpg">
 <br><br><br>
 
 - Estado: En el estado de la cabecera si está certificada es que la puedes utilizar. Si está en otro estado no puedes utilizarla.
@@ -70,7 +70,7 @@ La ruta dentro del menusuite es: Departamentos/ Fabricación/ Diseño de product
 
 #### Líneas
 
-![such a lovely place](:manual-produccion-image4.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image4.jpg">
 <br><br><br>
 
 - Cantidad por: Cantidades necesarias para fabricar el producto padre.
@@ -87,7 +87,7 @@ La ruta dentro del menusuite es: Departamentos/ Fabricación/ Diseño de product
 
 #### Cabecera
 
-![such a lovely place](:manual-produccion-image5.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image5.jpg">
 <br><br><br>
 
 - Estado: En el estado de la cabecera si está certificada es que la puedes utilizar. Si está en otro estado no puedes utilizarla.
@@ -100,7 +100,7 @@ La ruta dentro del menusuite es: Departamentos/ Fabricación/ Diseño de product
 
 #### Líneas
 
-![such a lovely place](:manual-produccion-image6.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image6.jpg">
 <br><br><br>
 
 - Tipo:
@@ -135,7 +135,7 @@ La ruta dentro del menusuite es: /Departamentos/ Fabricación/ Administración/ 
 
 Aquí es donde especificaremos las unidades de tiempo necesarias para las rutas.
 
-![such a lovely place](:manual-produccion-image7.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image7.jpg">
 <br><br><br>
 
 ### Turnos trabajo
@@ -144,7 +144,7 @@ La ruta dentro del menusuite es: /Departamentos/ Fabricación/ Administración/ 
 
 Especificaremos todos los turnos posibles que tendrá nuestra empresa.
 
-![such a lovely place](:manual-produccion-image8.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image8.jpg">
 <br><br><br>
 
 ### Calendarios planta
@@ -153,21 +153,21 @@ La ruta dentro del menusuite es: /Departamentos/ Fabricación/ Administración/ 
 
 Especifica los calendarios de la planta de fabricación.
 
-![such a lovely place](:manual-produccion-image9.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image9.jpg">
 <br><br><br>
 
 ### Días laborables
 
 Asignas los días laborables y sus horarios
 
-![such a lovely place](:manual-produccion-image10.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image10.jpg">
 <br><br><br>
 
 ### Vacaciones
 
 Se especifica los días de vacaciones que no se trabajaran en el horario especificado.
 
-![such a lovely place](:manual-produccion-image11.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image11.jpg">
 <br><br><br>
 
 ### Grupo centro trabajo
@@ -176,7 +176,7 @@ La ruta dentro del menusuite es: /Departamentos/ Fabricación/ Administración/ 
 
 Creas los grupos de centro de trabajo que tendrá tu empresa. Estos son agrupaciones o de centros maquina o de centros de trabajo.
 
-![such a lovely place](:manual-produccion-image12.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image12.jpg">
 <br><br><br>
 
 ### Centro trabajo
@@ -185,7 +185,7 @@ La ruta dentro del menusuite es: Departamentos/ Fabricación/ Capacidades/ Centr
 
 Es la configuracion de las agrupaciones de centros maquina de una zona en concreto de la planta de fabricacion.
 
-![such a lovely place](:manual-produccion-image13.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image13.jpg">
 <br><br><br>
 
 #### General
@@ -236,7 +236,7 @@ La ruta dentro del menusuite es: Departamentos/ Fabricación/ Capacidades/ Centr
 
 Sería la configuración de una maquina u operario que normalmente está vinculado a un centro de trabajo.
 
-![such a lovely place](:manual-produccion-image14.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image14.jpg">
 <br><br><br>
 
 #### General
@@ -283,7 +283,7 @@ El circuito suele empezar con las hojas de planificación, aunque podemos crear 
 
 La ruta dentro del menusuite es:Departamentos/ Fabricación/ Planificación/ Tareas/ Hoja planificación
 
-![such a lovely place](:manual-produccion-image15.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image15.jpg">
 <br><br><br>
 
 <!---
@@ -300,7 +300,7 @@ Se pueden crear las O.P planificadas manualmente, pero se aconseja hacerlo a tra
 
 Cuando queramos cambiar el estado de la orden solo tendremos que presionar el boton de cambiar estado y seleccionar el estado a cambiar.
 
-![such a lovely place](:manual-produccion-image16.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image16.jpg">
 <br><br><br>
 
 ### O.P. Planificadas en firme
@@ -315,7 +315,7 @@ Si tenemos ordenes planificadas en firme no tendrá presente estos productos a l
 
 #### Cabecera
 
-![such a lovely place](:manual-produccion-image17.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image17.jpg">
 <br><br><br>
 
 _Botón Actualizar orden producción_
@@ -354,12 +354,12 @@ _Botones de ruta y componentes_
 
 Des de estos botones podremos ver la ruta y lo componentes que hay para esta orden en concreto.
 
-![such a lovely place](:manual-produccion-image18.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image18.jpg">
 <br><br><br>
 
 Cuando queramos cambiar el estado de la orden solo tendremos que presionar el boton de cambiar estado y seleccionar el estado a cambiar.
 
-![such a lovely place](:manual-produccion-image19.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image19.jpg">
 <br><br><br>
 
 ### O.P. Lanzadas
@@ -370,7 +370,7 @@ El funcionamiento es igual que en las O.P. planificadas en firme con la diferenc
 
 Se explicará este diario en el apartado de diarios.
 
-![such a lovely place](:manual-produccion-image20.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image20.jpg">
 <br><br><br>
 
 ### O.P. Terminadas
@@ -381,7 +381,7 @@ Este es el histórico de las ordenes de producción.
 
 Aquí podremos ver que es lo que se ha hecho y fabricado en cada orden de producción.
 
-![such a lovely place](:manual-produccion-image21.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image21.jpg">
 <br><br><br>
 
 ### Diarios
@@ -396,7 +396,7 @@ La última línea es la que te dirá la cantidad de producto que as creado con e
 
 Solo se pueden hacer ajustes en las ordenes lanzadas, una vez hemos terminado la orden no se podrán hacer estos ajustes.
 
-![such a lovely place](:manual-produccion-image22.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image22.jpg">
 <br><br><br>
 
 ### Diario consumo
@@ -409,7 +409,7 @@ Para traer las líneas de las ordenes lo haremos desde el botón de calcular con
 
 Es lo mismo que el diario de producción, pero no se pueden registrar las operaciones hechas en la orden de producción. Podemos traer varias ordenes y registrarlas todas juntas.
 
-![such a lovely place](:manual-produccion-image23.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image23.jpg">
 <br><br><br>
 
 ### Diario salida
@@ -422,5 +422,5 @@ Para traer las líneas de las ordenes lo haremos desde el botón de desplegar ru
 
 Es lo mismo que el diario de producción, pero no se pueden registrar los consumos de producto hechos en la orden de producción.
 
-![such a lovely place](:manual-produccion-image24.jpg)
+<img class="img-container"  src="/assets/img/articles/manual-produccion/image24.jpg">
 <br><br><br>

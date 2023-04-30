@@ -6,6 +6,9 @@ $nav-typeface: "Gill sans";
 $mono-typeface: Menlo, Monaco, monospace;
 $text-width: 650px;
 
+
+
+
 html[data-theme="dark"] {
     --bold-color: rgb(188, 188, 188);
     --box-background-color: hsl(0, 0%, 20%);
@@ -1343,3 +1346,10 @@ $color3: #ffffff;
     }
     
 }
+
+
+.img-container {
+    width: 50%;
+    height: auto;
+}
+  

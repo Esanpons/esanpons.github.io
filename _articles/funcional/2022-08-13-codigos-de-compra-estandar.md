@@ -24,7 +24,7 @@ Lo primero que hay que hacer es definir los códigos de compra. A esta
 opción se accede desde Departamentos -\> Compra -\> Procesamiento de
 pedidos -\> Configuración.
 
-![such a lovely place](:codigos-de-compra-estandar-image1.png)
+<img class="img-container"  src="/assets/img/articles/codigos-de-compra-estandar/image1.png">
 <br><br><br>
 
 Los productos, cuentas, cargo producto o activos se definen agrupados en
@@ -34,7 +34,7 @@ diferente. Son definiciones genéricas, sin tener en cuenta el proveedor.
 Con el botón "Editar" de la cinta de opciones, se visualiza el
 contenido.
 
-![such a lovely place](:codigos-de-compra-estandar-image2.png)
+<img class="img-container"  src="/assets/img/articles/codigos-de-compra-estandar/image2.png">
 <br><br><br>
 
 Son campos obligatorios el "Tipo" y "Nº", pero también puede indicarse
@@ -46,7 +46,7 @@ La recuperación de los códigos de compra se realiza desde los pedido y
 facturas de compra, con la opción "Obtener líneas de compra recurrentes"
 (pestaña "Acciones" de las cinta de opciones).
 
-![such a lovely place](:codigos-de-compra-estandar-image3.png)
+<img class="img-container"  src="/assets/img/articles/codigos-de-compra-estandar/image3.png">
 <br><br><br>
 
 La primera vez que se accede, hay que seleccionar los "Códigos de compra
@@ -58,5 +58,5 @@ datos (precios, dtos. ...) de las fichas. Una vez introducida la
 cantidad, siempre que no se haya indicado en la definición de los
 códigos de compra, ya se puede registrar el documento.
 
-![such a lovely place](:codigos-de-compra-estandar-image4.png)
+<img class="img-container"  src="/assets/img/articles/codigos-de-compra-estandar/image4.png">
 <br><br><br>

@@ -27,16 +27,16 @@ Navision las utiliza para definir las diferentes formas de fraccionar un
 importe, se desde Departamentos -\ Administración -\ Configuración de
 la aplicación -\ Gestión financiera -\ Grupos contables.
 
-![such a lovely place](:fraccionamiento-de-gastos-image1.png)
+<img class="img-container"  src="/assets/img/articles/fraccionamiento-de-gastos/image1.png">
 <br><br><br>
 
 Se muestra una lista con todas las plantillas definidas para poder
 modificar, eliminar o generar nuevas.
-![such a lovely place](:fraccionamiento-de-gastos-image2.png)
+<img class="img-container"  src="/assets/img/articles/fraccionamiento-de-gastos/image2.png">
 <br><br><br>
 
 Los datos necesarios de las plantillas son:
-![such a lovely place](:fraccionamiento-de-gastos-image3.png)
+<img class="img-container"  src="/assets/img/articles/fraccionamiento-de-gastos/image3.png">
 <br><br><br>
 
 - Código de fraccionamiento: se debe asignar un código diferente a
@@ -62,7 +62,7 @@ Los datos necesarios de las plantillas son:
 Si realizamos un fraccionamiento de una factura registrada el 15/01/20
 de 6.000 euros con la plantilla TRIMESTRAL (definida en la imagen
 anterior), el resultado será:
-![such a lovely place](:fraccionamiento-de-gastos-image4.png)
+<img class="img-container"  src="/assets/img/articles/fraccionamiento-de-gastos/image4.png">
 <br><br><br>
 
 - Igual por período: todos los períodos tendrán el mismo importe.
@@ -95,7 +95,7 @@ La plantilla de fraccionamiento a utilizar se indica a nivel del detalle
 de la factura, en el campo "Código de fraccionamiento" (si el campo no
 está visible se tendrá que seleccionar con "Elegir columna"). Así, cada
 línea de factura puede tener un fraccionamiento diferente
-![such a lovely place](:fraccionamiento-de-gastos-image5.png)
+<img class="img-container"  src="/assets/img/articles/fraccionamiento-de-gastos/image5.png">
 <br><br><br>
 
 Antes de registrar la factura, es útil utilizar la opción "Vista previa
@@ -108,13 +108,13 @@ distribución del importe. Hay que situarse en la línea correspondiente y
 en "Líneas" seleccionar "Información adicional" y "Previsión
 fraccionamiento".
 
-![such a lovely place](:fraccionamiento-de-gastos-image6.png)
+<img class="img-container"  src="/assets/img/articles/fraccionamiento-de-gastos/image6.png">
 <br><br><br>
 
 En la pantalla que se muestra, se deben indicar manualmente los importes
 de cada período hasta completar el importe a fraccionar.
 
-![such a lovely place](:fraccionamiento-de-gastos-image7.png)
+<img class="img-container"  src="/assets/img/articles/fraccionamiento-de-gastos/image7.png">
 <br><br><br>
 
 Esta pantalla también sirve para comprobar, antes de registrar la

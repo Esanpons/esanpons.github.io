@@ -14,17 +14,17 @@ date: 2022-08-13 08:00:00 +0200
 Lo primero es añadir el usuario de Windows a la BBDD
 Para ello nos vamos al usuario y de damos a propiedades.
 
-![such a lovely place](:crear-usuario-nuevo-en-bbdd-de-maquina-nueva-imagen1.png)
+<img class="img-container"  src="/assets/img/articles/crear-usuario-nuevo-en-bbdd-de-maquina-nueva/imagen1.png">
 <br><br><br><br>
 
 Después lo añadimos en la BBDD y le ponemos owner.
 
-![such a lovely place](:crear-usuario-nuevo-en-bbdd-de-maquina-nueva-imagen2.png)
+<img class="img-container"  src="/assets/img/articles/crear-usuario-nuevo-en-bbdd-de-maquina-nueva/imagen2.png">
 <br><br><br><br>
 
 Ahora vamos al servicio y añadimos el usuario administrador de la maquina a la instancia para que la arranque.
 
-![such a lovely place](:crear-usuario-nuevo-en-bbdd-de-maquina-nueva-imagen3.png)
+<img class="img-container"  src="/assets/img/articles/crear-usuario-nuevo-en-bbdd-de-maquina-nueva/imagen3.png">
 <br><br><br><br>
 
 Arrancamos instancia.

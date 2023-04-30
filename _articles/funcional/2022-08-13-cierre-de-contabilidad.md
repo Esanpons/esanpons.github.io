@@ -36,7 +36,7 @@ A esta opción se accede desde: Gestión financiera -\ Actividades periódicas -
 
 Marcamos el periodo de final de ejercicio haciendo clic en el botón "Fijar cierre".
 
-![such a lovely place](:cierre-de-contabilidad-image1.png)
+<img class="img-container"  src="/assets/img/articles/cierre-de-contabilidad/image1.png">
 <br><br><br>
 
 ### Asiento de regularización
@@ -47,7 +47,7 @@ La "Cuenta de regularización" se detalla en las fichas de cada una de las cuent
 
 El acceso al "Asiento de regularización" está en: Gestión financiera -\Contabilidad -\ Actividades periódicas -\ Ejercicio.
 
-![such a lovely place](:cierre-de-contabilidad-image2.png)
+<img class="img-container"  src="/assets/img/articles/cierre-de-contabilidad/image2.png">
 <br><br><br>
 
 Si no trabajamos con divisa adicional, no rellenamos el campo Cta. Ajtes. Red. Div. Adic.
@@ -62,7 +62,7 @@ Como en los libros oficiales hay que detallar los asientos numerados en orden de
 
 Esta opción está en: Gestión financiera -\ Contabilidad -\ Historial -\ Registro movs. contabilidad -\ pestaña Acciones -\ botón "Asignar número periodo".
 
-![such a lovely place](:cierre-de-contabilidad-image3.png)
+<img class="img-container"  src="/assets/img/articles/cierre-de-contabilidad/image3.png">
 <br><br><br>
 
 ### Impresión de libros.
@@ -73,7 +73,7 @@ Según indicaciones de la asesoría fiscal, se presenta uno u otro documento. Se
 
 La fecha final del periodo debe incluir el asiento de regularización, con los cual tendrá el carácter "U" delante de la fecha (ejemplo: U3112xx)
 
-![such a lovely place](:cierre-de-contabilidad-image4.png)
+<img class="img-container"  src="/assets/img/articles/cierre-de-contabilidad/image4.png">
 <br><br><br>
 
 - Balance de Sumas y Saldos, separado por trimestres. (Gestión financiera -\ Contabilidad -\ Informes)
@@ -84,5 +84,5 @@ La fecha final del periodo debe incluir el asiento de regularización, con los c
 
 ### Filtros para el balance de sumas y saldos:
 
-![such a lovely place](:cierre-de-contabilidad-image5.png)
+<img class="img-container"  src="/assets/img/articles/cierre-de-contabilidad/image5.png">
 <br><br><br>

@@ -74,7 +74,7 @@ Para poder llevar a cabo una consolidación, deberá haber configurado la
 empresa consolidada. La empresa debe configurarse en el sistema del
 mismo modo que cualquier
 
-![such a lovely place](:consolidacion-contable-image1.png)
+<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image1.png">
 <br><br><br>
 
 ### Configurar información de consolidación de las cuentas contables
@@ -86,7 +86,7 @@ que se transferirá el saldo al realizar la consolidación. Ésta es una
 asignación que permitirá que empresas con planes de cuentas distintos se
 consoliden juntas.
 
-![such a lovely place](:consolidacion-contable-image2.png)
+<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image2.png">
 <br><br><br>
 
 En esta pantalla, merece la pena comentar el campo de método traducción
@@ -141,10 +141,10 @@ Contabilidad, Actividades Periódicas, Consolidación, Empresas.
 
 Aparece la ventana Ficha de empresa:
 
-![such a lovely place](:consolidacion-contable-image3.png)
+<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image3.png">
 <br><br>
 
-![such a lovely place](:consolidacion-contable-image4.png)
+<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image4.png">
 <br><br><br>
 
 Los campos a comentar son los siguientes:
@@ -225,7 +225,7 @@ regularización.
 Para especificar los tipos de cambio para consolidaciones, hay que
 seleccionar la pestaña Navegar dentro de la ficha.
 
-![such a lovely place](:consolidacion-contable-image5.png)
+<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image5.png">
 <br><br><br>
 
 ### Configurar información de dimensiones para consolidaciones
@@ -236,7 +236,7 @@ de dimensiones.
 Esta acción se realiza en el menú de Gestión financiera, Configuración,
 Dimensiones, Dimensiones, Valores de dimensión
 
-![such a lovely place](:consolidacion-contable-image6.png)
+<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image6.png">
 <br><br><br>
 
 El campo Cód. consolidación se utiliza para la consolidación. El que se
@@ -262,7 +262,7 @@ incluye un proceso para realizar la exportación.
 El proceso se encuentra en Gestión financiera, Contabilidad, Actividades
 Periódicas, Consolidación, Exportar consolidación
 
-![such a lovely place](:consolidacion-contable-image7.png)
+<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image7.png">
 <br><br><br>
 
 Se debe seleccionar el formato de archivo en el que la empresa enviará
@@ -313,7 +313,7 @@ En el menú Gestión financiera, Contabilidad, Actividades Periódicas,
 Consolidación, Empresas, Pestaña Acciones, Ejecutar la acción de Test
 Archivo.
 
-![such a lovely place](:consolidacion-contable-image8.png)
+<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image8.png">
 <br><br><br>
 
 El informe procesa los datos financieros de la empresa que se exportaron
@@ -350,7 +350,7 @@ Para comprobar bases de datos antes de realizar la consolidación, en
 punto de menú es el mismo que antes pero ahora ejecutamos la opción de
 Test Base de Datos
 
-![such a lovely place](:consolidacion-contable-image9.png)
+<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image9.png">
 <br><br><br>
 
 En la pestaña Código Empresa, se puede definir un filtro para
@@ -366,7 +366,7 @@ desde archivo. Describiremos el caso primero.
 En el menú Gestión financiera, Contabilidad, Actividades Periódicas,
 Consolidación, Empresas, Pestaña Acciones, Importar base de datos
 
-![such a lovely place](:consolidacion-contable-image10.png)
+<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image10.png">
 <br><br><br>
 
 Se rellenan los campos y se clica en Aceptar para iniciar la
@@ -434,7 +434,7 @@ adelante.
 En el menú Gestión financiera, Contabilidad, Actividades Periódicas,
 Consolidación, Empresas, Pestaña Informes, Eliminaciones.
 
-![such a lovely place](:consolidacion-contable-image11.png)
+<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image11.png">
 <br><br><br>
 
 En esta ventana a parte de las Fechas de inicio - final y Código
@@ -511,7 +511,7 @@ saldo de cada cuenta antes y después de las eliminaciones junto con las
 eliminaciones registradas de cada cuenta. Los totales de cada empresa
 para una cuenta específica se muestran en líneas independientes.
 
-![such a lovely place](:consolidacion-contable-image12.png)
+<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image12.png">
 <br><br><br>
 
 **Balance comprobación cons. (4)**
