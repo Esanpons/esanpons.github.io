@@ -1,26 +1,13 @@
 ---
 title: Publicar y despublicar App
-
-# post specific
-# if not specified, .name will be used from _data/owner/[language].yml
+summary: "Script para powershell para publicar y despublicar una app en BC."
+layout: article
 author: Esteve Sanpons
-# multiple category is not supported
-category: PowerShell
-# multiple tag entries are possible
-tags: [PowerShell, Business Central]
-# disable comments on this page
-comments_disable: true
-
-# publish date
+category: [PowerShell, Business Central]
 date: 2023-04-22 09:07:00 +0200
 ---
 
-<!-- outline-start -->
-
 Script para powershell para publicar y despublicar una app en BC.
-<br>
-
-<!-- outline-end -->
 
 Se tiene que rellenar las variables y ejecutar como administrador.
 

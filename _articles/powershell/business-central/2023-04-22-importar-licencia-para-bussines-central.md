@@ -1,24 +1,15 @@
 ---
 title: Importar licencia para Bussines Central
-
-# post specific
-# if not specified, .name will be used from _data/owner/[language].yml
+summary: "Un script de PowerShell para importar la licencia"
+layout: article
 author: Esteve Sanpons
-# multiple category is not supported
 category: [PowerShell, Business_Central, Licencia]
-# disable comments on this page
-comments_disable: true
-
-# publish date
 date: 2023-04-22 09:05:00 +0200
 ---
-
-<!-- outline-start -->
 
 Importar licencia para Bussines Central
 
 <br>
-<!-- outline-end -->
 
 Abrir Administration shell y Ejecutar como administrador
 

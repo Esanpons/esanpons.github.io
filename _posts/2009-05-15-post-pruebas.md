@@ -2,6 +2,7 @@
 title: post pruebas
 layout: page
 permalink: /styleguide/
+custom_categories: Funcional
 ---
 
 ### devlopr - Styleguide

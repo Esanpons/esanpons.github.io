@@ -2,12 +2,38 @@
 layout: default
 title: Artículos en _bovedas
 ---
+<br>
+<br>
 
-<h1>Artículos en _bovedas</h1>
+<div class="card">
+    <h1>La boveda Del Conocimiento</h1>
+    <br>
+    <p>Empece esta sección para mi, internamente. Para tener un lugar donde ubicar todo lo que hiba encontrando por
+        internet
+        y todo que voy aprendiendo por el camino.</p>
+    <p>Después vi que toda esta información puede estar al servicio de todos y eso es lo que he hecho con este proyecto.
+    </p>
+    <p>En verdad es una recopilación de todo lo que me he encontrado de Navision y Business central y otras cosas que
+        creo importantes tener guardadas.</p>
+    <br>
+    <p>Quiero dejar claro que esta sección no es un blog y que por lo tanto puede estar la información algo escueta, por
+        lo que si quieren mas detalles de alguno de los datos solo tienen que pedirlo.</p>
+    <br>
+    <p>Puede haber material de otras personas y, por lo tanto, hago referencia a sus webs.</p>
+</div>
 
-<ul>
+
+<div class="row">
     {% assign sorted_posts = site.articles | sort: 'date' | reverse %}
     {% for post in sorted_posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <div class="card blog-post">
+        <div class="card-body center">
+            <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="card-title">
+                <h4> {{ post.title }}</h4>
+            </a>
+            <p class="card-text">{{ post.summary }} </p>
+            <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
+        </div>
+    </div>
     {% endfor %}
-</ul>
+</div>

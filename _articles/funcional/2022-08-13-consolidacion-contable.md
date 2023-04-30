@@ -1,26 +1,15 @@
 ---
 title: Consolidación Contable
-
-# post specific
-# if not specified, .name will be used from _data/owner/[language].yml
+summary: "Navision nos permite consolidar los movimientos de contabilidad"
+layout: article
 author: Esteve Sanpons
-# multiple category is not supported
-category: Funcional
-# multiple tag entries are possible
-tags: [Manuales, Finanzas]
-# disable comments on this page
-comments_disable: true
-
-# publish date
-date: 2023-04-14 15:00:00 +0200
+category: [Funcional, Manuales, Finanzas]
+date: 2022-08-13 15:00:00 +0200
 ---
-
-<!-- outline-start -->
 
 ###### Consolidación Contable
 
 <br>
-<!-- outline-end -->
 
 ## Introducción
 

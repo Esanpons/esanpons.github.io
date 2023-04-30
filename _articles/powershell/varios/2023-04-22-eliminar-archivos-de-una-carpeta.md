@@ -1,6 +1,6 @@
 ---
 title: Eliminar Archivos de una carpeta
-layout: post
+layout: article
 summary: "Elimina todos los archivos de la carpeta seleccionada."
 author: Esteve Sanpons
 category: PowerShell

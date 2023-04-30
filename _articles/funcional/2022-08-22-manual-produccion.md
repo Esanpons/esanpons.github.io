@@ -1,26 +1,15 @@
 ---
 title: Manual Producción
-
-# post specific
-# if not specified, .name will be used from _data/owner/[language].yml
+summary: "Explicación detallada de la funcionalidad del modulo de producción"
+layout: article
 author: Esteve Sanpons
-# multiple category is not supported
-category: Funcional
-# multiple tag entries are possible
-tags: [Manuales, Producción]
-# disable comments on this page
-comments_disable: true
-
-# publish date
-date: 2023-04-22 09:00:00 +0200
+category: [Funcional, Manuales, Producción]
+date: 2022-08-22 09:00:00 +0200
 ---
-
-<!-- outline-start -->
 
 ###### Manual Producción
 
 <br>
-<!-- outline-end -->
 
 ## Configuraciones previas
 

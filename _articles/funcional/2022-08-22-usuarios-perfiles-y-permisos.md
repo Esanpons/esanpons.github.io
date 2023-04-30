@@ -1,26 +1,15 @@
 ---
 title: Usuarios, perfiles y permisos
-
-# post specific
-# if not specified, .name will be used from _data/owner/[language].yml
+summary: "Una breve explicación de como funciona los usuarios, roles y perfiles"
+layout: article
 author: Esteve Sanpons
-# multiple category is not supported
-category: Funcional
-# multiple tag entries are possible
-tags: [Manuales, Usuarios, Perfil, Roles]
-# disable comments on this page
-comments_disable: true
-
-# publish date
-date: 2023-04-22 09:02:00 +0200
+category: [Funcional, Manuales, Usuarios, Perfil, Roles]
+date: 2022-08-22 09:02:00 +0200
 ---
-
-<!-- outline-start -->
 
 ###### Usuarios, perfiles y permisos
 
 <br>
-<!-- outline-end -->
 
 ## Creación de usuarios
 

@@ -1,27 +1,15 @@
 ---
-title: Crear usuario nuevo en BBDD de maquina nueva
-
-# post specific
-# if not specified, .name will be used from _data/owner/[language].yml
+title: "Crear usuario nuevo en BBDD de maquina nueva"
+summary: "Es para crear usuarios de windows en una BBDD"
+layout: article
+category: ["Administración", "Usuarios"]
 author: Esteve Sanpons
-# multiple category is not supported
-category: Administración
-# multiple tag entries are possible
-tags: [Usuarios]
-# disable comments on this page
-comments_disable: true
-custom_category: Categoría1
-
-# publish date
-date: 2023-04-13 08:00:00 +0200
+date: 2022-08-13 08:00:00 +0200
 ---
-
-<!-- outline-start -->
 
 ###### Es para crear usuarios de windows en una BBDD
 
 <br>
-<!-- outline-end -->
 
 Lo primero es añadir el usuario de Windows a la BBDD
 Para ello nos vamos al usuario y de damos a propiedades.

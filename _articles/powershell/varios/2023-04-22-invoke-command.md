@@ -1,26 +1,15 @@
 ---
 title: Invoke-Command
-
-# post specific
-# if not specified, .name will be used from _data/owner/[language].yml
+summary: "Ejecutar otro comando de powershell"
+layout: article
 author: Esteve Sanpons
-# multiple category is not supported
-category: PowerShell
-# multiple tag entries are possible
-tags: [PowerShell]
-# disable comments on this page
-comments_disable: true
-
-# publish date
+category: [PowerShell]
 date: 2023-04-22 09:31:00 +0200
 ---
-
-<!-- outline-start -->
 
 Ejecutar otro comando de powershell
 
 <br>
-<!-- outline-end -->
 
 ## Ejecutar Scripts des de otra maquina
 

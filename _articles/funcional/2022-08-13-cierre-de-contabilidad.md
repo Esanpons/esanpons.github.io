@@ -1,24 +1,15 @@
 ---
 title: Cierre de contabilidad
-
-# post specific
-# if not specified, .name will be used from _data/owner/[language].yml
+summary: "tutorial para hacer un cierre de contabilidad"
+layout: article
 author: Esteve Sanpons
-# multiple category is not supported
 category: [Funcional, Manuales, Finanzas]
-# disable comments on this page
-comments_disable: true
-
-# publish date
-date: 2023-04-14 13:01:00 +0200
+date: 2022-08-13 13:01:00 +0200
 ---
-
-<!-- outline-start -->
 
 ###### Cierre de contabilidad
 
 <br>
-<!-- outline-end -->
 
 ## Introducción
 

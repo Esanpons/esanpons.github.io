@@ -1,26 +1,15 @@
 ---
 title: Crear Usuario tipo NavUser en BC
-
-# post specific
-# if not specified, .name will be used from _data/owner/[language].yml
+summary: "Crear usuario de tipo user y pass con PowerShell"
+layout: article
 author: Esteve Sanpons
-# multiple category is not supported
-category: PowerShell
-# multiple tag entries are possible
-tags: [PowerShell, Usuarios]
-# disable comments on this page
-comments_disable: true
-
-# publish date
+category: [PowerShell, Usuarios]
 date: 2023-04-22 09:10:00 +0200
 ---
-
-<!-- outline-start -->
 
 Crea usuarios NavUser des de power shell
 
 <br>
-<!-- outline-end -->
 
 ```
 $Pass = 'Pass.001'

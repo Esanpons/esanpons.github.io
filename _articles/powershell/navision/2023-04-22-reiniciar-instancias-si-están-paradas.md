@@ -1,28 +1,17 @@
 ---
 title: Reiniciar Instancias Si Están Paradas
-
-# post specific
-# if not specified, .name will be used from _data/owner/[language].yml
+summary: "Script para reiniciar instancias con PowerShell"
+layout: article
 author: Esteve Sanpons
-# multiple category is not supported
-category: PowerShell
-# multiple tag entries are possible
-tags: [PowerShell, Instancias]
-# disable comments on this page
-comments_disable: true
-
-# publish date
+category: [PowerShell, Instancias]
 date: 2023-04-22 09:21:00 +0200
 ---
 
-<!-- outline-start -->
-
 Lo primero es para crear una funcion para ejecutar para cualquier instancia.
-la llamada a ala fucnion s etiene que poner despues de la funcion.
+la llamada a ala fucnion se tiene que poner despues de la funcion.
 Se puede hacer mas de una llamada en el mismo script.
 
 <br>
-<!-- outline-end -->
 
 ```
 #funcion para reiniciar la instancia si no esta Running

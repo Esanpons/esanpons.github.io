@@ -1,26 +1,15 @@
 ---
-title: Códigos de compra estándar
-
-# post specific
-# if not specified, .name will be used from _data/owner/[language].yml
+title: "Códigos de compra estándar"
+summary: "Esta funcionalidad de Navision se utiliza en los pedidos y facturas de compras para incluir automáticamente líneas de detalle que se repiten con cierta frecuencia en las compras al proveedor"
+layout: article
 author: Esteve Sanpons
-# multiple category is not supported
-category: Funcional
-# multiple tag entries are possible
-tags: [Manuales, Compra]
-# disable comments on this page
-comments_disable: true
-
-# publish date
-date: 2023-04-14 14:00:00 +0200
+category: [Funcional, Manuales, Compra]
+date: 2022-08-13 14:00:00 +0200
 ---
-
-<!-- outline-start -->
 
 ###### Códigos de compra estándar
 
 <br>
-<!-- outline-end -->
 
 ## Introducción
 

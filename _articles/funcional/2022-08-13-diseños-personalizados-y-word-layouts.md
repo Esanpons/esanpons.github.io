@@ -1,26 +1,15 @@
 ---
 title: Diseños personalizados y Word Layouts
-
-# post specific
-# if not specified, .name will be used from _data/owner/[language].yml
+summary: "Cambio de diseño de los layouts en Word"
+layout: article
 author: Esteve Sanpons
-# multiple category is not supported
-category: Funcional
-# multiple tag entries are possible
-tags: [Manuales, Reports]
-# disable comments on this page
-comments_disable: true
-
-# publish date
-date: 2023-04-14 15:30:00 +0200
+category: [Funcional, Manuales, Reports]
+date: 2022-08-13 15:30:00 +0200
 ---
-
-<!-- outline-start -->
 
 ###### Diseños personalizados y Word Layouts
 
 <br>
-<!-- outline-end -->
 
 Es innegable que los avances en los sistemas de gestión de la
 información al alcance de las empresas minimizan las necesidades de

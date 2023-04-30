@@ -1,27 +1,16 @@
 ---
 title: Función para calcular los tiempos
-
-# post specific
-# if not specified, .name will be used from _data/owner/[language].yml
+summary: "Funcion para poder calcular los tiempos en los scrips"
+layout: article
 author: Esteve Sanpons
-# multiple category is not supported
-category: PowerShell
-# multiple tag entries are possible
-tags: [PowerShell]
-# disable comments on this page
-comments_disable: true
-
-# publish date
+category: [PowerShell]
 date: 2023-04-22 09:32:00 +0200
 ---
-
-<!-- outline-start -->
 
 Esta función se tiene que ejecutar antes de hacer nada mas.
 Loque hace es que a partir de su ejecución calculara cuanto tarda cada script lanzado despues y te lo mostrara.
 
 <br>
-<!-- outline-end -->
 
 ```
 function Prompt
