@@ -27,14 +27,17 @@ title: Artículos en _bovedas
 <div class="row">
     {% assign sorted_posts = site.articles | sort: 'date' | reverse %}
     {% for post in sorted_posts %}
+
     <div class="card blog-post">
-        <div class="card-body center">
-            <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="card-title">
+        <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="card-title">
+            <div class="card-body center">
                 <h4> {{ post.title }}</h4>
-            </a>
-            <p class="card-text">{{ post.summary }} </p>
-            <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
-        </div>
+
+                <p class="card-text">{{ post.summary }} </p>
+                <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
+            </div>
+        </a>
     </div>
+
     {% endfor %}
 </div>

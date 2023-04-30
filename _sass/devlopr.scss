@@ -1370,4 +1370,13 @@ Home
     width: 50%;
     height: auto;
 }
+
+//color para los vinculos
+a {
+    color: var(--bold-color) !important;
+}
+
+a:hover {
+    color: orange !important;
+}
   
