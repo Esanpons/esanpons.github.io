@@ -12,6 +12,8 @@ urls:
     url: /
   - text: Sobre mí
     url: /about
+  - text: Portafolio
+    url: /projects
   #- text: Blog
   #  url: /blog
   - text: Boveda
@@ -177,6 +179,8 @@ paginate_path: "/blog/page/:num/"
 
 collections:
   articles:
+    output: true
+  projects:
     output: true
 #  authors:
 #    output: true

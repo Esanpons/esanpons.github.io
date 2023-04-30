@@ -1,0 +1,56 @@
+---
+layout: default
+title: Portafolio
+---
+<style>
+    .row {
+        display: grid;
+    }
+
+    .card-project {
+        width: 80%;
+    }
+</style>
+
+<br>
+<br>
+
+<div class="card">
+    <h1>Proyectos</h1>
+    <br>
+    <p>Esta es solo una pequeña lista de algunos de los proyectos en los cuales he trabajado o incluso he desarrollado
+        yo solo.</p>
+    <br>
+    <p>En este listado se puede encontrar tanto proyectos públicos que he colgado el código en GitHub.</p>
+    <p>Como proyectos privados de alguna empresa, estos no podré mostrar su código por las razones evidentes, pero sí
+        que mostrare detalles breves de como es y el porqué de cada proyecto.</p>
+</div>
+
+<div class="row">
+    {% assign sorted_posts = site.projects | sort: 'date' | reverse %}
+    {% for post in sorted_posts %}
+    <!--Esto es para los proyecto de typo privado -->
+    {% if post.custom_type_project == 'private' %}
+    <div class="card blog-post card-project">
+        <div class="card-body center">
+            <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="card-title">
+                <h4> {{ post.title }}</h4>
+            </a>
+            <p class="card-text">{{ post.summary }} </p>
+            <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
+        </div>
+    </div>
+    {% endif %}
+    <!--Esto es para los proyecto de typo publico. Son proyectos que estan en GitHub -->
+    {% if post.custom_type_project == 'public' %}
+    <div class="card blog-post card-project">
+        <div class="card-body center">
+            <a href="{{ post.custom_url_github }}" target="_blank" class="card-title">
+                <h4> {{ post.title }}</h4>
+            </a>
+            <p class="card-text">{{ post.content }} </p>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>

@@ -1,5 +1,5 @@
 ---
-title: About
-layout: boveda
+title: Boveda
+layout: articles-list
 permalink: /boveda/
 ---
