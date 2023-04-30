@@ -10,6 +10,22 @@ title: Portafolio
     .card-project {
         width: 80%;
     }
+
+    .img-project-private {
+        height: 100px;
+        width: 100px;
+    }
+
+    .div-contenedor-privado-hijo-div1 {
+        float: left;
+        width: 25%;
+    }
+
+    .div-contenedor-privado-hijo-div2 {
+        float: left;
+        width: 75%;
+        text-align: left;
+    }
 </style>
 
 <br>
@@ -31,13 +47,22 @@ title: Portafolio
     {% for post in sorted_posts %}
     <!--Esto es para los proyecto de typo privado -->
     {% if post.custom_type_project == 'private' %}
-    <div class="card blog-post card-project">
-        <div class="card-body center">
+    <div class="card blog-post card-project ">
+        <div class="div-contenedor-privado">
             <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="card-title">
                 <h4> {{ post.title }}</h4>
             </a>
-            <p class="card-text">{{ post.summary }} </p>
-            <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
+            <div class="div-contenedor-privado-hijo-div1">
+                <img class="card-img-top img-project-private" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}"
+                    alt="{{ post.title }}">
+            </div>
+            <div class="div-contenedor-privado-hijo-div2">
+                <div class="card-body">
+
+                    <p class="card-text">{{ post.summary }} </p>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
+                </div>
+            </div>
         </div>
     </div>
     {% endif %}
