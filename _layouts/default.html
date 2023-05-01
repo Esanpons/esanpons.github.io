@@ -1,6 +1,3 @@
----
-layout: compress
----
 <style>
   #div-image-background {
     background-color: var(--main-background-color) !important;
@@ -10,6 +7,28 @@ layout: compress
     background-size: cover;
     height: 100vh;
     background-position: center;
+  }
+
+  .main-container {
+    min-height: calc(100vh - 100px);
+    /* la altura mínima de la main-container es el 100% de la ventana menos la altura del footer */
+    padding-bottom: 100px;
+    /* añade un padding al final de la main-container igual a la altura del footer */
+  }
+
+  footer {
+    position: fixed;
+    /* establece la posición fija del footer */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* establece el ancho del footer al 100% de la página */
+    height: 100px;
+    /* establece la altura del footer a 100px */
+    background-color: var(--main-background-color);
+    /* establece el color de fondo del footer */
+    text-align: center;
+    /* centra el contenido del footer */
   }
 </style>
 
@@ -25,7 +44,10 @@ layout: compress
       {{ content }}
     </div>
 
-    {%- include footer.html -%}
+    <footer>
+      {%- include footer.html -%}
+    </footer>
+
     <script>
       var options = {
         classname: 'progressline',
