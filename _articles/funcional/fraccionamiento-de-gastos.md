@@ -4,6 +4,7 @@ summary: "Esta funcionalidad de Navision se utiliza para periodificar o distribu
 layout: article
 author: Esteve Sanpons
 category: [Funcional, Manuales, Finanzas]
+custom_type: Boveda
 date: 2023-04-13 16:00:00 +0200
 ---
 

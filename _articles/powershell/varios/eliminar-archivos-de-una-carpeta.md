@@ -4,6 +4,7 @@ layout: article
 summary: "Elimina todos los archivos de la carpeta seleccionada."
 author: Esteve Sanpons
 category: PowerShell
+custom_type: Boveda
 usemathjax: true
 date: 2023-04-22 09:33:00 +0200
 ---

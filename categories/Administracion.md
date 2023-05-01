@@ -1,22 +1,23 @@
 ---
 layout: page
-title: Manuales
-permalink: /blog/categories/Manuales/
+title: Administracion
+permalink: /blog/categories/Administracion/
 ---
 
 <h5> Categoria : {{ page.title }} </h5>
 
 <div class="card card-categories-list">
-    {% assign articles = site.articles | where: "category", "Manuales" %}
+    {% assign articles = site.articles | where: "category", "Administracion" %}
     {% assign sorted_articles = articles %}
-    {% assign all_posts = site.categories.Manuales | concat: sorted_articles | sort: 'date' | reverse%}
+    {% assign all_posts = site.categories.Administracion | concat: sorted_articles | sort: 'date' | reverse%}
     {% for post in all_posts %}
         <li class="category-posts">
             <span>
                 {{ post.date | date: "%-d %B del %Y" | capitalize |
                     replace: "january", "Enero" | replace: "february", "Febrero" | replace: "march", "Marzo" |
                     replace: "april", "abril" | replace: "may", "Mayo" | replace: "june", "Junio" | replace: "july",
-                    "Julio" | replace: "august", "Agosto" | replace: "september", "Septiembre" | replace: "october", "Cctubre" |
+                    "Julio" |
+                    replace: "august", "Agosto" | replace: "september", "Septiembre" | replace: "october", "Cctubre" |
                     replace: "november", "Noviembre" | replace: "december", "Diciembre" }}
             </span> &nbsp; · &nbsp;
             <span class="post-type">{{post.custom_type}}</span> &nbsp; · &nbsp;

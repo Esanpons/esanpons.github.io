@@ -4,6 +4,7 @@ summary: "Aquí en la web oficial de Microsoft es donde hemos encontrado esta in
 layout: article
 author: Esteve Sanpons
 category: [PowerShell]
+custom_type: Boveda
 date: 2023-04-22 09:06:00 +0200
 ---
 

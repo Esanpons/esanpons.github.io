@@ -4,6 +4,7 @@ summary: "Cambio de diseño de los layouts en Word"
 layout: article
 author: Esteve Sanpons
 category: [Funcional, Manuales, Reports]
+custom_type: Boveda
 date: 2022-08-13 15:30:00 +0200
 ---
 

@@ -3,7 +3,8 @@ title: Publicar y despublicar App
 summary: "Script para powershell para publicar y despublicar una app en BC."
 layout: article
 author: Esteve Sanpons
-category: [PowerShell, Business Central]
+category: [PowerShell, Business_Central]
+custom_type: Boveda
 date: 2023-04-22 09:07:00 +0200
 ---
 

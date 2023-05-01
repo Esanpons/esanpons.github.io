@@ -4,6 +4,7 @@ summary: "Una breve explicación de como funciona los usuarios, roles y perfiles
 layout: article
 author: Esteve Sanpons
 category: [Funcional, Manuales, Usuarios, Perfil, Roles]
+custom_type: Boveda
 date: 2022-08-22 09:02:00 +0200
 ---
 

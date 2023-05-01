@@ -2,7 +2,10 @@
 title: post pruebas
 layout: page
 permalink: /styleguide/
-custom_categories: Funcional
+category: PowerShell
+custom_type: Blog
+author: Esteve Sanpons
+date: 2022-08-13 08:00:00 +0200
 ---
 
 ### devlopr - Styleguide

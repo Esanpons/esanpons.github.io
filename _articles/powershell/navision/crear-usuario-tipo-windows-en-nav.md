@@ -4,6 +4,7 @@ summary: "Crea usuarios Windows des de powershell"
 layout: article
 author: Esteve Sanpons
 category: [PowerShell, Usuarios]
+custom_type: Boveda
 date: 2023-04-22 09:25:00 +0200
 ---
 

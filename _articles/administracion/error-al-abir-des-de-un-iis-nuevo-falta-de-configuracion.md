@@ -3,7 +3,8 @@ title: Error al abrir des de IIS nuevo. Falta de configuración
 summary: "Este error es dado al ejecutar BC sin configurar el servidor"
 layout: article
 author: Esteve Sanpons
-category: [Administración, IIS]
+category: [Administracion, IIS]
+custom_type: Boveda
 date: 2022-08-14 14:00:00 +0200
 ---
 

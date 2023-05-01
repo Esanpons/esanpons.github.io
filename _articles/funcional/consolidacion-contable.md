@@ -4,6 +4,7 @@ summary: "Navision nos permite consolidar los movimientos de contabilidad"
 layout: article
 author: Esteve Sanpons
 category: [Funcional, Manuales, Finanzas]
+custom_type: Boveda
 date: 2022-08-13 15:00:00 +0200
 ---
 

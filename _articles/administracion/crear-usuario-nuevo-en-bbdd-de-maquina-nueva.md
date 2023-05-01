@@ -2,7 +2,8 @@
 title: "Crear usuario nuevo en BBDD de maquina nueva"
 summary: "Es para crear usuarios de windows en una BBDD"
 layout: article
-category: ["Administración", "Usuarios"]
+category: ["Administracion", "Usuarios"]
+custom_type: Boveda
 author: Esteve Sanpons
 date: 2022-08-13 08:00:00 +0200
 ---

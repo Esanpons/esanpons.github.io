@@ -4,6 +4,7 @@ summary: "eliminamos empresas con PowerShell"
 layout: article
 author: Esteve Sanpons
 category: [PowerShell, Navision]
+custom_type: Boveda
 date: 2023-04-22 09:23:00 +0200
 ---
 

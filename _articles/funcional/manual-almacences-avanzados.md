@@ -3,7 +3,8 @@ title: Manual almacences avanzados
 summary: "Explicación detallada de la funcionalidad de alamcenes avanzados"
 layout: article
 author: Esteve Sanpons
-category: [Funcional, Manuales, Almacén]
+category: [Funcional, Manuales, Almacen]
+custom_type: Boveda
 date: 2022-08-22 07:29:00 +0200
 ---
 

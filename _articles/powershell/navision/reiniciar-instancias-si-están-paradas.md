@@ -4,6 +4,7 @@ summary: "Script para reiniciar instancias con PowerShell"
 layout: article
 author: Esteve Sanpons
 category: [PowerShell, Instancias]
+custom_type: Boveda
 date: 2023-04-22 09:21:00 +0200
 ---
 

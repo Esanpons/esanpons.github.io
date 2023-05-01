@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Manuales
-permalink: /blog/categories/Manuales/
+title: PowerShell
+permalink: /blog/categories/PowerShell/
 ---
 
 <h5> Categoria : {{ page.title }} </h5>
 
 <div class="card card-categories-list">
-    {% assign articles = site.articles | where: "category", "Manuales" %}
+    {% assign articles = site.articles | where: "category", "PowerShell" %}
     {% assign sorted_articles = articles %}
-    {% assign all_posts = site.categories.Manuales | concat: sorted_articles | sort: 'date' | reverse%}
+    {% assign all_posts = site.categories.PowerShell | concat: sorted_articles | sort: 'date' | reverse%}
     {% for post in all_posts %}
         <li class="category-posts">
             <span>

@@ -4,6 +4,7 @@ summary: "Esta funcionalidad de Navision se utiliza en los pedidos y facturas de
 layout: article
 author: Esteve Sanpons
 category: [Funcional, Manuales, Compra]
+custom_type: Boveda
 date: 2022-08-13 14:00:00 +0200
 ---
 

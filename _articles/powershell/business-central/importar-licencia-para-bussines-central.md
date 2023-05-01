@@ -4,6 +4,7 @@ summary: "Un script de PowerShell para importar la licencia"
 layout: article
 author: Esteve Sanpons
 category: [PowerShell, Business_Central, Licencia]
+custom_type: Boveda
 date: 2023-04-22 09:05:00 +0200
 ---
 

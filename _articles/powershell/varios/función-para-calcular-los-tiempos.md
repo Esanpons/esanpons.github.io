@@ -4,6 +4,7 @@ summary: "Funcion para poder calcular los tiempos en los scrips"
 layout: article
 author: Esteve Sanpons
 category: [PowerShell]
+custom_type: Boveda
 date: 2023-04-22 09:32:00 +0200
 ---
 

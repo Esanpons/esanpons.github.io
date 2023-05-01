@@ -3,7 +3,8 @@ title: Manual Producción
 summary: "Explicación detallada de la funcionalidad del modulo de producción"
 layout: article
 author: Esteve Sanpons
-category: [Funcional, Manuales, Producción]
+category: [Funcional, Manuales, Produccion]
+custom_type: Boveda
 date: 2022-08-22 09:00:00 +0200
 ---
 
