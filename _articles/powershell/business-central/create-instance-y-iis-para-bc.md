@@ -3,7 +3,7 @@ title: Create Instance y IIS para BC
 summary: "Script para crear una instancia nueva y su IIS con PowerShell"
 layout: article
 author: Esteve Sanpons
-tags: [PowerShell, IIS, Instancias]
+category: [PowerShell, IIS, Instancias]
 custom_type: Boveda
 date: 2023-04-22 09:03:00 +0200
 ---

@@ -3,7 +3,7 @@ title: Import Module BC
 summary: "Importar referencias Business Central para PowerShell ISE"
 layout: article
 author: Esteve Sanpons
-tags: [PowerShell, Business_Central]
+category: [PowerShell, Business_Central]
 custom_type: Boveda
 date: 2023-04-22 09:04:00 +0200
 ---
