@@ -16,8 +16,8 @@ urls:
   #  url: /blog
   - text: Boveda
     url: /boveda
-#  - text: Contacto
-#    url: /contact
+  #- text: Contacto
+  #  url: /contact
 
 # Edit Author details (For multi authors check _data/authors.yml)
 author_logo2: logo-me.png
@@ -176,10 +176,6 @@ collections:
 
 defaults:
   - scope:
-      path: "gallery"
-    values:
-      permalink: /:path/:basename:output_ext
-  - scope:
       path: ""
       type: authors
     values:
@@ -199,14 +195,14 @@ plugins:
 #  - jekyll-admin
 
 # Jekyll Admin Config
-jekyll_admin:
-  # hidden_links:
-  #   - posts
-  #   - pages
-  #   - staticfiles
-  #   - datafiles
-  #   - configuration
-  homepage: "posts"
+#jekyll_admin:
+# hidden_links:
+#   - posts
+#   - pages
+#   - staticfiles
+#   - datafiles
+#   - configuration
+#  homepage: "posts"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
