@@ -3,7 +3,7 @@ title: Crear Usuario tipo NavUser en NAV
 summary: "Crea usuarios NavUser des de power shell"
 layout: article
 author: Esteve Sanpons
-tags: [PowerShell, Usuarios]
+category: [PowerShell, Usuarios]
 custom_type: Boveda
 date: 2023-04-22 09:26:00 +0200
 ---
