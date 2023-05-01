@@ -142,6 +142,14 @@ compress_html:
   clippings: all
   #comments: ["<!-- ", " -->"]
   endings: all
+  inner_spaces: false
+  js_compressor: uglifier
+  preserve_line_breaks: false
+  quotes: double
+  remove_intertag_spaces: false
+  simple_doctype: false
+  simple_boolean_attributes: false
+  style_compressor: sass
   ignore:
     envs: ["development"]
 
