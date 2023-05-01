@@ -1,5 +1,5 @@
 ---
-title: "Crear usuario nuevo en BBDD de maquina nueva"
+title: "Crear usuario nuevo en BBDD de máquina nueva"
 summary: "Es para crear usuarios de windows en una BBDD"
 layout: article
 category: ["Administracion", "Usuarios"]

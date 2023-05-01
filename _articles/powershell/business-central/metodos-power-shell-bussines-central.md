@@ -1,5 +1,5 @@
 ---
-title: Metodos Power Shell Bussines Central
+title: Métodos Power Shell Bussines Central
 summary: "Aquí en la web oficial de Microsoft es donde hemos encontrado esta información"
 layout: article
 author: Esteve Sanpons
@@ -8,7 +8,7 @@ custom_type: Boveda
 date: 2023-04-22 09:06:00 +0200
 ---
 
-Metodos Power Shell Bussines Central
+Métodos Power Shell Bussines Central
 
 <br>
 

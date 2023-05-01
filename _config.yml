@@ -39,11 +39,11 @@ author_work_experiences:
   - company_name: Mitra Global Service
     company_year: 2022 - Presente
     company_logo: mitra.png
-    designation: Responsable d'equipo y programador en C/AL y AL
+    designation: Responsable de equipo y programador en C/AL y AL
     description:
       Gestionar la operativa, la organización de las tareas y el análisis de los proyectos para el equipo técnico y funcional de la empresa.
-      Fomentar el crecimiento del equipo, al igual que formarlo.
-      Fabricación y desarrollo de producto nuevo para diferentes sectores. Realizando desde pequeñas aplicaciones que resuelven el día a día, hasta grandes desarrollos donde suplen una gran funcionalidad en las empresas.
+      Fomentar el crecimiento del equipo, y su formación.
+      Fabricación y desarrollo de producto nuevo para diferentes sectores. Realizando desde pequeñas aplicaciones que resuelven el día a día, hasta grandes desarrollos que suplen una gran funcionalidad en las empresas.
     visibility: true
   - company_name: Grupo Empresas Engel (Ersax Trade, Engel Systems, My Tech Retail, Engel Solar, Logistica Santiga)
     company_year: 2020 - 2022
@@ -52,7 +52,7 @@ author_work_experiences:
     description:
       Organizar y gestionar el departamento entero de Navision para todas las empresas del grupo. Llevando la responsabilidad de las personas a mi cargo, la toma de decisiones y gestión de los diferentes proveedores y del propio del departamento.
       Recabar los requerimientos necesarios para las empresas del grupo. Analizar y desarrollar todo lo relacionado con Navision.
-      Aparte de la organización, realizar las funciones de programador del departamento.
+      Además de la organización, realizar las funciones de programador del departamento.
     visibility: true
   - company_name: Netzer Consulting
     company_year: 2017 - 2020
@@ -60,7 +60,7 @@ author_work_experiences:
     designation: Consultor y programador junior en C/AL
     description:
       Consultor y programador en Microsoft Dynamics NAV. Analizar las incidencias y los desarrollos nuevos para después poder desarrollarlos.
-      Realizar todas las tareas desde la toma de requerimientos hasta él cuadre de los objetos. Lenguaje CAL desde la versión 2013 hasta la 2018.
+      Realizar todas las tareas desde la toma de requerimientos hasta el cuadre de los objetos. Lenguaje CAL desde la versión 2013 hasta la 2018.
       Trabajos a destacar. WebServices, conexiones entre bases de datos, interconexión entre extensibles y Navision, entre otros, también, intercomunicar un almacén robotizado y Navision.
       Ejecución y aplicación de Dll dentro del sistema de Navision para suplir necesidades extras de los clientes, tales como botones más grandes o conexión con básculas externas.
     visibility: true
@@ -89,7 +89,7 @@ author_education_details:
     education_year: 2015 - 2016
     college_name: Escola Espai
     college_degree: Programador en Android y Java
-    description: Nociones basicas de programación basadas en Java y Android.
+    description: Nociones básicas de programación basadas en Java y Android.
     visibility: true
   - college_logo: castell-del-quer.jpg
     education_year: 1996 - 2000

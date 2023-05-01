@@ -1,6 +1,6 @@
 ---
-title: Ejecutar codeunit des de PowerShell
-summary: "Script para ejecutar codeunits des de powershell."
+title: Ejecutar codeunit desde PowerShell
+summary: "Script para ejecutar codeunits desde powershell."
 layout: article
 author: Esteve Sanpons
 category: [PowerShell, Navision, Codeunit]

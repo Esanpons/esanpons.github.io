@@ -1,5 +1,5 @@
 ---
-title: Sincronizacion tenant
+title: Sincronización tenant
 summary: "Script para sincronizar tenant"
 layout: article
 author: Esteve Sanpons

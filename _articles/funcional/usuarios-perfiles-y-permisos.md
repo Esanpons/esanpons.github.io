@@ -1,6 +1,6 @@
 ---
 title: Usuarios, perfiles y permisos
-summary: "Una breve explicación de como funciona los usuarios, roles y perfiles"
+summary: "Una breve explicación de cómo funciona los usuarios, roles y perfiles"
 layout: article
 author: Esteve Sanpons
 category: [Funcional, Manuales, Usuarios, Perfil, Roles]

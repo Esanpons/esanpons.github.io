@@ -1,6 +1,6 @@
 ---
 title: Función para calcular los tiempos
-summary: "Funcion para poder calcular los tiempos en los scrips"
+summary: "Función para poder calcular los tiempos en los scrips"
 layout: article
 author: Esteve Sanpons
 category: [PowerShell]

@@ -1,6 +1,6 @@
 ---
 title: Manual Producción
-summary: "Explicación detallada de la funcionalidad del modulo de producción"
+summary: "Explicación detallada de la funcionalidad del módulo de producción"
 layout: article
 author: Esteve Sanpons
 category: [Funcional, Manuales, Produccion]
