@@ -105,16 +105,16 @@ author_education_details:
     visibility: true
 
 # social links
+#dribbble_username: johndoe
+#flickr_username: johndoe
 #twitter_username: johndoe
-github_username: esanpons
 #facebook_username: johndoe
-linkedin_username: estevesanpons
 #behance_username: johndoe
 #instagram_username: johndoe
 #medium_username: johndoe
+github_username: esanpons
+linkedin_username: estevesanpons
 telegram_username: Esanpons
-#dribbble_username: johndoe
-#flickr_username: johndoe
 
 # syntax highlighter
 # Estas son configuraciones relacionadas con el procesamiento de Markdown y el resaltado de sintaxis en Jekyll
@@ -139,11 +139,11 @@ paginate_path: "/blog/page/:num/"
 # esta en el archivo settings.yml de la carpeta .forestry en la varible JEKYLL_ENV
 # se puede poner production para producción o development para desarrollo
 compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ["development"]
+  #clippings: all
+  #comments: ["<!-- ", " -->"]
+  #endings: all
+  #ignore:
+  #  envs: ["development"]
 
 # es para añadir las colecciones
 collections:
