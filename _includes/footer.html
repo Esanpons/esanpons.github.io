@@ -1,5 +1,92 @@
+<style>
+    footer {
+        display: flex;
+        align-items: center;
+    }
+
+    .social-link {
+        margin-right: 10px;
+    }
+
+
+
+    @media (max-width: 851px) {
+
+        .profile-name-footer,
+        .copyright-name {
+            display: none;
+        }
+    }
+</style>
+
 <footer>
-    <p> Powered by<a href="https://github.com/sujaykundu777/devlopr-jekyll"> devlopr jekyll</a>. Hosted with <a href="https://pages.github.com">Github Pages</a>. Subscribe via
-        <a href="{{ " /feed.xml " | prepend: site.baseurl }}">RSS</a>
+    <a href="/">
+        <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo2 }}"
+            class="profile-img profile-img-footer" />
+    </a>
+
+    <p class="profile-name-footer">{{ site.title }}</p>
+
+    <p class="profile-links profile-links-footer">
+        {% if site.author_email %}
+        <a class="social-link" href="mailto:{{ site.author_email }}">
+            <i class="fas fa-envelope"></i>
+        </a>
+        {% endif %}
+        {% if site.twitter_username %}
+        <a class="social-link" href="http://twitter.com/{{ site.twitter_username }}">
+            <i class="fab fa-twitter"></i>
+        </a>
+        {% endif %}
+        {% if site.facebook_username %}
+        <a class="social-link" href="http://facebook.com/{{ site.facebook_username }}">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        {% endif %}
+        {% if site.instagram_username %}
+        <a class="social-link" href="http://instagram.com/{{ site.instagram_username }}">
+            <i class="fab fa-instagram"></i>
+        </a>
+        {% endif %}
+        {% if site.medium_username %}
+        <a class="social-link" href="http://medium.com/@{{ site.medium_username }}">
+            <i class="fab fa-medium-m"></i>
+        </a>
+        {% endif %}
+        {% if site.github_username %}
+        <a class="social-link" href="http://github.com/{{ site.github_username }}">
+            <i class="fab fa-github"></i>
+        </a>
+        {% endif %}
+        {% if site.behance_username %}
+        <a class="social-link" href="http://behance.net/{{ site.behance_username }}">
+            <i class="fab fa-behance"></i>
+        </a>
+        {% endif %}
+        {% if site.linkedin_username %}
+        <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        {% endif %}
+        {% if site.telegram_username %}
+        <a class="social-link" href="http://t.me/{{ site.telegram_username }}">
+            <i class="fab fa-telegram-plane"></i>
+        </a>
+        {% endif %}
+        {% if site.dribbble_username %}
+        <a class="social-link" href="https://dribbble.com/{{ site.dribbble_username }}">
+            <i class="fab fa-dribbble"></i>
+        </a>
+        {% endif %}
+        {% if site.flickr_username %}
+        <a class="social-link" href="https://www.flickr.com/photos/{{ site.flickr_username }}">
+            <i class="fab fa-flickr"></i>
+        </a>
+        {% endif %}
+    </p>
+
+    <p class="copyright">
+        &copy; <b class="copyright-name">{{ site.title }} - </b><a href="{{ site.url }}{{ site.baseurl }}/copyright">
+            Copyright</a>
     </p>
 </footer>
