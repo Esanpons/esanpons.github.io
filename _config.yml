@@ -142,6 +142,7 @@ compress_html:
   clippings: all
   #comments: ["<!-- ", " -->"]
   removelines: remove
+  remove_quotes: all
   endings: all
   inner_spaces: false
   js_compressor: uglifier
