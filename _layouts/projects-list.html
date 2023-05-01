@@ -48,7 +48,14 @@ title: Portafolio
                 <u>Proyecto privado</u>
                 <br><br>
                 <p>{{ post.summary }}</p>
-                <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
+                <h6 class="card-subtitle mb-2 text-muted">
+                    {{ post.date | date: "%b %-d, %Y" | capitalize |
+                    replace: "january", "Enero" | replace: "february", "Febrero" | replace: "march", "Marzo" |
+                    replace: "april", "abril" | replace: "may", "Mayo" | replace: "june", "Junio" | replace: "july",
+                    "Julio" |
+                    replace: "august", "Agosto" | replace: "september", "Septiembre" | replace: "october", "Cctubre" |
+                    replace: "november", "Noviembre" | replace: "december", "Diciembre" }}
+                </h6>
             </div>
         </div>
     </a>

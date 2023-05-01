@@ -5,45 +5,40 @@
     <p class="post-summary">
       Posted by : {% if page.author %}
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        
-      >{% endif %} on
-      <time datetime="{{ page.date }}" itemprop="datePublished"
-        >{{ page.date | date: "%b %-d, %Y" }}</time
-      >
+
+        >{% endif %} on
+        <time datetime="{{ page.date }}" itemprop="datePublished">
+          {{ page.date | date: "%-d %B del %Y" | capitalize |
+          replace: "january", "Enero" | replace: "february", "Febrero" | replace: "march", "Marzo" |
+          replace: "april", "abril" | replace: "may", "Mayo" | replace: "june", "Junio" | replace: "july", "Julio" |
+          replace: "august", "Agosto" | replace: "september", "Septiembre" | replace: "october", "Cctubre" |
+          replace: "november", "Noviembre" | replace: "december", "Diciembre" }}
+        </time>
     </p>
-    <span
-      class="disqus-comment-count"
-      data-disqus-identifier="{{ page.url }}"
-    ></span>
+    <span class="disqus-comment-count" data-disqus-identifier="{{ page.url }}"></span>
     <div class="post-categories">
       {% if post %} {% assign categories = post.categories %} {% else %} {%
       assign categories = page.categories %} {% endif %} Category : {% for
       category in categories %}
-      <a href="{{site.baseurl}}/blog/categories/{{category|slugize}}"
-        >{{category}}</a
-      >
+      <a href="{{site.baseurl}}/blog/categories/{{category|slugize}}">{{category}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
     </div>
   </div>
 
   <div class="card-body" itemprop="articleBody">
-    <img
-      class="card-img-top"
-      src="{{site.url}}{{site.baseurl}}{{ page.thumbnail }}"
-      alt="{{ post.title }}"
-    />
+    <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ page.thumbnail }}" alt="{{ post.title }}" />
     <br />
     <br />
     {{ content }}
     <br />
     {%- include share_page.html -%}
-   
+
   </div>
   {%- if site.hyvor_talk_website_id -%}
   <div class="comments">
     {%- include hyvor_comments.html -%}
-   </div>
-    {%- endif -%}
+  </div>
+  {%- endif -%}
   <!-- Incomment incase you want to use Disqus
       <div id="disqus_thread"></div>
    -->

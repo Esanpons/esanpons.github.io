@@ -2,40 +2,42 @@
 layout: compress
 ---
 <style>
-#div-image-background {
-  background-color: var(--main-background-color) !important;
-  background-image: url('/assets/img/{{site.hero_cover_img}}');
-  text-align: center;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 100vh;
-  background-position:center;
-}
+  #div-image-background {
+    background-color: var(--main-background-color) !important;
+    background-image: url('/assets/img/{{site.hero_cover_img}}');
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+  }
 </style>
 
 
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "es" }}">
+<html lang="es">
 {%- include head.html -%}
-<body  id="div-image-background">
+
+<body id="div-image-background">
   <div>
     {%- include header.html -%}
     <div class="main-container">
-        {{ content }}
+      {{ content }}
     </div>
-     
+
     {%- include footer.html -%}
     <script>
-        var options = {
-            classname: 'progressline',
-            id: 'my-id'
-        };
-        var nanobar = new Nanobar( options );
-        nanobar.go( 30 );
-        nanobar.go( 76 );
-        nanobar.go(100);
+      var options = {
+        classname: 'progressline',
+        id: 'my-id'
+      };
+      var nanobar = new Nanobar(options);
+      nanobar.go(30);
+      nanobar.go(76);
+      nanobar.go(100);
     </script>
   </div>
-     
-  </body>
+
+</body>
+
 </html>
