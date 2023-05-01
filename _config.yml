@@ -138,12 +138,12 @@ paginate_path: "/blog/page/:num/"
 # Estas líneas de código son para comprimir el HTML generado en producción.
 # esta en el archivo settings.yml de la carpeta .forestry en la varible JEKYLL_ENV
 # se puede poner production para producción o development para desarrollo
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
-#   ignore:
-#     envs: ['development']
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ["development"]
 
 # es para añadir las colecciones
 collections:
