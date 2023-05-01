@@ -139,8 +139,8 @@ paginate_path: "/blog/page/:num/"
 # esta en el archivo settings.yml de la carpeta .forestry en la varible JEKYLL_ENV
 # se puede poner production para producción o development para desarrollo
 compress_html:
-  #clippings: all
-  comments: ["<!-- ", " -->"]
+  clippings: all
+  #comments: ["<!-- ", " -->"]
   endings: all
   ignore:
     envs: ["development"]
