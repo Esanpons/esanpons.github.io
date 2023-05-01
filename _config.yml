@@ -140,7 +140,7 @@ paginate_path: "/blog/page/:num/"
 # se puede poner production para producción o development para desarrollo
 compress_html:
   #clippings: all
-  #comments: ["<!-- ", " -->"]
+  comments: ["<!-- ", " -->"]
   endings: all
   ignore:
     envs: ["development"]
