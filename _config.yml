@@ -126,7 +126,6 @@ permalink: pretty
 # Estas son variables personalizadas en el archivo de configuración _config.yml que se utilizan para controlar qué detalles del autor se muestran en el sitio web
 show_author_work_experiences: true
 show_author_education_details: true
-show_author_project_details: false
 
 # pagination of posts
 # Estas son opciones relacionadas con la paginación de publicaciones en el sitio web.
@@ -140,7 +139,6 @@ paginate_path: "/blog/page/:num/"
 # se puede poner production para producción o development para desarrollo
 compress_html:
   clippings: all
-  #comments: ["<!-- ", " -->"]
   removelines: remove
   remove_quotes: all
   endings: all
@@ -164,12 +162,6 @@ collections:
 
 # establece que cualquier archivo que se encuentre en la carpeta assets no se incluirá en el archivo de mapa del sitio generado (sitemap: false).
 defaults:
-  - scope:
-      path: ""
-      type: authors
-    values:
-      layout: author
-      permalink: /blog/authors/:slug
   - scope:
       path: "assets/**"
     values:
