@@ -46,6 +46,9 @@ title: Portafolio
         <div class="card blog-post card-project ">
             <div class="card-body">
                 <h4>{{ post.title }}</h4>
+                <div class="col-md-2 div-img-project">
+                    <img src="{{site.url}}{{site.baseurl}}{{ post.custom_img_path}}" class="company-logo" />
+                </div>
                 <u>Proyecto privado</u>
                 <br><br>
                 <p>{{ post.summary }}</p>
