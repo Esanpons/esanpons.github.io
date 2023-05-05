@@ -12,16 +12,12 @@
         | replace: "december", "diciembre" }}
       </time>
     </p>
-    <div class="post-categories">
-      {% if post %} {% assign categories = post.categories %} {% else %} {%
-      assign categories = page.categories %} {% endif %} Category : {% for
-      category in categories %}
-      <a href="{{site.baseurl}}/blog/categories/{{category|slugize}}">{{category}}</a>
-      {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
-    </div>
+    <span class="disqus-comment-count" data-disqus-identifier="{{ page.url }}"></span>
+
   </div>
 
   <div class="card-body" itemprop="articleBody">
+    <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ page.custome_img_post }}" alt="{{ post.title }}" />
     <br />
     <br />
     {{ content }}

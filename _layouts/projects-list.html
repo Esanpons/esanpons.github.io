@@ -18,8 +18,11 @@ title: Portafolio
 
     .div-img-project {
         float: left;
-        width: 50%;
-        min-height: 100px;
+    }
+
+    .img-project {
+        height: 150px;
+        width: 150px;
     }
 </style>
 
@@ -47,9 +50,9 @@ title: Portafolio
             <div class="card-body">
                 <h4>{{ post.title }}</h4>
                 <div class="col-md-2 div-img-project">
-                    <img src="{{site.url}}{{site.baseurl}}{{ post.custom_img_path}}" class="company-logo" />
+                    <img src="{{site.url}}{{site.baseurl}}{{ post.custom_img_path}}" class="img-project" />
                 </div>
-                <u>Proyecto privado</u>
+                <div>Proyecto privado</div>
                 <br><br>
                 <p>{{ post.summary }}</p>
                 <h6 class="card-subtitle mb-2 text-muted">
@@ -69,13 +72,16 @@ title: Portafolio
     <a href="{{ post.custom_url_github }}" target="_blank">
         <div class="card blog-post card-project">
             <div class="card-body">
-                <h4>{{ post.title }}</h4>
                 <div class="col-md-2 div-img-project">
-                    <img src="{{site.url}}{{site.baseurl}}{{ post.custom_img_path}}" class="company-logo" />
+                    <img src="{{site.url}}{{site.baseurl}}{{ post.custom_img_path}}" class="img-project" />
                 </div>
-                <u>Proyecto público</u>
-                <br>
-                <p>{{ post.content }}</p>
+                <div>
+                    <h4>{{ post.title }}</h4>
+                    <div>Proyecto público</div>
+                    <br>
+                    <p>{{ post.content }}</p>
+                </div>
+
             </div>
         </div>
     </a>
