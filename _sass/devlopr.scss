@@ -23,7 +23,7 @@ html[data-theme="dark"] {
     --medium-text-color: hsl(0, 0%, 70%);
     --underline-color: hsl(0, 0%, 50%);
     --social-link-color: #ffffff;
-    --card-background-color: rgb(32, 32, 34);
+    --card-background-color: rgba(32, 32, 34,0.9);
     --newsletter-background-color: #222324;
     --button-background-color: #111;
 }
@@ -43,7 +43,7 @@ html[data-theme="light"] {
     --sidebar-color: hsl(0, 0%, 90%);
     --underline-color: hsl(0, 0%, 60%);
     --social-link-color: #262222;
-    --card-background-color: rgb(250, 250, 250);
+    --card-background-color: rgba(250, 250, 250,0.75);
     --newsletter-background-color: #00000008;
     --button-background-color: #fff;
 }
@@ -67,7 +67,7 @@ html[data-theme="light"] {
         --medium-text-color: hsl(0, 0%, 70%);
         --underline-color: hsl(0, 0%, 50%);
         --social-link-color: #ffffff;
-        --card-background-color: rgb(32, 32, 34);
+        --card-background-color: rgba(32, 32, 34,0.9);
         --newsletter-background-color: #222324;
         --button-background-color: #111;
     }
@@ -90,7 +90,7 @@ html[data-theme="light"] {
         --sidebar-color: hsl(0, 0%, 90%);
         --underline-color: hsl(0, 0%, 60%);
         --social-link-color: #262222;
-        --card-background-color: rgb(250, 250, 250);
+        --card-background-color: rgba(250, 250, 250,0.75);
         --button-background-color: #fff;
     }
 }
