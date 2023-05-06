@@ -3,8 +3,10 @@ title: Create Instance y IIS para BC
 summary: "Script para crear una instancia nueva y su IIS con PowerShell"
 layout: article
 author: Esteve Sanpons
+#cSpell:disable
 category: [PowerShell, IIS, Instancias]
 custom_type: Boveda
+#cSpell:enable
 date: 2023-04-22 09:03:00 +0200
 ---
 
@@ -31,7 +33,7 @@ Get-Credential | New-NAVServerInstance $Ins -ServiceAccount User -ClientServices
 #Para crear el IIS
 New-NAVWebServerInstance -WebServerInstance $Ins -Server localhost -ServerInstance $Ins -ClientServicesCredentialType NavUserPassword -ClientServicesPort $ClientPort -ManagementServicesPort $ServicePort -verbose
 
-#modificamos los tiempos de conexion del cliente web
+#modificamos los tiempos de conexión del cliente web
 Set-NAVServerConfiguration $Ins -KeyName ClientServicesKeepAliveInterval -KeyValue "00:00:15"
 Set-NAVServerConfiguration $Ins -KeyName ClientServicesIdleClientTimeout -KeyValue "00:50:00"
 Set-NAVServerConfiguration $Ins -KeyName ClientServicesReconnectPeriod -KeyValue "00:05:00"

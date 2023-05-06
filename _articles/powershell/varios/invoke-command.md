@@ -3,8 +3,10 @@ title: Invoke-Command
 summary: "Ejecutar otro comando de powershell"
 layout: article
 author: Esteve Sanpons
+#cSpell:disable
 category: [PowerShell]
 custom_type: Boveda
+#cSpell:enable
 date: 2023-04-22 09:31:00 +0200
 ---
 
@@ -14,7 +16,7 @@ Ejecutar otro comando de powershell
 
 ## Ejecutar Scripts des de otra maquina
 
-Este ejemplo es para ejecutar un comando de powershel des de una maquina a otra y que se ejecute en la 2 maquina.
+Este ejemplo es para ejecutar un comando de powershell des de una maquina a otra y que se ejecute en la 2 maquina.
 
 ```
 $command1 = { Stop-Service -Name 'MicrosoftDynamicsNavServer$Dynamics1100' }

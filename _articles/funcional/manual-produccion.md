@@ -3,8 +3,10 @@ title: Manual Producción
 summary: "Explicación detallada de la funcionalidad del módulo de producción"
 layout: article
 author: Esteve Sanpons
+#cSpell:disable
 category: [Funcional, Manuales, Produccion]
 custom_type: Boveda
+#cSpell:enable
 date: 2022-08-22 09:00:00 +0200
 ---
 
@@ -20,7 +22,7 @@ La ruta dentro del menusuite es: Departamentos/ Fabricación/ Diseño de product
 
 Reposición
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image1.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image1.jpg">
 <br><br><br>
 
 - Sistema reposición: "Prod. Pedido" esto lo que hace es configurar este producto para que con la hoja de planificación puedas crear ordenes de producción.
@@ -49,7 +51,7 @@ Reposición
 
 ### Planificación
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image2.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image2.jpg">
 <br><br><br>
 
 - Cantidad mínima pedido: Si en la hoja de planificación te dice que has de fabricar alguna cosa, la cantidad mínima te dirá que es lo mínimo a fabricar.
@@ -62,7 +64,7 @@ La ruta dentro del menusuite es: Departamentos/ Fabricación/ Diseño de product
 
 #### Cabecera
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image3.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image3.jpg">
 <br><br><br>
 
 - Estado: En el estado de la cabecera si está certificada es que la puedes utilizar. Si está en otro estado no puedes utilizarla.
@@ -71,7 +73,7 @@ La ruta dentro del menusuite es: Departamentos/ Fabricación/ Diseño de product
 
 #### Líneas
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image4.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image4.jpg">
 <br><br><br>
 
 - Cantidad por: Cantidades necesarias para fabricar el producto padre.
@@ -88,7 +90,7 @@ La ruta dentro del menusuite es: Departamentos/ Fabricación/ Diseño de product
 
 #### Cabecera
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image5.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image5.jpg">
 <br><br><br>
 
 - Estado: En el estado de la cabecera si está certificada es que la puedes utilizar. Si está en otro estado no puedes utilizarla.
@@ -101,7 +103,7 @@ La ruta dentro del menusuite es: Departamentos/ Fabricación/ Diseño de product
 
 #### Líneas
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image6.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image6.jpg">
 <br><br><br>
 
 - Tipo:
@@ -136,7 +138,7 @@ La ruta dentro del menusuite es: /Departamentos/ Fabricación/ Administración/ 
 
 Aquí es donde especificaremos las unidades de tiempo necesarias para las rutas.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image7.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image7.jpg">
 <br><br><br>
 
 ### Turnos trabajo
@@ -145,7 +147,7 @@ La ruta dentro del menusuite es: /Departamentos/ Fabricación/ Administración/ 
 
 Especificaremos todos los turnos posibles que tendrá nuestra empresa.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image8.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image8.jpg">
 <br><br><br>
 
 ### Calendarios planta
@@ -154,21 +156,21 @@ La ruta dentro del menusuite es: /Departamentos/ Fabricación/ Administración/ 
 
 Especifica los calendarios de la planta de fabricación.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image9.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image9.jpg">
 <br><br><br>
 
 ### Días laborables
 
 Asignas los días laborables y sus horarios
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image10.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image10.jpg">
 <br><br><br>
 
 ### Vacaciones
 
 Se especifica los días de vacaciones que no se trabajaran en el horario especificado.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image11.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image11.jpg">
 <br><br><br>
 
 ### Grupo centro trabajo
@@ -177,16 +179,16 @@ La ruta dentro del menusuite es: /Departamentos/ Fabricación/ Administración/ 
 
 Creas los grupos de centro de trabajo que tendrá tu empresa. Estos son agrupaciones o de centros maquina o de centros de trabajo.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image12.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image12.jpg">
 <br><br><br>
 
 ### Centro trabajo
 
 La ruta dentro del menusuite es: Departamentos/ Fabricación/ Capacidades/ Centro trabajo
 
-Es la configuracion de las agrupaciones de centros maquina de una zona en concreto de la planta de fabricacion.
+Es la configuración de las agrupaciones de centros maquina de una zona en concreto de la planta de fabricación.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image13.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image13.jpg">
 <br><br><br>
 
 #### General
@@ -237,7 +239,7 @@ La ruta dentro del menusuite es: Departamentos/ Fabricación/ Capacidades/ Centr
 
 Sería la configuración de una maquina u operario que normalmente está vinculado a un centro de trabajo.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image14.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image14.jpg">
 <br><br><br>
 
 #### General
@@ -284,7 +286,7 @@ El circuito suele empezar con las hojas de planificación, aunque podemos crear 
 
 La ruta dentro del menusuite es:Departamentos/ Fabricación/ Planificación/ Tareas/ Hoja planificación
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image15.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image15.jpg">
 <br><br><br>
 
 <!---
@@ -299,9 +301,9 @@ Habitualmente en esta ventana no aparecerá nada, porque cada vez que abres la h
 
 Se pueden crear las O.P planificadas manualmente, pero se aconseja hacerlo a través de las hojas de planificación.
 
-Cuando queramos cambiar el estado de la orden solo tendremos que presionar el boton de cambiar estado y seleccionar el estado a cambiar.
+Cuando queramos cambiar el estado de la orden solo tendremos que presionar el botón de cambiar estado y seleccionar el estado a cambiar.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image16.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image16.jpg">
 <br><br><br>
 
 ### O.P. Planificadas en firme
@@ -316,7 +318,7 @@ Si tenemos ordenes planificadas en firme no tendrá presente estos productos a l
 
 #### Cabecera
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image17.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image17.jpg">
 <br><br><br>
 
 _Botón Actualizar orden producción_
@@ -333,7 +335,7 @@ Si quieres crear las líneas, si quieres crear las rutas y si quieres crear los 
 
   - Familia: A la hora de fabricar se pueden fabricar mas de un producto a la vez
 
-  - Cab. Venta: Se hace una orden de producción des de un pedido de venta, hay una acción en el pedido de venta que lo que hace es generarte una orden de producción de ese pedido.
+  - Cab. Venta: Se hace una orden de producción des de un pedido de venta, hay una acción en el pedido de venta que lo que hace es generarle una orden de producción de ese pedido.
 
 - Cód. procedencia mov.: número del producto, familia o pedido a fabricar.
 
@@ -355,12 +357,12 @@ _Botones de ruta y componentes_
 
 Des de estos botones podremos ver la ruta y lo componentes que hay para esta orden en concreto.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image18.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image18.jpg">
 <br><br><br>
 
-Cuando queramos cambiar el estado de la orden solo tendremos que presionar el boton de cambiar estado y seleccionar el estado a cambiar.
+Cuando queramos cambiar el estado de la orden solo tendremos que presionar el botón de cambiar estado y seleccionar el estado a cambiar.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image19.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image19.jpg">
 <br><br><br>
 
 ### O.P. Lanzadas
@@ -371,7 +373,7 @@ El funcionamiento es igual que en las O.P. planificadas en firme con la diferenc
 
 Se explicará este diario en el apartado de diarios.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image20.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image20.jpg">
 <br><br><br>
 
 ### O.P. Terminadas
@@ -382,7 +384,7 @@ Este es el histórico de las ordenes de producción.
 
 Aquí podremos ver que es lo que se ha hecho y fabricado en cada orden de producción.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image21.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image21.jpg">
 <br><br><br>
 
 ### Diarios
@@ -397,7 +399,7 @@ La última línea es la que te dirá la cantidad de producto que as creado con e
 
 Solo se pueden hacer ajustes en las ordenes lanzadas, una vez hemos terminado la orden no se podrán hacer estos ajustes.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image22.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image22.jpg">
 <br><br><br>
 
 ### Diario consumo
@@ -410,7 +412,7 @@ Para traer las líneas de las ordenes lo haremos desde el botón de calcular con
 
 Es lo mismo que el diario de producción, pero no se pueden registrar las operaciones hechas en la orden de producción. Podemos traer varias ordenes y registrarlas todas juntas.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image23.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image23.jpg">
 <br><br><br>
 
 ### Diario salida
@@ -423,5 +425,5 @@ Para traer las líneas de las ordenes lo haremos desde el botón de desplegar ru
 
 Es lo mismo que el diario de producción, pero no se pueden registrar los consumos de producto hechos en la orden de producción.
 
-<img class="img-container"  src="/assets/img/articles/manual-produccion/image24.jpg">
+<img class="img-container"  src="/assets/img/articles/manual-production/image24.jpg">
 <br><br><br>

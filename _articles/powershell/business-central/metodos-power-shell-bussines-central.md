@@ -1,14 +1,16 @@
 ---
-title: Métodos Power Shell Bussines Central
+title: Métodos Power Shell Business Central
 summary: "Aquí en la web oficial de Microsoft es donde hemos encontrado esta información"
 layout: article
 author: Esteve Sanpons
+#cSpell:disable
 category: [PowerShell]
 custom_type: Boveda
+#cSpell:enable
 date: 2023-04-22 09:06:00 +0200
 ---
 
-Métodos Power Shell Bussines Central
+Métodos Power Shell Business Central
 
 <br>
 

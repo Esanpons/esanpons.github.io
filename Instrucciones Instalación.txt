@@ -1,7 +1,7 @@
 Proyecto des de el PC local.
 ----------------------------
 
---Instalar subsitema de linux
+--Instalar subsistema de Linux
 01. abrir powershell introducir: wsl --install
 02. Reiniciar equipo
 03. abrir ventana de ubuntu del subsistema y configurar usuario y contraseña y que instale todas las dependencias.
@@ -11,11 +11,11 @@ Proyecto des de el PC local.
 07. echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
 08. echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
 09. source ~/.bashrc
-10. gem install jekyll bundler
+10. gem install Jekyll bundler
 
 
 --instalar lo necesario para ejecutar el proyecto
-1. Copiar el proyecto en la carpeta del subsistema de linux. en la ruta \\wsl$\Ubuntu\home\esanpons\
+1. Copiar el proyecto en la carpeta del subsistema de Linux. en la ruta \\wsl$\Ubuntu\home\esanpons\
 2. Abrir VsCode o CMD en la carpeta poner: bash
 3. poner en la consola: sudo bundle config set --local path 'vendor/cache'
 4. poner en la consola:  sudo bundle install

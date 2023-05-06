@@ -1,14 +1,16 @@
 ---
-title: Importar licencia para Bussines Central
+title: Importar licencia para Business Central
 summary: "Un script de PowerShell para importar la licencia"
 layout: article
 author: Esteve Sanpons
+#cSpell:disable
 category: [PowerShell, Business_Central, Licencia]
 custom_type: Boveda
+#cSpell:enable
 date: 2023-04-22 09:05:00 +0200
 ---
 
-Importar licencia para Bussines Central
+Importar licencia para Business Central
 
 <br>
 

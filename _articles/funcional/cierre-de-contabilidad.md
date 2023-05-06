@@ -3,8 +3,10 @@ title: Cierre de contabilidad
 summary: "tutorial para hacer un cierre de contabilidad"
 layout: article
 author: Esteve Sanpons
+#cSpell:disable
 category: [Funcional, Manuales, Finanzas]
 custom_type: Boveda
+#cSpell:enable
 date: 2022-08-13 13:01:00 +0200
 ---
 
@@ -14,7 +16,7 @@ date: 2022-08-13 13:01:00 +0200
 
 ## Introducción
 
-A continuación, se detallan los pasos a seguir para realizar el cierre contable de la empresa. Las opciones están detalladas por orden de ejecución porque existen ciertas opciones que necesitan que se hayan ejecutado otras, por ejemplo: no se puede imprimir el "Libro diario oficial" sino no se han renumerado los asientos.
+A continuación, se detallan los pasos a seguir para realizar el cierre contable de la empresa. Las opciones están detalladas por orden de ejecución porque existen ciertas opciones que necesitan que se hayan ejecutado otras, por ejemplo: no se puede imprimir el "Libro diario oficial" si no no se han renumerado los asientos.
 
 ## Cierre contable
 

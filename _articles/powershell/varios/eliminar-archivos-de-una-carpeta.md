@@ -3,9 +3,10 @@ title: Eliminar Archivos de una carpeta
 layout: article
 summary: "Elimina todos los archivos de la carpeta seleccionada."
 author: Esteve Sanpons
-category: PowerShell
+#cSpell:disable
+category: [PowerShell]
 custom_type: Boveda
-usemathjax: true
+#cSpell:enable
 date: 2023-04-22 09:33:00 +0200
 ---
 

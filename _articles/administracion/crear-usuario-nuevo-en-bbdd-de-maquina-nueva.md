@@ -2,8 +2,10 @@
 title: "Crear usuario nuevo en BBDD de máquina nueva"
 summary: "Es para crear usuarios de windows en una BBDD"
 layout: article
+#cSpell:disable
 category: ["Administracion", "Usuarios"]
 custom_type: Boveda
+#cSpell:enable
 author: Esteve Sanpons
 date: 2022-08-13 08:00:00 +0200
 ---

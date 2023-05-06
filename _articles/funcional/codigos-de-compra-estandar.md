@@ -3,8 +3,10 @@ title: "Códigos de compra estándar"
 summary: "Esta funcionalidad de Navision se utiliza en los pedidos y facturas de compras para incluir automáticamente líneas de detalle que se repiten con cierta frecuencia en las compras al proveedor"
 layout: article
 author: Esteve Sanpons
+#cSpell:disable
 category: [Funcional, Manuales, Compras]
 custom_type: Boveda
+#cSpell:enable
 date: 2022-08-13 14:00:00 +0200
 ---
 

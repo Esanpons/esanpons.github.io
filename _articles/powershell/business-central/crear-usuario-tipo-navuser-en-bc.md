@@ -3,8 +3,10 @@ title: Crear Usuario tipo NavUser en BC
 summary: "Crear usuario de tipo user y pass con PowerShell"
 layout: article
 author: Esteve Sanpons
+#cSpell:disable
 category: [PowerShell, Usuarios]
 custom_type: Boveda
+#cSpell:enable
 date: 2023-04-22 09:10:00 +0200
 ---
 

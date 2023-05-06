@@ -3,8 +3,10 @@ title: Usuarios, perfiles y permisos
 summary: "Una breve explicación de cómo funciona los usuarios, roles y perfiles"
 layout: article
 author: Esteve Sanpons
+#cSpell:disable
 category: [Funcional, Manuales, Usuarios, Perfil, Roles]
 custom_type: Boveda
+#cSpell:enable
 date: 2022-08-22 09:02:00 +0200
 ---
 
@@ -129,7 +131,7 @@ Podemos añadir el permiso si sabemos el número.
 En esta pantalla tenemos los campos Tipo objeto que aquí es donde
 especificaremos que tipo es, si es page o tableData o report....
 
-Las 4 columnas de lectura, inserción, modificacion y eliminación, son
+Las 4 columnas de lectura, inserción, modificación y eliminación, son
 los permisos que tendrá para ese objeto. Poner siempre los permisos
 necesarios.
 

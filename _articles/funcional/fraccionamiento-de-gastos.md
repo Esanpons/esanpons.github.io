@@ -3,8 +3,10 @@ title: Fraccionamiento de Gastos
 summary: "Esta funcionalidad de Navision se utiliza para periodificar o distribuir un importe en diferentes períodos, independientemente de la fecha de registro de la factura."
 layout: article
 author: Esteve Sanpons
+#cSpell:disable
 category: [Funcional, Manuales, Finanzas]
 custom_type: Boveda
+#cSpell:enable
 date: 2023-04-13 16:00:00 +0200
 ---
 
