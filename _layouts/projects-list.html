@@ -18,6 +18,7 @@ title: Portafolio
 
     .div-img-project {
         float: left;
+        display: contents;
     }
 
     .img-project {
@@ -48,26 +49,32 @@ title: Portafolio
     <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}">
         <div class="card blog-post card-project ">
             <div class="card-body">
-                <h4>{{ post.title }}</h4>
                 <div class="col-md-2 div-img-project">
                     <img src="{{site.url}}{{site.baseurl}}{{ post.custom_img_path}}" class="img-project" />
                 </div>
+                <br><br>
+                <h4>{{ post.title }}</h4>
                 <div>Proyecto privado</div>
                 <br><br>
                 <p>{{ post.summary }}</p>
                 <h6 class="card-subtitle mb-2 text-muted">
-                    {{ post.date | date: "%b %-d, %Y" | capitalize |
-                    replace: "january", "enero" | replace: "february", "febrero" | replace: "march", "marzo" | replace:
-                    "april", "abril" | replace: "may", "mayo" | replace: "june", "junio" | replace: "july", "julio" |
-                    replace: "august", "agosto" | replace: "september", "septiembre" | replace: "october", "octubre" |
-                    replace: "november", "noviembre" | replace: "december", "diciembre" }}
+                    <time datetime="{{ post.date }}" itemprop="datePublished">
+                        {{ post.date | date: "%-d %B del %Y" | capitalize |
+                        replace: "january", "enero" | replace: "february", "febrero" | replace: "march", "marzo" |
+                        replace: "april",
+                        "abril" | replace: "may", "mayo" | replace: "june", "junio" | replace: "july", "julio" |
+                        replace: "august",
+                        "agosto" | replace: "september", "septiembre" | replace: "october", "octubre" | replace:
+                        "november", "noviembre"
+                        | replace: "december", "diciembre" }}
+                    </time>
                 </h6>
             </div>
         </div>
     </a>
 
     {% endif %}
-    <!--Esto es para los proyecto de typo publico. Son proyectos que estan en GitHub -->
+    <!--Esto es para los proyecto de typo publico. Son proyectos que están en GitHub -->
     {% if post.custom_type_project == 'public' %}
     <a href="{{ post.custom_url_github }}" target="_blank">
         <div class="card blog-post card-project">
@@ -75,6 +82,7 @@ title: Portafolio
                 <div class="col-md-2 div-img-project">
                     <img src="{{site.url}}{{site.baseurl}}{{ post.custom_img_path}}" class="img-project" />
                 </div>
+                <br><br>
                 <div>
                     <h4>{{ post.title }}</h4>
                     <div>Proyecto público</div>
