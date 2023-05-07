@@ -1,6 +1,6 @@
 ---
 title: post pruebas
-layout: page
+layout: post
 permalink: /styleguide/
 category: PowerShell
 custom_type: Blog
