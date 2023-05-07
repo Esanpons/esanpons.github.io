@@ -1,13 +1,30 @@
 ---
-layout: full-width
+
 ---
 
-<script>
-  $(document).ready(function () {
-    $("#typewriteText").typewrite({
-      actions: [{ type: "{{site.typewrite-text}}" }]
-    });
-  });
-</script>
-<!-- hero section-->
-{%- include home_base.html -%}
+<!DOCTYPE html>
+<html lang="es">
+{%- include head.html -%}
+
+<body>
+  <div id="header-home">
+    {%- include header-home.html -%}
+  </div>
+
+  <div class="container-fluid">
+
+    <script>
+      $(document).ready(function () {
+        $("#typewriteText").typewrite({
+          actions: [{ type: "{{site.typewrite-text}}" }]
+        });
+      });
+    </script>
+    <!-- hero section-->
+    {%- include home_base.html -%}
+  </div>
+
+
+</body>
+
+</html>
