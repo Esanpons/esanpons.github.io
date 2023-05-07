@@ -6,6 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [PowerShell, Navision, Codeunit]
 custom_type: Boveda
+permalink: /boveda/ejecutar-codeunit-des-de-powershell
 #cSpell:enable
 date: 2023-04-22 09:24:00 +0200
 ---

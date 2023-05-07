@@ -6,6 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [Funcional, Manuales, Reports]
 custom_type: Boveda
+permalink: /boveda/diseños-personalizados-y-word-layouts
 #cSpell:enable
 date: 2022-08-13 15:30:00 +0200
 ---

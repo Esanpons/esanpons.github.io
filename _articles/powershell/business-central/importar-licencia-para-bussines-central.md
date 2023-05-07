@@ -6,6 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [PowerShell, Business_Central, Licencia]
 custom_type: Boveda
+permalink: /boveda/importar-licencia-para-bussines-central
 #cSpell:enable
 date: 2023-04-22 09:05:00 +0200
 ---

@@ -6,6 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [PowerShell, Usuarios]
 custom_type: Boveda
+permalink: /boveda/crear-usuario-tipo-navuser-en-bc
 #cSpell:enable
 date: 2023-04-22 09:10:00 +0200
 ---

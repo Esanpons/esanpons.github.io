@@ -6,6 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [PowerShell, IIS, Instancias]
 custom_type: Boveda
+permalink: /boveda/create-instance-y-iis-para-bc
 #cSpell:enable
 date: 2023-04-22 09:03:00 +0200
 ---

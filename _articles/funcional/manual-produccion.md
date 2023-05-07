@@ -6,6 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [Funcional, Manuales, Produccion]
 custom_type: Boveda
+permalink: /boveda/manual-produccion
 #cSpell:enable
 date: 2022-08-22 09:00:00 +0200
 ---

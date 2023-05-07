@@ -6,6 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [Funcional, Manuales, Finanzas]
 custom_type: Boveda
+permalink: /boveda/cierre-de-contabilidad
 #cSpell:enable
 date: 2022-08-13 13:01:00 +0200
 ---

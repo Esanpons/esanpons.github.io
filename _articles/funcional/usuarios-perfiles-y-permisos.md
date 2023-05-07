@@ -6,6 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [Funcional, Manuales, Usuarios, Perfil, Roles]
 custom_type: Boveda
+permalink: /boveda/usuarios-perfiles-y-permisos
 #cSpell:enable
 date: 2022-08-22 09:02:00 +0200
 ---

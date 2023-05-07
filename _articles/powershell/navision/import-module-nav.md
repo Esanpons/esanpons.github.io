@@ -6,6 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [PowerShell]
 custom_type: Boveda
+permalink: /boveda/import-module-nav
 #cSpell:enable
 date: 2023-04-22 09:22:00 +0200
 ---

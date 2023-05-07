@@ -6,6 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [PowerShell, Business_Central]
 custom_type: Boveda
+permalink: /boveda/publicar-y-despublicar-app
 #cSpell:enable
 date: 2023-04-22 09:07:00 +0200
 ---

@@ -6,6 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [PowerShell, Navision]
 custom_type: Boveda
+permalink: /boveda/eliminar-empresas-navision
 #cSpell:enable
 date: 2023-04-22 09:23:00 +0200
 ---

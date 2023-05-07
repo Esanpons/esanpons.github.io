@@ -6,6 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [Funcional, Manuales, Almacen]
 custom_type: Boveda
+permalink: /boveda/manual-almacences-avanzados
 #cSpell:enable
 date: 2022-08-22 07:29:00 +0200
 ---

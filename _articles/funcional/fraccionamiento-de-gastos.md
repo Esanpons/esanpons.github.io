@@ -6,6 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [Funcional, Manuales, Finanzas]
 custom_type: Boveda
+permalink: /boveda/fraccionamiento-de-gastos
 #cSpell:enable
 date: 2023-04-13 16:00:00 +0200
 ---
