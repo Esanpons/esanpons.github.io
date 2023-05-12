@@ -235,6 +235,12 @@ header {
     background-color: var(--card-background-color) !important;
 }
 
+.card-body-custom {
+    text-align: left;
+    font-weight: 900;
+    font-size: 1.2em;
+  }
+
 #topNav{
     padding-left: 15%;
     padding-right: 15%;

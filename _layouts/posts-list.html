@@ -1,18 +1,48 @@
 ---
 layout: default
 ---
+
+<style>
+  .naviworld-img {
+    height: 75px;
+  }
+
+  .content-wrapper {
+    width: 100%;
+  }
+
+  .h1-content-wrapper {
+    margin-right: 10px;
+
+  }
+</style>
+
+
 <br>
 <br>
 <br>
 
 <div class="card">
-  <h1>La bóveda del conocimiento</h1>
-  <br>
-  <p>Empecé esta sección para mí, internamente. Para tener un lugar donde ubicar todo lo que iba encontrando por
-    internet y todo que voy aprendiendo por el camino.</p>
-  <p>Después vi que toda esta información puede estar al servicio de todos y eso es lo que he hecho con este proyecto.
-  </p>
+  <div class="content-wrapper">
+    <h1 class="h1-content-wrapper">NaviWorld</h1>
+    <img class="naviworld-img" src="{{site.url}}{{site.baseurl}}/assets/img/NavAesva01.png">
+  </div>
+
+
+
+
+
+  <p>¡Bienvenido a NaviWorld!</p>
+  <p>La sección más molona de <b>Business Central</b> y <b>Navision</b>.</p>
+  <p>Aquí encontrarás los secretos mejor guardados para potenciar tu experiencia en programación y desarrollo.
+    NaviWorld es el espacio donde los programadores más osados se reúnen para compartir sus conocimientos y
+    habilidades. Descubre cómo dominar estas herramientas y lleva tus habilidades de programación al siguiente nivel
+    con nuestra ayuda.</p>
+  <p>¡Únete a NaviWorld y conviértete en el mejor programador que puedas ser!</p>
+
+
 </div>
+
 
 
 <div class="col-lg-12">
@@ -21,27 +51,28 @@ layout: default
       <ul>
         <div class="row">
           {% for post in paginator.posts %}
-          <div class="card blog-post">
-            <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">
-            <div class="card-body center">
-              <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
-              <h4 class="card-title">{{ post.title }}</h4>
+          <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}">
+            <div class="card blog-post">
+              <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">
+              <div class="card-body center">
+                <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
+                <h4 class="card-title">{{ post.title }}</h4>
 
-              <h6 class="card-subtitle mb-2 text-muted">
-                {{ post.date | date: "%-d %B del %Y" | capitalize |
-                replace: "january", "enero" | replace: "february", "febrero" | replace: "march", "marzo" | replace:
-                "april", "abril" | replace: "may", "mayo" | replace: "june", "junio" | replace: "july", "julio" |
-                replace: "august", "agosto" | replace: "september", "septiembre" | replace: "october", "octubre" |
-                replace: "november", "noviembre" | replace: "december", "diciembre" }}
-              </h6>
-              <p class="card-text">{{ post.summary }} </p>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  {{ post.date | date: "%-d %B del %Y" | capitalize |
+                  replace: "january", "enero" | replace: "february", "febrero" | replace: "march", "marzo" | replace:
+                  "april", "abril" | replace: "may", "mayo" | replace: "june", "junio" | replace: "july", "julio" |
+                  replace: "august", "agosto" | replace: "september", "septiembre" | replace: "october", "octubre" |
+                  replace: "november", "noviembre" | replace: "december", "diciembre" }}
+                </h6>
+                <p class="card-text">{{ post.summary }} </p>
 
-              <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}"
-                class="btn btn-dark btn-lg">Abrir</a>
-              <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
 
+                <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
+
+              </div>
             </div>
-          </div>
+          </a>
           {% endfor %}
         </div>
       </ul>

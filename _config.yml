@@ -12,8 +12,8 @@ urls:
     url: /about
   - text: Portafolio
     url: /projects
-  #- text: Blog
-  #  url: /blog
+  - text: Blog
+    url: /blog
   - text: Boveda
     url: /boveda
   #- text: Contacto

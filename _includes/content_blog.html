@@ -1,31 +1,30 @@
 <article class="card" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="card-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <br>
     <h4 class="post-meta">{{ page.summary }}</h4>
+    <br>
     <p class="post-summary">
-      Posted by : {% if page.author %}
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-
-        >{% endif %} on
-        <time datetime="{{ page.date }}" itemprop="datePublished">
-          {{ page.date | date: "%-d %B del %Y" | capitalize |
-          replace: "january", "enero" | replace: "february", "febrero" | replace: "march", "marzo" | replace: "april",
-          "abril" | replace: "may", "mayo" | replace: "june", "junio" | replace: "july", "julio" | replace: "august",
-          "agosto" | replace: "september", "septiembre" | replace: "october", "octubre" | replace: "november",
-          "noviembre" | replace: "december", "diciembre"}}
-        </time>
+      Fecha :
+      <time datetime="{{ page.date }}" itemprop="datePublished">
+        {{ page.date | date: "%-d %B del %Y" | capitalize |
+        replace: "january", "enero" | replace: "february", "febrero" | replace: "march", "marzo" | replace: "april",
+        "abril" | replace: "may", "mayo" | replace: "june", "junio" | replace: "july", "julio" | replace: "august",
+        "agosto" | replace: "september", "septiembre" | replace: "october", "octubre" | replace: "november",
+        "noviembre" | replace: "december", "diciembre"}}
+      </time>
     </p>
     <span class="disqus-comment-count" data-disqus-identifier="{{ page.url }}"></span>
     <div class="post-categories">
       {% if post %} {% assign categories = post.categories %} {% else %} {%
-      assign categories = page.categories %} {% endif %} Category : {% for
+      assign categories = page.categories %} {% endif %} Categorías : {% for
       category in categories %}
       <a href="{{site.baseurl}}/blog/categories/{{category|slugize}}">{{category}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
     </div>
   </div>
 
-  <div class="card-body" itemprop="articleBody">
+  <div class="card-body card-body-custom" itemprop="articleBody">
     <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ page.thumbnail }}" alt="{{ post.title }}" />
     <br />
     <br />
@@ -34,14 +33,8 @@
     {%- include share_page.html -%}
 
   </div>
-  {%- if site.hyvor_talk_website_id -%}
-  <div class="comments">
-    {%- include hyvor_comments.html -%}
-  </div>
-  {%- endif -%}
-  <!-- Incomment incase you want to use Disqus
-      <div id="disqus_thread"></div>
-   -->
+
+
 
 
 </article>
