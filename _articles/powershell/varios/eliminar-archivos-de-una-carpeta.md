@@ -8,7 +8,7 @@ category: [PowerShell]
 custom_type: Boveda
 permalink: /boveda/eliminar-archivos-de-una-carpeta
 #cSpell:enable
-date: 2023-04-22 09:33:00 +0200
+date: 2023-03-22 09:33:00 +0200
 ---
 
 Elimina todos los archivos de la carpeta seleccionada.

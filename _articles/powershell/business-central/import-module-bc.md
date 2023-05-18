@@ -8,7 +8,7 @@ category: [PowerShell, Business_Central]
 custom_type: Boveda
 permalink: /boveda/import-module-bc
 #cSpell:enable
-date: 2023-04-22 09:04:00 +0200
+date: 2023-03-22 09:04:00 +0200
 ---
 
 Importar referencias Business Central para PowerShell ISE

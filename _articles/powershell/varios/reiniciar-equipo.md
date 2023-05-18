@@ -8,7 +8,7 @@ category: [PowerShell]
 custom_type: Boveda
 permalink: /boveda/reiniciar-equipo
 #cSpell:enable
-date: 2023-04-22 09:30:00 +0200
+date: 2023-03-22 09:30:00 +0200
 ---
 
 Reiniciar Equipo

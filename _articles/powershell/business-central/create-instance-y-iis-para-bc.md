@@ -8,7 +8,7 @@ category: [PowerShell, IIS, Instancias]
 custom_type: Boveda
 permalink: /boveda/create-instance-y-iis-para-bc
 #cSpell:enable
-date: 2023-04-22 09:03:00 +0200
+date: 2023-03-22 09:03:00 +0200
 ---
 
 Script para crear una instancia nueva y su IIS

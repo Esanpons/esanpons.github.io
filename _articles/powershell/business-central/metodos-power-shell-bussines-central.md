@@ -8,7 +8,7 @@ category: [PowerShell]
 custom_type: Boveda
 permalink: /boveda/metodos-power-shell-bussines-central
 #cSpell:enable
-date: 2023-04-22 09:06:00 +0200
+date: 2023-03-22 09:06:00 +0200
 ---
 
 Métodos Power Shell Business Central

@@ -8,7 +8,7 @@ category: [PowerShell]
 custom_type: Boveda
 permalink: /boveda/función-para-calcular-los-tiempos
 #cSpell:enable
-date: 2023-04-22 09:32:00 +0200
+date: 2023-03-22 09:32:00 +0200
 ---
 
 Esta función se tiene que ejecutar antes de hacer nada mas.

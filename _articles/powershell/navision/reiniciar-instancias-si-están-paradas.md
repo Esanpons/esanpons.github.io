@@ -8,7 +8,7 @@ category: [PowerShell, Instancias]
 custom_type: Boveda
 permalink: /boveda/reiniciar-instancias-si-están-paradas
 #cSpell:enable
-date: 2023-04-22 09:21:00 +0200
+date: 2023-03-22 09:21:00 +0200
 ---
 
 Lo primero es para crear una función para ejecutar para cualquier instancia.
