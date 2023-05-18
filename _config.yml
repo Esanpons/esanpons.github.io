@@ -170,6 +170,7 @@ defaults:
 # Build settings
 plugins:
   - jekyll-paginate
+  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default.
