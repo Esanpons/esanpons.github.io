@@ -15,6 +15,13 @@ layout: default
     margin-right: 10px;
 
   }
+
+  .btn-abrir {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+  }
 </style>
 
 
@@ -67,10 +74,13 @@ layout: default
                 </h6>
                 <p class="card-text">{{ post.summary }} </p>
 
+                <br>
 
-                <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
 
               </div>
+              <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}"
+                class="btn btn-dark btn-lg btn-abrir">Abrir</a>
+
             </div>
           </a>
           {% endfor %}
@@ -113,6 +123,7 @@ layout: default
         </ul>
         {% endif %}
       </div>
+
 
     </div>
 
