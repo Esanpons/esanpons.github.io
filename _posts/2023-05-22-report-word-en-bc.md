@@ -6,11 +6,10 @@ author: "Esteve Sanpons"
 date: "2023-03-22 08:00:00 +0200"
 #cSpell:disable
 category: ["Word", "Reports", "Business_Central"]
-thumbnail: /assets/img/posts/report-word-en-bc/image-01.png
+thumbnail: /assets/img/posts/report-word-en-bc/imagen-01.jpg
 permalink: /blog/report-word-en-bc/
 custom_type: Blog
 #cSpell:enable
-published: false
 ---
 
 Buenas a todos una semana mas.
@@ -95,7 +94,7 @@ Esto generara el word vinculado al report. igual que DataItem con cualquier info
 
 Ahora abriremos este word y en el encontraremos que podemos añadir las referencias del DataItem en nuestro Word
 
-<img class="img-container"  src="/assets/img/posts/report-word-en-bc/image-02.png">
+<img class="img-container"  src="/assets/img/posts/report-word-en-bc/imagen-02.png">
 <br><br><br><br>
 
 Como podemos ver lo que se tiene que hacer es ir a la pestaña de programador y clicar en botón de "Panel de asignación XML" después buscamos nuestro informe en el panel del XML y nos mostrara el DataItem.
@@ -103,7 +102,7 @@ ahora solo tenemos que añadirlo allí donde queramos.
 
 Para crear una repetición de lineas lo que se ha de hacer es lo siguiente.
 
-<img class="img-container"  src="/assets/img/posts/report-word-en-bc/image-03.png">
+<img class="img-container"  src="/assets/img/posts/report-word-en-bc/imagen-03.png">
 <br><br><br><br>
 
 como podemos ver damos botón derecho encima del DataItem y esto nos desplegar la repetición que l añadiremos a una tabla previamente creada y seleccionamos la linea donde queremos la repetición.
