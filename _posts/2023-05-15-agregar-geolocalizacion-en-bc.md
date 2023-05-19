@@ -6,7 +6,7 @@ author: "Esteve Sanpons"
 date: "2023-04-15 08:00:00 +0200"
 #cSpell:disable
 category: ["JavaScript", "ControlAddin", "Business_Central"]
-thumbnail: /assets/img/posts/agregar-geolocalizacion-en-bc.png
+thumbnail: /assets/img/posts/agregar-geolocalizacion-en-bc/imagen-01.png
 permalink: /blog/agregar-geolocalizacion-en-bc/
 custom_type: Blog
 #cSpell:enable
