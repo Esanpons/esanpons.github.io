@@ -3,7 +3,7 @@ layout: post
 title: "Cómo agregar geolocalización a un ControlAddin de Business Central"
 summary: "Agregar geolocalización a un ControlAddin de Business Central para obtener la ubicación del usuario mediante Javascript y mostrarla en la interfaz."
 author: "Esteve Sanpons"
-date: "2023-04-15 08:00:00 +0200"
+date: "2023-05-15 08:00:00 +0200"
 #cSpell:disable
 category: ["JavaScript", "ControlAddin", "Business_Central"]
 thumbnail: /assets/img/posts/agregar-geolocalizacion-en-bc/imagen-01.jpg

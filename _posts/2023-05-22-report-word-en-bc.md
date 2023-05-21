@@ -3,7 +3,7 @@ layout: post
 title: "Introducción a los Reports con Word en Business Central"
 summary: "Crea informes personalizados en Microsoft Dynamics 365 Business Central usando reports con Word."
 author: "Esteve Sanpons"
-date: "2023-03-22 08:00:00 +0200"
+date: "2023-05-22 08:00:00 +0200"
 #cSpell:disable
 category: ["Word", "Reports", "Business_Central"]
 thumbnail: /assets/img/posts/report-word-en-bc/imagen-01.jpg
