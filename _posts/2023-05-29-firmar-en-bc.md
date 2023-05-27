@@ -99,22 +99,18 @@ Además, en este archivo, creamos una función para guardar la firma, que estar�
 
 ```javascript
 function guardarFirma() {
-  if (signPad.isEmpty()) {
-    alert("Por favor, firma antes de guardar.");
-  } else {
-    var imageData = signPad.toDataURL().split(",")[1]; // Obtener solo los datos de la imagen sin el encabezado
-    var signatureBase64 = btoa(imageData); // Decodificar los datos en base64
+    if (signPad.isEmpty()) {
+        alert('Por favor, firma antes de guardar.');
+    } else {
+        var imageData = signaturePad.toDataURL('image/jpeg'); // Convertir a formato JPEG
+        var signatureBase64 = imageData.replace(/^data:image\/jpeg;base64,/, ''); // Remover el encabezado de datos
 
-    console.log("Signatura en Base 64", signatureBase64);
+        console.log('Signatura en Base 64', signatureBase64);
 
-    Microsoft.Dynamics.NAV.InvokeExtensibilityMethod(
-      "SaveSign",
-      [signatureBase64],
-      true
-    );
+        Microsoft.Dynamics.NAV.InvokeExtensibilityMethod("SaveSign", [signatureBase64], true);
 
-    initSignaturePad();
-  }
+        initSignaturePad();
+    }
 }
 ```
 
