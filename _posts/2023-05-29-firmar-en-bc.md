@@ -5,7 +5,7 @@ summary: "Descubre cómo agregar una ventana de firma digital en tu proyecto y g
 author: "Esteve Sanpons"
 date: "2023-05-29 01:00:00 +0200"
 #cSpell:disable
-category: ["ControlAddin", "Business_Central"]
+category: ["ControlAddin", "JavaScript", "Base64", "Business_Central"]
 thumbnail: /assets/img/posts/firmar-en-bc/imagen01.jpg
 permalink: /blog/firmar-en-bc/
 custom_type: Blog
@@ -13,6 +13,8 @@ custom_type: Blog
 ---
 
 Hola a todos, una semana más!
+
+<br>
 
 Hoy quiero compartir con vosotros un descubrimiento que hice recientemente y que estoy seguro de que os resultará muy útil.
 
@@ -99,20 +101,23 @@ Además, en este archivo, creamos una función para guardar la firma, que estar�
 
 ```javascript
 function guardarFirma() {
-    if (signPad.isEmpty()) {
-        alert('Por favor, firma antes de guardar.');
-    } else {
-        var imageData = signPad.toDataURL('image/jpeg'); // Convertir a formato JPEG
-        var signatureBase64 = imageData.replace(/^data:image\/jpeg;base64,/, ''); // Remover el encabezado de datos
+  if (signPad.isEmpty()) {
+    alert("Por favor, firma antes de guardar.");
+  } else {
+    var imageData = signPad.toDataURL("image/jpeg"); // Convertir a formato JPEG
+    var signatureBase64 = imageData.replace(/^data:image\/jpeg;base64,/, ""); // Remover el encabezado de datos
 
-        console.log('Signatura en Base 64', signatureBase64);
+    console.log("Signatura en Base 64", signatureBase64);
 
-        Microsoft.Dynamics.NAV.InvokeExtensibilityMethod("SaveSign", [signatureBase64], true);
+    Microsoft.Dynamics.NAV.InvokeExtensibilityMethod(
+      "SaveSign",
+      [signatureBase64],
+      true
+    );
 
-        initSignaturePad();
-    }
+    initSignaturePad();
+  }
 }
-
 ```
 
 <br> <br>
@@ -198,5 +203,7 @@ Como podéis ver, hemos creado un cuadrado con un botón dentro del mismo, donde
 <br>
 
 Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/ControlAddIn-Basico-BC)
+
+<br>
 
 ¡Espero que os resulte útil y emocionante! No dudéis en enviar vuestros comentarios y preguntas. ¡Hasta la próxima!
