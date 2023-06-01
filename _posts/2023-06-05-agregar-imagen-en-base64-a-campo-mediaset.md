@@ -5,7 +5,7 @@ summary: "Descubre cómo convertir imágenes en formato Base64 y agregarlas a ca
 author: "Esteve Sanpons"
 date: "2023-06-02 07:00:00 +0200"
 #cSpell:disable
-category: ["Base64", "Business_Central"]
+category: ["Base64", "TiposDeCampos", "Business_Central"]
 thumbnail: /assets/img/posts/agregar-imagen-en-base64-a-campo-mediaset/imagen01.jpg
 permalink: /blog/agregar-imagen-en-base64-a-campo-mediaset/
 custom_type: Blog
