@@ -3,7 +3,7 @@ layout: post
 title: "Añadiendo imágenes a campos MediaSet en Business Central: Convertir y enriquecer tu contenido"
 summary: "Descubre cómo convertir imágenes en formato Base64 y agregarlas a campos MediaSet en Business Centra. Aprende a mejorar tus proyectos al incorporar de manera eficiente imágenes a tus registros y enriquecer tu contenido visual"
 author: "Esteve Sanpons"
-date: "2023-06-05 01:00:00 +0200"
+date: "2023-06-05 07:00:00 +0200"
 #cSpell:disable
 category: ["Base64", "Business_Central"]
 thumbnail: /assets/img/posts/agregar-imagen-en-base64-a-campo-mediaset/imagen01.jpg

@@ -3,7 +3,7 @@ layout: post
 title: "Aprende a firmar documentos digitalmente en segundos des de Business Central"
 summary: "Descubre cómo agregar una ventana de firma digital en tu proyecto y guardar firmas en Base64."
 author: "Esteve Sanpons"
-date: "2023-05-29 01:00:00 +0200"
+date: "2023-05-29 07:00:00 +0200"
 #cSpell:disable
 category: ["ControlAddin", "JavaScript", "Base64", "Business_Central"]
 thumbnail: /assets/img/posts/firmar-en-bc/imagen01.jpg
