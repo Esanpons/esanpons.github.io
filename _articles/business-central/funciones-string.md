@@ -1,6 +1,6 @@
 ---
 title: "Funciones String"
-summary: ""
+summary: "Resumen de las funciones String de Navision y Business Central"
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
