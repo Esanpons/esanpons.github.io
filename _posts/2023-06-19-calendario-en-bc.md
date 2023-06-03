@@ -89,19 +89,20 @@ En este archivo, podemos ver que la mayoría de los componentes son scripts que 
 
 <br><br><br>
 
-A continuación, tenemos el archivo HTML, que es sencillo y contiene únicamente los elementos <div> del calendario y la leyenda de colores:
+A continuación, tenemos el archivo HTML, que es sencillo y contiene únicamente los elementos <div> del calendario y las leyendas de colores:
 
 ```html
-<div id="legend"></div>
+<div id="legend1" class="legend"></div>
+<div id="legend2" class="legend"></div>
 <div id="calendar"></div>
 ```
 
 <br><br><br>
 
-El archivo CSS se utiliza para los estilos de la leyenda, colocándola en el centro y un dato al lado del otro:
+El archivo CSS se utiliza para los estilos de las leyendas, colocándolas en el centro y un dato al lado del otro:
 
 ```css
-#legend {
+.legend {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
@@ -126,9 +127,9 @@ El archivo CSS se utiliza para los estilos de la leyenda, colocándola en el cen
 
 <br><br><br>
 
-Ahora viene la parte interesante, que es el archivo JavaScript. En este archivo, para explicar el proceso, crearemos dos objetos JSON como variables. Sin embargo, lo ideal sería obtener estos datos directamente de alguna tabla de Business Central.
+Ahora viene la parte interesante, que es el archivo JavaScript. En este archivo, para explicar el proceso, crearemos 3 objetos JSON como variables. Sin embargo, lo ideal sería obtener estos datos directamente de alguna tabla de Business Central.
 
-Primero, creamos estas variables. La primera se utilizará para rellenar y dar formato con colores a las entradas del calendario, y la segunda para la leyenda de colores:
+Primero, creamos estas variables. La primera se utilizará para rellenar y dar formato con colores a las entradas del calendario, y las otras dos para las leyendas de colores:
 
 ```javascript
 var events = [
@@ -152,12 +153,23 @@ var events = [
 
 var legendItems = [
   {
-    name: "Color 1",
+    name: "Color 2: Event 1",
     color: "blue",
   },
   {
-    name: "Color 2",
+    name: "Color 2: Event 2",
     color: "yellow",
+  },
+];
+
+var legendItems2 = [
+  {
+    name: "Color 1: Event 1",
+    color: "red",
+  },
+  {
+    name: "Color 1: Event 2",
+    color: "green",
   },
 ];
 ```
@@ -211,7 +223,7 @@ function InitCalendar() {
     $("#calendar").fullCalendar(calendarOptions);
 
     // Generar la leyenda de colores dinámicamente
-    var legendElement = $("#legend");
+    var legendElement = $("#legend1");
     legendItems.forEach(function (item) {
       var legendItem = $("<div>", { class: "legend-item" });
       var legendColor = $("<div>", { class: "legend-color" }).css(
@@ -221,6 +233,18 @@ function InitCalendar() {
       var legendLabel = $("<div>", { class: "legend-label" }).text(item.name);
       legendItem.append(legendColor, legendLabel);
       legendElement.append(legendItem);
+    });
+
+    var legendElement2 = $("#legend2");
+    legendItems2.forEach(function (item) {
+      var legendItem = $("<div>", { class: "legend-item" });
+      var legendColor = $("<div>", { class: "legend-color" }).css(
+        "background-color",
+        item.color
+      );
+      var legendLabel = $("<div>", { class: "legend-label" }).text(item.name);
+      legendItem.append(legendColor, legendLabel);
+      legendElement2.append(legendItem);
     });
   });
 }
@@ -232,7 +256,7 @@ En esta función, lo primero que hacemos es cargar el HTML y luego inicializar e
 
 En esta parte, me gustaría añadir que la idea era que el fondo del evento fuera de dos colores y que tuvieran un color de letra diferente.
 
-Por último, el código genera dinámicamente la leyenda de colores según el JSON que tenemos como variable.
+Por último, el código genera dinámicamente las leyendas de colores según los JSON que tenemos como variables.
 
 <br><br><br>
 
