@@ -7,7 +7,7 @@ date: "2023-06-03 07:00:00 +0200"
 #cSpell:disable
 category: ["JavaScript", "ControlAddin", "Business_Central"]
 thumbnail: /assets/img/posts/calendario-en-bc/imagen01.jpg
-permalink: /blog/calendario-en-bc/
+permalink: /blog/calendario-controladin-en-bc/
 custom_type: Blog
 #cSpell:enable
 ---
