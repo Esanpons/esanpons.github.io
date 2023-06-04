@@ -6,8 +6,8 @@ author: "Esteve Sanpons"
 date: "2023-06-03 07:00:00 +0200"
 #cSpell:disable
 category: ["JavaScript", "ControlAddin", "Business_Central"]
-thumbnail: /assets/img/posts/calendario-en-bc/imagen01.jpg
-permalink: /blog/calendario-controladin-en-bc/
+thumbnail: /assets/img/posts/calendario-controladdin-en-bc/imagen01.jpg
+permalink: /blog/calendario-controladdin-en-bc/
 custom_type: Blog
 #cSpell:enable
 ---
@@ -26,7 +26,7 @@ Con esta librería y realizando algunas modificaciones en Business Central, pode
 
 <input type="checkbox" id="image-checkbox-02" class="image-checkbox">
 <label for="image-checkbox-02"  class="image-label">
-    <img class="img-container" src="/assets/img/posts/calendario-en-bc/imagen02.png">
+    <img class="img-container" src="/assets/img/posts/calendario-controladdin-en-bc/imagen02.png">
 </label>
 
 <br><br><br>
