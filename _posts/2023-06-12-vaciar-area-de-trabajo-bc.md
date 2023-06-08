@@ -3,7 +3,7 @@ layout: post
 title: "Mejorando la seguridad y personalización en Business Central con ControlAddin"
 summary: "Descubre cómo utilizar ControlAddin para ocultar áreas y elementos en Business Central, brindando mayor seguridad y personalización a los usuarios, optimizando así su experiencia y eficiencia en la plataforma."
 author: "Esteve Sanpons"
-date: "2023-06-08 07:00:00 +0200"
+date: "2023-06-12 07:00:00 +0200"
 #cSpell:disable
 category: ["JavaScript", "ControlAddin", "Business_Central", "Role_Center"]
 thumbnail: /assets/img/posts/vaciar-area-de-trabajo-bc/Imagen01.jpg
