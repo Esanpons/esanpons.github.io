@@ -1,6 +1,6 @@
 ---
 #cSpell:disable
 layout: category
-permalink: /blog/categories/Erik_Hougaard/
+permalink: /blog/categories/Bogs_Otros/
 #cSpell:enable
 ---

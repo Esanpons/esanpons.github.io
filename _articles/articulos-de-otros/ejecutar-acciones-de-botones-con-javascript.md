@@ -4,9 +4,9 @@ summary: "Erik Hougaard, nos muestra como ejecutar eventos de las acciones a tra
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
-category: [JavaScript, Erik_Hougaard, "ControlAddin", "Business_Central"]
+category: [JavaScript, Bogs_Otros, "ControlAddin", "Business_Central"]
 custom_type: Boveda
-permalink: /boveda/articulos-de-otros/ejecutar-acciones-de-botones-con-javascript
+permalink: /boveda/ejecutar-acciones-de-botones-con-javascript
 #cSpell:enable
 date: 2023-06-01 21:00:00 +0200
 ---
@@ -21,5 +21,7 @@ date: 2023-06-01 21:00:00 +0200
     <img src="https://i.ytimg.com/vi/ZzsnGZaD17A/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB917s8lczHBthGPPHahvfGu1V0CA" alt="Texto alternativo" width="50%" height="50%">
   </a>
 </div>
+
+<br>
 
 La web origen de Erik Hougaard es [Link](https://www.hougaard.com/)

@@ -6,7 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [Administracion, IIS]
 custom_type: Boveda
-permalink: /boveda/error-al-abir-des-de-un-iis-nuevo-falta-de-configuracion
+permalink: /boveda/2
 #cSpell:enable
 date: 2022-08-14 14:00:00 +0200
 ---

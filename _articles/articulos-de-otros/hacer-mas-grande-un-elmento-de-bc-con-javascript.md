@@ -4,9 +4,9 @@ summary: "Erik Hougaard, nos muestra como ampliar el tamaño de nuestro ControlA
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
-category: [JavaScript, Erik_Hougaard, "ControlAddin", "Business_Central"]
+category: [JavaScript, Bogs_Otros, "ControlAddin", "Business_Central"]
 custom_type: Boveda
-permalink: /boveda/articulos-de-otros/hacer-mas-grande-un-elmento-de-bc-con-javascript
+permalink: /boveda/hacer-mas-grande-un-elmento-de-bc-con-javascript
 #cSpell:enable
 date: 2023-06-01 21:00:00 +0200
 ---
@@ -21,5 +21,7 @@ date: 2023-06-01 21:00:00 +0200
     <img src="https://i.ytimg.com/vi/N3YB8s2b1hk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDh9xo-7ISgmj-eH959s9iS2RFSSQ" alt="Texto alternativo" width="50%" height="50%">
   </a>
 </div>
+
+<br>
 
 La web origen de Erik Hougaard es [Link](https://www.hougaard.com/)
