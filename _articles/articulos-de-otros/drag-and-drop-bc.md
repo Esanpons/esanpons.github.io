@@ -8,7 +8,7 @@ category: [JavaScript, Bogs_Otros, "ControlAddin", "Business_Central"]
 custom_type: Boveda
 permalink: /boveda/drag-and-drop-bc
 #cSpell:enable
-date: 2023-06-01 21:00:00 +0200
+date: 2023-06-11 03:00:00 +0200
 ---
 
 ## Erik Hougaard, nos muestra como usar el Drag And Drop en Business Central a traves de JavaScript
