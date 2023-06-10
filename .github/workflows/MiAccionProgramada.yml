@@ -1,7 +1,7 @@
 name: MiAccionProgramada
 on:
   schedule:
-    - cron: '0 7 * * 0'
+    - cron: "0 7 * * 0"
 
 jobs:
   mi_job:
@@ -17,6 +17,6 @@ jobs:
           cd <directorio-clonado>
           git checkout <rama-o-commit>
           ls -la # Verificación, puedes personalizar esto según tus necesidades
-          # Ejecutar la acción deploy.yml
+          # Ejecutar la acción pages-build-deployment.yml
           echo "Ejecutando acción deploy"
-          docker-compose -f deploy.yml up # Ejemplo de comando, ajusta según tus necesidades
+          docker-compose -f pages-build-deployment.yml up # Ejemplo de comando, ajusta según tus necesidades
