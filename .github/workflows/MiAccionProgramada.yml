@@ -1,0 +1,22 @@
+name: MiAccionProgramada
+on:
+  schedule:
+    - cron: '0 7 * * 0'
+
+jobs:
+  mi_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Paso 1
+        run: echo "Ejecutando mi acción programada"
+      - name: Paso 2
+        run: echo "Realizando otras tareas"
+      - name: Ejecutar acción Pepito
+        run: |
+          git clone <URL del repositorio>
+          cd <directorio-clonado>
+          git checkout <rama-o-commit>
+          ls -la # Verificación, puedes personalizar esto según tus necesidades
+          # Ejecutar la acción pages-build-deployment.yml
+          echo "Ejecutando acción pages-build-deployment"
+          docker-compose -f pages-build-deployment.yml up # Ejemplo de comando, ajusta según tus necesidades
