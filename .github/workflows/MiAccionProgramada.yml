@@ -17,6 +17,6 @@ jobs:
           cd <directorio-clonado>
           git checkout <rama-o-commit>
           ls -la # Verificación, puedes personalizar esto según tus necesidades
-          # Ejecutar la acción pages-build-deployment.yml
-          echo "Ejecutando acción pages-build-deployment"
-          docker-compose -f pages-build-deployment.yml up # Ejemplo de comando, ajusta según tus necesidades
+          # Ejecutar la acción deploy.yml
+          echo "Ejecutando acción deploy"
+          docker-compose -f deploy.yml up # Ejemplo de comando, ajusta según tus necesidades
