@@ -3,7 +3,7 @@ layout: post
 title: "Creación de calendarios personalizados en Business Central utilizando JavaScript"
 summary: "Aprende cómo utilizar JavaScript y la librería FullCalendar para crear calendarios personalizados en tu aplicación de Business Central. Descubre cómo visualizar y gestionar datos de manera eficiente utilizando esta poderosa herramienta. Mejora la experiencia de usuario y maximiza el potencial de tu ERP con calendarios interactivos y personalizables."
 author: "Esteve Sanpons"
-date: "2023-06-19 07:00:00 +0200"
+date: "2023-06-11 07:00:00 +0200"
 #cSpell:disable
 category: ["JavaScript", "ControlAddin", "Business_Central"]
 thumbnail: /assets/img/posts/calendario-controladdin-en-bc/imagen01.jpg
