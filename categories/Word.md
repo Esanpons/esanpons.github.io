@@ -1,6 +1,6 @@
 ---
 #cSpell:disable
 layout: category
-permalink: /blog/categories/Word/
+permalink: /categories/Word/
 #cSpell:enable
 ---

@@ -160,6 +160,14 @@ collections:
   projects:
     output: true
 
+# Categorias
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: "/category/:name/"
+
 # establece que cualquier archivo que se encuentre en la carpeta assets no se incluirá en el archivo de mapa del sitio generado (sitemap: false).
 defaults:
   - scope:

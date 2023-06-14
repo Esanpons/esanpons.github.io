@@ -1,5 +1,5 @@
 ---
 layout: category
-permalink: /blog/categories/Json
+permalink: /categories/Json
 /
 ---

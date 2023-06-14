@@ -1,4 +1,4 @@
 ---
 layout: category
-permalink: /blog/categories/JavaScript/
+permalink: /categories/JavaScript/
 ---

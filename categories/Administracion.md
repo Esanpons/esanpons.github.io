@@ -1,6 +1,6 @@
 ---
 #cSpell:disable
 layout: category
-permalink: /blog/categories/Administracion/
+permalink: /categories/Administracion/
 #cSpell:enable
 ---

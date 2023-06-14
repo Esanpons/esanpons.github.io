@@ -1,6 +1,6 @@
 ---
 #cSpell:disable
 layout: category
-permalink: /blog/categories/TiposDeCampos/
+permalink: /categories/TiposDeCampos/
 #cSpell:enable
 ---

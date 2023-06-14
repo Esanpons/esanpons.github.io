@@ -1,4 +1,4 @@
 ---
 layout: category
-permalink: /blog/categories/IIS/
+permalink: /categories/IIS/
 ---

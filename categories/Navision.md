@@ -1,4 +1,4 @@
 ---
 layout: category
-permalink: /blog/categories/Navision/
+permalink: /categories/Navision/
 ---
