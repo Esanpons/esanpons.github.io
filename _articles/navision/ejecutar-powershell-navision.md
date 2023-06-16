@@ -9,6 +9,7 @@ custom_type: Boveda
 permalink: /boveda/ejecutar-powershell-navision
 #cSpell:enable
 date: 2023-06-05 21:00:00 +0200
+LinkedIn: true
 ---
 
 Funcionalidad para ejecutar PowerShell des de Navision
