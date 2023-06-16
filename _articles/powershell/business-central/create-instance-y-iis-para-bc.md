@@ -14,9 +14,10 @@ LinkedIn: true
 
 Script para crear una instancia nueva y su IIS
 
-Adjunto el link hacia la documentación oficial New-NAVServerInstance: https://learn.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navserverinstance?view=businesscentral-ps-22
+Adjunto el [Link](https://learn.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navserverinstance?view=businesscentral-ps-22) hacia la documentación oficial de New-NAVServerInstance 
 
-Adjunto el link hacia la documentación oficial New-NAVWebServerInstance: https://learn.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navwebserverinstance?view=dynamicsnav-ps-2017
+Adjunto el [Link](https://learn.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navwebserverinstance?view=dynamicsnav-ps-2017
+) hacia la documentación oficial de New-NAVWebServerInstance 
 
 <br>
 

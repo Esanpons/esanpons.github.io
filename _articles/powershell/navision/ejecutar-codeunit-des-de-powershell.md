@@ -8,11 +8,14 @@ category: [PowerShell, Navision, Codeunit]
 custom_type: Boveda
 permalink: /boveda/ejecutar-codeunit-des-de-powershell
 #cSpell:enable
-date: 2023-03-22 09:24:00 +0200
+date: 2023-03-22 09:24:00 +0200 
+LinkedIn: true
 ---
 
 Script para ejecutar codeunits des de powershell.
 <br>
+
+Adjunto el link hacia la documentación oficial en el [Link](https://learn.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/invoke-navcodeunit?view=businesscentral-ps-22) del Invoke-NAVCodeunit
 
 ```
 $Comapny = "Cronus S.L."
