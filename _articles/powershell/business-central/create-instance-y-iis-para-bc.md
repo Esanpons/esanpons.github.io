@@ -9,9 +9,14 @@ custom_type: Boveda
 permalink: /boveda/create-instance-y-iis-para-bc
 #cSpell:enable
 date: 2023-03-22 09:03:00 +0200
+LinkedIn: true
 ---
 
 Script para crear una instancia nueva y su IIS
+
+Adjunto el link hacia la documentación oficial New-NAVServerInstance: https://learn.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navserverinstance?view=businesscentral-ps-22
+
+Adjunto el link hacia la documentación oficial New-NAVWebServerInstance: https://learn.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.management/new-navwebserverinstance?view=dynamicsnav-ps-2017
 
 <br>
 
