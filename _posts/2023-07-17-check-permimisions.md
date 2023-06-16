@@ -6,7 +6,7 @@ author: "Esteve Sanpons"
 date: "2023-06-16 07:00:00 +0200"
 #cSpell:disable
 category: ["Roles", "Permisos", "Navision"]
-thumbnail: /assets/img/posts/check-permimisions/imagen01.jpg
+thumbnail: /assets/img/posts/check-permimisions/imagen01.png
 permalink: /blog/check-permimisions/
 custom_type: Blog
 #cSpell:enable

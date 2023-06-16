@@ -6,7 +6,7 @@ author: "Esteve Sanpons"
 date: "2023-06-16 07:00:00 +0200"
 #cSpell:disable
 category: ["Navision", "Business_Central", "Utils"]
-thumbnail: /assets/img/posts/dialogo-de-progreso/imagen01.jpg
+thumbnail: /assets/img/posts/dialogo-de-progreso/imagen01.png
 permalink: /blog/dialogo-de-progreso/
 custom_type: Blog
 #cSpell:enable
