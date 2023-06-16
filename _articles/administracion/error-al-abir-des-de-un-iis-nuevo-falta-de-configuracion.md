@@ -9,6 +9,7 @@ custom_type: Boveda
 permalink: /boveda/error-al-abir-des-de-un-iis-nuevo-falta-de-configuracion
 #cSpell:enable
 date: 2022-08-14 14:00:00 +0200
+LinkedIn: true
 ---
 
 ###### Este error es dado al ejecutar BC sin configurar el servidor
