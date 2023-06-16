@@ -1,17 +1,21 @@
 Proyecto des de el PC local.
 ----------------------------
 
---Instalar subsistema de Linux
-01. abrir powershell introducir: wsl --install
-02. Reiniciar equipo
-03. abrir ventana de ubuntu del subsistema y configurar usuario y contraseña y que instale todas las dependencias.
-04. sudo apt-get install ruby-full build-essential zlib1g-dev
-05. No se si esto es necesario: ~/.bashrc
-06. echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
-07. echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-08. echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-09. source ~/.bashrc
-10. gem install Jekyll bundler
+00. Instalar subsistema de Linux
+01. Reiniciar equipo
+02. abrir powershell introducir: wsl --install
+03. Reiniciar equipo
+04. abrir ventana de ubuntu del subsistema y configurar usuario y contraseña y que instale todas las dependencias.
+05. sudo apt update && sudo apt upgrade -y
+06.  sudo apt install ruby-full
+07.  sudo apt-get install make gcc gpp build-essential zlib1g zlib1g-dev ruby-dev dh-autoreconf
+08.  sudo gem update
+09.  sudo gem install bundler
+10.  sudo gem install jekyll
+11. Esto es para ver si se ha instalado bien y que version tiene: ruby -v
+12. Esto es para ver si se ha instalado bien y que version tiene: gem -v
+13. Esto es para ver si se ha instalado bien y que version tiene: bundler -v
+
 
 
 --instalar lo necesario para ejecutar el proyecto
@@ -19,6 +23,6 @@ Proyecto des de el PC local.
 2. Abrir VsCode o CMD en la carpeta poner: bash
 3. poner en la consola: sudo bundle config set --local path 'vendor/cache'
 4. poner en la consola:  sudo bundle install
-5. poner en la consola:  sudo bundle add webrick
-6. Este ultimo sirve para ejecutar el servidor:  bundle exec jekyll serve --force_polling --livereload --verbose
-7. abrir: http://localhost:4000
+5. poner en la consola:  bundle exec jekyll serve
+6. abrir: http://localhost:4000
+
