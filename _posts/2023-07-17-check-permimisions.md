@@ -3,7 +3,7 @@ layout: post
 title: "Simplificando la gestión de permisos con conjuntos de permisos en Navision"
 summary: "Descubre cómo simplificar la gestión de permisos en tus aplicaciones de Navision utilizando conjuntos de permisos en lugar de múltiples variables booleanas. Aprende cómo implementar esta solución y mejorar la organización de los permisos para brindar un mayor control de acceso de los usuarios."
 author: "Esteve Sanpons"
-date: "2023-07-17 07:00:00 +0200"
+date: "2023-06-16 07:00:00 +0200"
 #cSpell:disable
 category: ["Roles", "Permisos", "Navision"]
 thumbnail: /assets/img/posts/check-permimisions/imagen01.jpg
