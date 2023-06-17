@@ -3,7 +3,7 @@ layout: post
 title: "Implementación de firmas en informes: Un paso hacia la eficiencia"
 summary: "Aprende cómo implementar la funcionalidad de firmas en tus informes para mejorar la eficiencia y seguridad de tus documentos. Descubre los pasos necesarios y las ventajas que esta característica ofrece. No dudes en aprovechar esta herramienta para añadir un toque personalizado y profesional a tus informes."
 author: "Esteve Sanpons"
-date: "2023-06-26 07:00:00 +0200"
+date: "2023-06-25 04:00:00 +0200"
 #cSpell:disable
 category: ["TiposDeCampos", "Reports", "Business_Central"]
 thumbnail: /assets/img/posts/mediaset-en-report/imagen01.jpg
