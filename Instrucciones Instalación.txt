@@ -23,6 +23,6 @@ Proyecto des de el PC local.
 2. Abrir VsCode o CMD en la carpeta poner: bash
 3. poner en la consola: sudo bundle config set --local path 'vendor/cache'
 4. poner en la consola:  sudo bundle install
-5. poner en la consola:  bundle exec jekyll serve
+5. poner en la consola si no funciona poner sudo delante:  bundle exec jekyll serve
 6. abrir: http://localhost:4000
 
