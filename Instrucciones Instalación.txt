@@ -26,3 +26,7 @@ Proyecto des de el PC local.
 5. poner en la consola si no funciona poner sudo delante:  bundle exec jekyll serve
 6. abrir: http://localhost:4000
 
+
+Si tuviera problemas de permisos poner esto: sudo chown -R esanpons:esanpons /home/esanpons/ProyectosLinux/esanpons.github.io/
+
+
