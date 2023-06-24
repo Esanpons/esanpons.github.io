@@ -9,6 +9,7 @@ custom_type: Boveda
 permalink: /boveda/crear-usuario-tipo-windows-en-nav
 #cSpell:enable
 date: 2023-03-22 09:25:00 +0200
+LinkedIn: false
 ---
 
 Crea usuarios Windows des de powershell

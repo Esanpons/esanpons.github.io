@@ -9,6 +9,7 @@ custom_type: Boveda
 permalink: /boveda/importar-licencia-para-bussines-central
 #cSpell:enable
 date: 2023-03-22 09:05:00 +0200
+LinkedIn: false
 ---
 
 Importar licencia para Business Central

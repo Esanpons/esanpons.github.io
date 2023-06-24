@@ -9,6 +9,7 @@ custom_type: Boveda
 permalink: /boveda/reiniciar-instancias-si-están-paradas
 #cSpell:enable
 date: 2023-03-22 09:21:00 +0200
+LinkedIn: false
 ---
 
 Lo primero es para crear una función para ejecutar para cualquier instancia.

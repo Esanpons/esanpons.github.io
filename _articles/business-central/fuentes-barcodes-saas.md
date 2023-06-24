@@ -1,5 +1,5 @@
 ---
-title: "Fuentes barcodes SaaS"
+title: "Fuentes barcode SaaS"
 summary: "En este ejemplo lo que mostramos es como se pueden leer los codigos de barras en SaaS."
 layout: article
 author: Esteve Sanpons
@@ -12,10 +12,10 @@ date: 2023-06-24 03:00:00 +0200
 LinkedIn: false
 ---
 
-# Fuentes barcodes SaaS
+# Fuentes barcode SaaS
 
 
-En este ejemplo lo que mostramos es como se pueden leer los codigos de barras en SaaS.
+En este ejemplo lo que mostramos es como se pueden leer los códigos de barras en SaaS.
 
 
 

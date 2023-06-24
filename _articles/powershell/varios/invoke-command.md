@@ -9,6 +9,7 @@ custom_type: Boveda
 permalink: /boveda/invoke-command
 #cSpell:enable
 date: 2023-03-22 09:31:00 +0200
+LinkedIn: false
 ---
 
 Ejecutar otro comando de powershell

@@ -9,6 +9,7 @@ custom_type: Boveda
 permalink: /boveda/reiniciar-equipo
 #cSpell:enable
 date: 2023-03-22 09:30:00 +0200
+LinkedIn: false
 ---
 
 Reiniciar Equipo

@@ -9,6 +9,7 @@ custom_type: Boveda
 permalink: /boveda/publicar-y-despublicar-app
 #cSpell:enable
 date: 2023-03-22 09:07:00 +0200
+LinkedIn: false
 ---
 
 Script para powershell para publicar y despublicar una app en BC.

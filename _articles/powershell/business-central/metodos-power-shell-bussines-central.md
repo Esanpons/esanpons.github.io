@@ -9,6 +9,7 @@ custom_type: Boveda
 permalink: /boveda/metodos-power-shell-bussines-central
 #cSpell:enable
 date: 2023-03-22 09:06:00 +0200
+LinkedIn: false
 ---
 
 Métodos Power Shell Business Central

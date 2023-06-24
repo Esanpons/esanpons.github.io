@@ -31,7 +31,7 @@ PowerShellRunner@1000000000 : DotNet "'Microsoft.Dynamics.Nav.PowerShellRunner, 
 
 ```
 
-Esta seria la funcion al completo:
+Esta seria la función al completo:
 
 ```javascript
 
@@ -44,19 +44,19 @@ PROCEDURE PowerShellInvokeCommand@1000000014(Computer@1000000001 : Text;PathFile
       CLEAR(PowerShellRunner);
       PowerShellRunner := PowerShellRunner.CreateInSandbox;
 
-      //a¤adimos el pc y la ruta del power shell
+      //añadimos el pc y la ruta del power shell
       PowerShellRunner.AddCommand('Invoke-Command');
       PowerShellRunner.AddParameter('Computer',Computer);
       PowerShellRunner.AddParameter('File',PathFile);
 
-      //parametro necesario para devolver el error
+      //parámetro necesario para devolver el error
       PowerShellRunner.WriteEventOnError := TRUE;
 
-      //ejecutamos y recojemos los resultados
+      //ejecutamos y recojamos los resultados
       PowerShellRunner.BeginInvoke;
       PowerShellRunner.Results;
 
-      //esperamos ya que puede darse que el powershell tarde mas que navision
+      //esperamos ya que puede darse que el powershell tarde mas que Navision
       SLEEP(15000);
 
       //si hay error lo mostramos

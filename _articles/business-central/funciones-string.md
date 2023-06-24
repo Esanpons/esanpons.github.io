@@ -9,6 +9,7 @@ custom_type: Boveda
 permalink: /boveda/funciones-string
 #cSpell:enable
 date: 2023-06-01 21:00:00 +0200
+LinkedIn: false
 ---
 
 Los ejemplos los vamos a hacer en Business Central, pero sirven igual para las versiones anteriores.
@@ -62,13 +63,13 @@ Aquí al igual que arriba creamos la variable de cliente dos Labels, el primero 
 </label>
 <br><br>
 
-En la función lo que tenemos que pasarle primero es el texto donde estará lo que queremos buscar, y en el segundo parámetro el texto a buscar.
+En la función lo que tenemos que pasarla primero es el texto donde estará lo que queremos buscar, y en el segundo parámetro el texto a buscar.
 
 Notar que en este ejemplo a la hora de sacarlo por el mensaje no hemos hecho el StrSubstNo por que el MESSAGE lo lleva incorporado.
 
 El resultado sería:
 
-> El texto "S.A." empieza en la posicion 18, del nombre de cliente GDE Distribución S.A.
+> El texto "S.A." empieza en la posición 18, del nombre de cliente GDE Distribución S.A.
 
 <br><br><br><br>
 
@@ -432,7 +433,7 @@ El resultado sería:
 
 > El texto original es: "GDE Distribución S.A."
 > <br>
-> El nuevo texto es: "GDE Distribuciónes S.A."
+> El nuevo texto es: "GDE Distribuciones S.A."
 
 <br><br><br><br>
 

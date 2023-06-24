@@ -9,6 +9,7 @@ custom_type: Boveda
 permalink: /boveda/eliminar-archivos-de-una-carpeta
 #cSpell:enable
 date: 2023-03-22 09:33:00 +0200
+LinkedIn: false
 ---
 
 Elimina todos los archivos de la carpeta seleccionada.

@@ -9,6 +9,7 @@ custom_type: Boveda
 permalink: /boveda/import-module-nav
 #cSpell:enable
 date: 2023-03-22 09:22:00 +0200
+LinkedIn: false
 ---
 
 Importar referencias de Navision para PowerShell ISE

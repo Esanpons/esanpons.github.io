@@ -9,6 +9,7 @@ custom_type: Boveda
 permalink: /boveda/como-saber-el-id-de-las-partes-de-una-web
 #cSpell:enable
 date: 2023-06-07 21:00:00 +0200
+LinkedIn: false
 ---
 
 ## Introducción:
