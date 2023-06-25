@@ -4,7 +4,7 @@ summary: "Erik Hougaard, nos enseña como conseguir 3 sandbos a un bajo costes"
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
-category: ["Business_Central", "Bogs_Otros"]
+category: ["Business_Central", "Informacion_Otros"]
 custom_type: Boveda
 permalink: /boveda/sandbox-a-bajo-costes
 #cSpell:enable

@@ -1,6 +1,6 @@
 ---
 #cSpell:disable
 layout: category
-permalink: /categories/Bogs_Otros/
+permalink: /categorias/Informacion_Otros/
 #cSpell:enable
 ---

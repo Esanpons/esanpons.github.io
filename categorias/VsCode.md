@@ -1,6 +1,6 @@
 ---
 #cSpell:disable
 layout: category
-permalink: /categories/VsCode/
+permalink: /categorias/VsCode/
 #cSpell:enable
 ---

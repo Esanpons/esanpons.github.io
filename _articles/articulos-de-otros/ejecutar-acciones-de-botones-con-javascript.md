@@ -4,7 +4,7 @@ summary: "Erik Hougaard, nos muestra como ejecutar eventos de las acciones a tra
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
-category: [JavaScript, Bogs_Otros, "ControlAddin", "Business_Central"]
+category: [JavaScript, Informacion_Otros, "ControlAddin", "Business_Central"]
 custom_type: Boveda
 permalink: /boveda/ejecutar-acciones-de-botones-con-javascript
 #cSpell:enable

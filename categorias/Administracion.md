@@ -1,6 +1,6 @@
 ---
 #cSpell:disable
 layout: category
-permalink: /categories/Role_Center/
+permalink: /categorias/Administracion/
 #cSpell:enable
 ---

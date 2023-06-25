@@ -4,7 +4,7 @@ summary: "Cambio de diseño de los layouts en Word"
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
-category: [Funcional, Manuales, Reports, "Bogs_Otros"]
+category: [Funcional, Manuales, Reports, "Informacion_Otros"]
 custom_type: Boveda
 permalink: /boveda/diseños-personalizados-y-word-layouts
 #cSpell:enable

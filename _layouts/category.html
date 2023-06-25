@@ -6,7 +6,7 @@ layout: default
 
 <div class="card">
     <h5> Categoría: {{ category_name }} </h5>
-    <div class="card card-categories-list">
+    <div class="card card-categorias-list">
         {% assign articles = site.articles | where: "category", category_name %}
         {% assign posts = site.posts | where: "category", category_name %}
         {% assign all_posts = articles | concat: posts | sort: 'date' | reverse %}

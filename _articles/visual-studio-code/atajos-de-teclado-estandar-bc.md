@@ -1,6 +1,6 @@
 ---
 title: "Atajos de teclado estándar Business Central"
-summary: ""
+summary: "Explicaremos como cambiar los atajos de teclado estándar"
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
@@ -43,10 +43,10 @@ Nos aparecerá un dialogo donde tendremos que apretar la nueva combinación y pr
 ### ATAJOS ESTÁNDAR
 
 - CTRL+shift+P = abrir paleta de comandos
-    - “>” para comandos del lenguaje
-    - “#” escribiendo el nombre después podemos posicionarnos en una función de cualquier fichero.
-    - “@” podemos ir a la función del fichero abierto
-    - “:” si ponemos un 18 iremos a la línea 18.
+  - “>” para comandos del lenguaje
+  - “#” escribiendo el nombre después podemos posicionarnos en una función de cualquier fichero.
+  - “@” podemos ir a la función del fichero abierto
+  - “:” si ponemos un 18 iremos a la línea 18.
 - CTRL+S = guardar el objeto
 - CTRL+espacio = es para ver lo que podemos escribir.
 - CTRL+shit+k = eliminar linea
@@ -55,6 +55,5 @@ Nos aparecerá un dialogo donde tendremos que apretar la nueva combinación y pr
 - alt+f12 para ir a la definición de origen
 - CTRL+F2 encima de una palabra=Si seleccionamos una palabra y clicamos editaremos todas las palabras que se llamen igual en el fichero.
 - ALT+apretar el botón encima de un objeto= abrirá otra pantalla del objeto seleccionado
-    - CTRL+1 o CTRL+2.. = iremos navegando entre las ventanas.
+  - CTRL+1 o CTRL+2.. = iremos navegando entre las ventanas.
 - CTRL+ç = para comentar las lineas
-

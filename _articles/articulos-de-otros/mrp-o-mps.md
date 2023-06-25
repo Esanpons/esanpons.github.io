@@ -4,7 +4,7 @@ summary: "Diferentes links donde se puede encontrar información del MRP o el MP
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
-category: ["Bogs_Otros"]
+category: ["Informacion_Otros"]
 custom_type: Boveda
 permalink: /boveda/sandbox-a-bajo-costes
 #cSpell:enable

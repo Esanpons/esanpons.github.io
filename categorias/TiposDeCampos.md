@@ -1,6 +1,6 @@
 ---
 #cSpell:disable
 layout: category
-permalink: /categories/Base64/
+permalink: /categorias/TiposDeCampos/
 #cSpell:enable
 ---

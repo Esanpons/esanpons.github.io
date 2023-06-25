@@ -4,7 +4,7 @@ summary: "Erik Hougaard, Añadir un json dentro de un blob y a la inversa"
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
-category: [Bogs_Otros, "Business_Central"]
+category: [Informacion_Otros, "Business_Central"]
 custom_type: Boveda
 permalink: /boveda/blob-to-json-and-json-to-blob
 #cSpell:enable

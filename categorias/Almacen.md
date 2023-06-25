@@ -1,6 +1,6 @@
 ---
 #cSpell:disable
 layout: category
-permalink: /categories/Utils/
+permalink: /categorias/Almacen/
 #cSpell:enable
 ---

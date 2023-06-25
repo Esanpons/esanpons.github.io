@@ -1,6 +1,6 @@
 ---
 #cSpell:disable
 layout: category
-permalink: /categories/Administracion/
+permalink: /categorias/Business_Central/
 #cSpell:enable
 ---

@@ -4,7 +4,7 @@ summary: "Erik Hougaard, nos muestra como usar el Drag And Drop en Business Cent
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
-category: [JavaScript, Bogs_Otros, "ControlAddin", "Business_Central"]
+category: [JavaScript, Informacion_Otros, "ControlAddin", "Business_Central"]
 custom_type: Boveda
 permalink: /boveda/drag-and-drop-bc
 #cSpell:enable

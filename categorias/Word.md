@@ -1,6 +1,6 @@
 ---
 #cSpell:disable
 layout: category
-permalink: /categories/Business_Central/
+permalink: /categorias/Word/
 #cSpell:enable
 ---

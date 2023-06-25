@@ -4,7 +4,7 @@ summary: "Yun Zhu, nos muestra una manera de añadir un salto de línea a nuestr
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
-category: ["Business_Central", "Utils", "Bogs_Otros"]
+category: ["Business_Central", "Utils", "Informacion_Otros"]
 custom_type: Boveda
 permalink: /boveda/varias-lineas-en-campo-texto
 #cSpell:enable

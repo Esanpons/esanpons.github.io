@@ -4,7 +4,7 @@ summary: "Erik Hougaard, nos muestra como ampliar el tamaño de nuestro ControlA
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
-category: [JavaScript, Bogs_Otros, "ControlAddin", "Business_Central"]
+category: [JavaScript, Informacion_Otros, "ControlAddin", "Business_Central"]
 custom_type: Boveda
 permalink: /boveda/hacer-mas-grande-un-elmento-de-bc-con-javascript
 #cSpell:enable
