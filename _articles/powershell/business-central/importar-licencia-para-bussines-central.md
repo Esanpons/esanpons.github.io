@@ -4,7 +4,7 @@ summary: "Un script de PowerShell para importar la licencia"
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
-category: [PowerShell, Business_Central, Licencia]
+category: [PowerShell, Business_Central, Licencias]
 custom_type: Boveda
 permalink: /boveda/importar-licencia-para-bussines-central
 #cSpell:enable
