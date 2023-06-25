@@ -10,13 +10,18 @@ title: Lista de categorías
 <h3> {{ page.title }} </h3>
 
 <div class="card">
-    <ul>
-        {% for category in site.categories %}
-        <li>
-            <a href="{{ site.baseurl }}/categories/{{ category[0] }}">
-                {{ category[0] }}
-            </a>
-        </li>
+    <div class="card card-categories-list">
+        {% assign articles = site.articles %}
+        {% assign posts = site.posts %}
+        {% assign all_posts = articles | concat: posts | sort: 'date' | reverse %}
+
+        {% assign categories = all_posts | map: 'category' | uniq | sort %}
+        {% for category in categories %}
+        <a href="{{ site.baseurl }}/categories/{{ category }}">
+            {{ category }}
+        </a>
+        <h2></h2>
         {% endfor %}
-    </ul>
+    </div>
+
 </div>

@@ -6,11 +6,10 @@ layout: default
 
 <div class="card">
     <h5> Categoría: {{ category_name }} </h5>
-
     <div class="card card-categories-list">
         {% assign articles = site.articles | where: "category", category_name %}
-        {% assign sorted_articles = articles %}
-        {% assign all_posts = site.categories[category_name] | concat: sorted_articles | sort: 'date' | reverse%}
+        {% assign posts = site.posts | where: "category", category_name %}
+        {% assign all_posts = articles | concat: posts | sort: 'date' | reverse %}
         {% for post in all_posts %}
         <li class="category-posts">
             <a href="{{ post.url }}">
@@ -25,7 +24,6 @@ layout: default
                 {{ post.title }}
             </a>
         </li>
-
         {% endfor %}
     </div>
 </div>
