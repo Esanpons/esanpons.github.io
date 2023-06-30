@@ -77,7 +77,7 @@ Como bien dice la documentación estándar esta funcionalidad de Microsoft es pu
 </label>
 <br><br>
 
-### Que nuestra cuenta no pertenezca a un partner
+### Que nos muestre el error de no autorizado, aun perteneciendo a un partner
 
 Como he explicado antes lo importante es darle permisos a CDX en nuestra cuenta, si por lo que fuera no lo hiciéramos o quizás nos salga este error estando igualmente nuestra cuenta en un partner.
 
