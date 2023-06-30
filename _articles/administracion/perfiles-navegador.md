@@ -10,4 +10,5 @@ permalink: /boveda/perfiles-navegador
 author: Esteve Sanpons
 date: 2024-06-30 02:00:00 +0200
 LinkedIn: false
+published: false
 ---
