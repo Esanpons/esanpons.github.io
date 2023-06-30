@@ -90,3 +90,7 @@ Si nos sale este error aun tenemos opción de poder arreglarlo y por tanto de po
 <br><br>
 
 Al darle al [Link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=id_token&prompt=consent&client_id=fe6aa35b-7da8-44fd-a44e-e2d4bafbdab5&redirect_uri=https%3A%2F%2Fcdx.transform.microsoft.com&state=a9985c9c-6c9a-4b65-a444-1e3aa90d27a4&client-request-id=6b3f4e71-ed02-406c-96f2-0a7e3c16ea98&x-client-SKU=Js&x-client-Ver=1.0.17&nonce=09492f5a-fb1a-412c-b24a-ba1704900924) lo que ara es abrirnos de nuevo el consentimiento, lo aceptamos y listo.
+
+<br><br><br><br>
+
+El siguiente paso seria crear un nuevo Tenant y esto lo podemos ver en el [Link](/boveda/crear-nuevo-entorno-cdx)

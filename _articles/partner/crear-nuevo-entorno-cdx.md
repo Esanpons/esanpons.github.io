@@ -75,10 +75,12 @@ Al final de todo podemos añadir notas para aclarar un poco para que tenemos est
 </label>
 <br><br>
 
-Ahora lo que podemos hacer es primero de todo crear un nuevo perfil en nuestro navegador lo podemos ver es el En este otro articulo hablo de las configuraciones iniciales y lo podemos encontrar en el [Link]()
+Ahora lo que podemos hacer es primero de todo crear un nuevo perfil en nuestro navegador lo podemos ver es el En este otro articulo hablo de las configuraciones iniciales y lo podemos encontrar en el [Link](/boveda/perfiles-navegador)
 
 Es muy aconsejable hacerlo ya que si no dará problemas con el tenant que tengamos actualmente.
 
 <br>
 
-Otra cosa que debemos hacer es la creación de un sandbox nuevo con una Cronus instalada, esto lo podemos ver en el [Link]()
+Otra cosa que debemos hacer es la creación de un sandbox nuevo con una Cronus instalada, esto lo podemos ver en el [Link](/boveda/periodo-de-prueba-y-sandbox-nuevo)
+
+La diferencia que hay con lo que explico en el link anterior es que haciéndolo des de el Tenant nuevo no tendremos el periodo de prueba de 30 días si que que sera perpetuo hasta que el Tenant llegue a su finalización.
