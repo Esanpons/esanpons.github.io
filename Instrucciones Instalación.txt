@@ -28,6 +28,6 @@ Proyecto des de el PC local.
 
 
 Si tuviera problemas de permisos poner esto: sudo chown -R esanpons:esanpons /home/esanpons/ProyectosLinux/esanpons.github.io/
-
+Tambien se puede ir a la carpeta anterior y dar permisos a todo: sudo chmod ugo+rwx "nombre de la carpeta"
 
 
