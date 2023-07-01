@@ -20,7 +20,7 @@ Un diálogo de progreso es una herramienta comúnmente utilizada cuando necesita
 
 <input type="checkbox" id="image-checkbox-02" class="image-checkbox">
 <label for="image-checkbox-02"  class="image-label">
-    <img class="img-container" src="/assets/img/post/dialogo-de-progreso/imagen02.png">
+    <img class="img-container" src="/assets/img/posts/dialogo-de-progreso/imagen02.png">
 </label>
 
 <br><br><br>

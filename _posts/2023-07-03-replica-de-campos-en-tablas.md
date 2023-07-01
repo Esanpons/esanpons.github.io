@@ -8,7 +8,7 @@ date: "2023-07-02 04:00:00 +0200"
 #cSpell:disable
 category: ["Navision", "Business_Central"]
 thumbnail: /assets/img/posts/replica-de-campos-en-tablas/imagen01.png
-permalink: /blog/replica-de-campos-en-tablas
+permalink: /blog/replica-de-campos-en-tablas/
 custom_type: Blog
 #cSpell:enable
 ---
