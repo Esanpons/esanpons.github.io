@@ -6,18 +6,18 @@ language: es
 
 # Navigation
 urls:
-  - text: Inicio
-    url: /
-  - text: Sobre mí
-    url: /about
-  - text: Portafolio
-    url: /projects
-  - text: Blog
-    url: /blog
-  - text: Boveda
-    url: /boveda
-  #- text: Contacto
-  #  url: /contact
+    - text: Inicio
+      url: /
+    - text: Sobre mí
+      url: /about
+    - text: Portafolio
+      url: /projects
+    - text: Blog
+      url: /blog
+    - text: Boveda
+      url: /boveda
+    #- text: Contacto
+    #  url: /contact
 
 # Edit Author details (For multi authors check _data/authors.yml)
 author_logo2: logo-me.png
@@ -36,73 +36,73 @@ hero_cover_img: fondo.jpg # replace this for changing homepage cover (eg. try co
 
 # Experiences
 author_work_experiences:
-  - company_name: Mitra Global Service
-    company_year: 2022 - Presente
-    company_logo: mitra.png
-    designation: Responsable de equipo y programador en C/AL y AL
-    description:
-      Gestionar la operativa, la organización de las tareas y el análisis de los proyectos para el equipo técnico y funcional de la empresa.
-      Fomentar el crecimiento del equipo, y su formación.
-      Fabricación y desarrollo de producto nuevo para diferentes sectores. Realizando desde pequeñas aplicaciones que resuelven el día a día, hasta grandes desarrollos que suplen una gran funcionalidad en las empresas.
-    visibility: true
-  - company_name: Grupo Empresas Engel (Ersax Trade, Engel Systems, My Tech Retail, Engel Solar, Logistica Santiga)
-    company_year: 2020 - 2022
-    company_logo: engel.png
-    designation: Responsable del departamento y programador en C/AL
-    description:
-      Organizar y gestionar el departamento entero de Navision para todas las empresas del grupo. Llevando la responsabilidad de las personas a mi cargo, la toma de decisiones y gestión de los diferentes proveedores y del propio del departamento.
-      Recabar los requerimientos necesarios para las empresas del grupo. Analizar y desarrollar todo lo relacionado con Navision.
-      Además de la organización, realizar las funciones de programador del departamento.
-    visibility: true
-  - company_name: Netzer Consulting
-    company_year: 2017 - 2020
-    company_logo: netzer.jpg
-    designation: Consultor y programador junior en C/AL
-    description:
-      Consultor y programador en Microsoft Dynamics NAV. Analizar las incidencias y los desarrollos nuevos para después poder desarrollarlos.
-      Realizar todas las tareas desde la toma de requerimientos hasta el cuadre de los objetos. Lenguaje CAL desde la versión 2013 hasta la 2018.
-      Trabajos a destacar. WebServices, conexiones entre bases de datos, interconexión entre extensibles y Navision, entre otros, también, intercomunicar un almacén robotizado y Navision.
-      Ejecución y aplicación de Dll dentro del sistema de Navision para suplir necesidades extras de los clientes, tales como botones más grandes o conexión con básculas externas.
-    visibility: true
+    - company_name: Mitra Global Service
+      company_year: 2022 - 2023
+      company_logo: mitra.png
+      designation: Responsable de equipo y programador en C/AL y AL
+      description:
+          Gestionar la operativa, la organización de las tareas y el análisis de los proyectos para el equipo técnico y funcional de la empresa.
+          Fomentar el crecimiento del equipo, y su formación.
+          Fabricación y desarrollo de producto nuevo para diferentes sectores. Realizando desde pequeñas aplicaciones que resuelven el día a día, hasta grandes desarrollos que suplen una gran funcionalidad en las empresas.
+      visibility: true
+    - company_name: Grupo Empresas Engel (Ersax Trade, Engel Systems, My Tech Retail, Engel Solar, Logistica Santiga)
+      company_year: 2020 - 2022
+      company_logo: engel.png
+      designation: Responsable del departamento y programador en C/AL
+      description:
+          Organizar y gestionar el departamento entero de Navision para todas las empresas del grupo. Llevando la responsabilidad de las personas a mi cargo, la toma de decisiones y gestión de los diferentes proveedores y del propio del departamento.
+          Recabar los requerimientos necesarios para las empresas del grupo. Analizar y desarrollar todo lo relacionado con Navision.
+          Además de la organización, realizar las funciones de programador del departamento.
+      visibility: true
+    - company_name: Netzer Consulting
+      company_year: 2017 - 2020
+      company_logo: netzer.jpg
+      designation: Consultor y programador junior en C/AL
+      description:
+          Consultor y programador en Microsoft Dynamics NAV. Analizar las incidencias y los desarrollos nuevos para después poder desarrollarlos.
+          Realizar todas las tareas desde la toma de requerimientos hasta el cuadre de los objetos. Lenguaje CAL desde la versión 2013 hasta la 2018.
+          Trabajos a destacar. WebServices, conexiones entre bases de datos, interconexión entre extensibles y Navision, entre otros, también, intercomunicar un almacén robotizado y Navision.
+          Ejecución y aplicación de Dll dentro del sistema de Navision para suplir necesidades extras de los clientes, tales como botones más grandes o conexión con básculas externas.
+      visibility: true
 
 # Education
 author_education_details:
-  - college_logo: bc.png
-    education_year: 2022 - Presente
-    college_name: Mitra Global Services
-    college_degree: Programador y consultor AL
-    description: Programación del lenguaje AL del ERP Business Central
-    visibility: true
-  - college_logo: html5-css3-js.png
-    education_year: 2022 - Presente
-    college_name: Mitra Global Services
-    college_degree: Programador Javascript, Html y Css
-    description: Programación con integraciones en Business Central con los lenguajes de programación web.
-    visibility: true
-  - college_logo: navision.png
-    education_year: 2017 - 2020
-    college_name: Empresa Netzer Consulting
-    college_degree: Programador y consultor C/AL
-    description: Programación del lenguaje C/AL del ERP Navision
-    visibility: true
-  - college_logo: java-android.png
-    education_year: 2015 - 2016
-    college_name: Escola Espai
-    college_degree: Programador en Android y Java
-    description: Nociones básicas de programación basadas en Java y Android.
-    visibility: true
-  - college_logo: castell-del-quer.jpg
-    education_year: 1996 - 2000
-    college_name: I.E.S. Castell del Quer
-    college_degree: Enseñanza secundaria
-    description: E.S.O.
-    visibility: true
-  - college_logo: pere-vila.png
-    education_year: 1990 - 1996
-    college_name: Escola Pere Vila
-    college_degree: Enseñanza primaria
-    description: Primaria
-    visibility: true
+    - college_logo: bc.png
+      education_year: 2022 - 2023
+      college_name: Mitra Global Services
+      college_degree: Programador y consultor AL
+      description: Programación del lenguaje AL del ERP Business Central
+      visibility: true
+    - college_logo: html5-css3-js.png
+      education_year: 2022 - 2023
+      college_name: Mitra Global Services
+      college_degree: Programador Javascript, Html y Css
+      description: Programación con integraciones en Business Central con los lenguajes de programación web.
+      visibility: true
+    - college_logo: navision.png
+      education_year: 2017 - 2020
+      college_name: Empresa Netzer Consulting
+      college_degree: Programador y consultor C/AL
+      description: Programación del lenguaje C/AL del ERP Navision
+      visibility: true
+    - college_logo: java-android.png
+      education_year: 2015 - 2016
+      college_name: Escola Espai
+      college_degree: Programador en Android y Java
+      description: Nociones básicas de programación basadas en Java y Android.
+      visibility: true
+    - college_logo: castell-del-quer.jpg
+      education_year: 1996 - 2000
+      college_name: I.E.S. Castell del Quer
+      college_degree: Enseñanza secundaria
+      description: E.S.O.
+      visibility: true
+    - college_logo: pere-vila.png
+      education_year: 1990 - 1996
+      college_name: Escola Pere Vila
+      college_degree: Enseñanza primaria
+      description: Primaria
+      visibility: true
 
 # social links
 #dribbble_username: johndoe
@@ -114,7 +114,7 @@ author_education_details:
 github_username: esanpons
 linkedin_username: estevesanpons
 twitter_username: EsanponsAesva
-telegram_username: Esanpons
+telegram_username: EsanponsAesva
 
 # syntax highlighter
 # Estas son configuraciones relacionadas con el procesamiento de Markdown y el resaltado de sintaxis en Jekyll
@@ -138,41 +138,41 @@ paginate_path: "/blog/page/:num/"
 # esta en el archivo settings.yml de la carpeta .forestry en la varible JEKYLL_ENV
 # se puede poner production para producción o development para desarrollo
 compress_html:
-  clippings: all
-  removelines: remove
-  remove_quotes: all
-  endings: all
-  inner_spaces: false
-  js_compressor: uglifier
-  preserve_line_breaks: false
-  quotes: double
-  remove_intertag_spaces: false
-  simple_doctype: false
-  simple_boolean_attributes: false
-  style_compressor: sass
-  ignore:
-    envs: ["development"]
+    clippings: all
+    removelines: remove
+    remove_quotes: all
+    endings: all
+    inner_spaces: false
+    js_compressor: uglifier
+    preserve_line_breaks: false
+    quotes: double
+    remove_intertag_spaces: false
+    simple_doctype: false
+    simple_boolean_attributes: false
+    style_compressor: sass
+    ignore:
+        envs: ["development"]
 
 # es para añadir las colecciones
 collections:
-  articles:
-    output: true
-  projects:
-    output: true
-  categorias:
-    output: true
+    articles:
+        output: true
+    projects:
+        output: true
+    categorias:
+        output: true
 
 # establece que cualquier archivo que se encuentre en la carpeta assets no se incluirá en el archivo de mapa del sitio generado (sitemap: false).
 defaults:
-  - scope:
-      path: "assets/**"
-    values:
-      sitemap: false
+    - scope:
+          path: "assets/**"
+      values:
+          sitemap: false
 
 # Build settings
 plugins:
-  - jekyll-paginate
-  - jemoji
+    - jekyll-paginate
+    - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -188,40 +188,40 @@ plugins:
 # firebase - For Firebase Hosting
 
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - assets/bower_components/isotope-layout/README.md
-  - assets/bower_components/icono/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-svg-core/README.md
-  - assets/bower_components/ghosthunter/README.md
-  - assets/bower_components/nanobar/README.md
-  - assets/bower_components/lightgallery/demo/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-brands-svg-icons/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-solid-svg-icons/README.md
-  - assets/bower_components/jquery-mousewheel/README.md
-  - assets/bower_components/get-size/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome/README.md
-  - assets/bower_components/jquery-mousewheel/ChangeLog/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/README.md
-  - assets/bower_components/desandro-matches-selector/README.md
-  - assets/bower_components/ev-emitter/README.md
-  - assets/bower_components/font-awesome/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-common-types/README.md
-  - assets/bower_components/ghosthunter/example/Index.html
-  - assets/bower_components/lightgallery/test/lightgallery.html
-  - assets/bower_components/masonry-layout/README.md
-  - assets/bower_components/imagesloaded/README.md
+    - .sass-cache/
+    - .jekyll-cache/
+    - gemfiles/
+    - Gemfile
+    - Gemfile.lock
+    - node_modules/
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/
+    - assets/bower_components/isotope-layout/README.md
+    - assets/bower_components/icono/README.md
+    - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-svg-core/README.md
+    - assets/bower_components/ghosthunter/README.md
+    - assets/bower_components/nanobar/README.md
+    - assets/bower_components/lightgallery/demo/README.md
+    - assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-brands-svg-icons/README.md
+    - assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-solid-svg-icons/README.md
+    - assets/bower_components/jquery-mousewheel/README.md
+    - assets/bower_components/get-size/README.md
+    - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome/README.md
+    - assets/bower_components/jquery-mousewheel/ChangeLog/README.md
+    - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/README.md
+    - assets/bower_components/desandro-matches-selector/README.md
+    - assets/bower_components/ev-emitter/README.md
+    - assets/bower_components/font-awesome/README.md
+    - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/README.md
+    - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free/README.md
+    - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/README.md
+    - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/README.md
+    - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-common-types/README.md
+    - assets/bower_components/ghosthunter/example/Index.html
+    - assets/bower_components/lightgallery/test/lightgallery.html
+    - assets/bower_components/masonry-layout/README.md
+    - assets/bower_components/imagesloaded/README.md
 
 destination: ./build
