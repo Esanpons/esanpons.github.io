@@ -10,6 +10,7 @@ thumbnail: /assets/img/posts/api-graph-en-postman/imagen01.png
 permalink: /blog/api-graph-en-postman/
 custom_type: Blog
 #cSpell:enable
+published: false
 ---
 
 ¡Hola! ¡Aquí estoy una semana más para traeros un montón de descubrimientos nuevos!
