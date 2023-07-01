@@ -6,12 +6,12 @@ author: Esteve Sanpons
 #cSpell:disable
 category: ["Business_Central", "ControlAddin", "Informacion_Otros"]
 custom_type: Boveda
-permalink: /boveda/ventana-emergente-con-controladdin-en bc
+permalink: /boveda/ventana-emergente-con-controladdin-en-bc
 #cSpell:enable
 date: 2023-06-30 21:00:00 +0200
 ---
 
-## Erik Hougaard,
+## Erik Hougaard,nos enseña a como crear una ventana dentro de nuestro Business Central utilizando ControlAddins
 
 <br>
 <br>
