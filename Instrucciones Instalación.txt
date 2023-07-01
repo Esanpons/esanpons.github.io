@@ -30,3 +30,4 @@ Proyecto des de el PC local.
 Si tuviera problemas de permisos poner esto: sudo chown -R esanpons:esanpons /home/esanpons/ProyectosLinux/esanpons.github.io/
 
 
+
