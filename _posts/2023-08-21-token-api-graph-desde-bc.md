@@ -13,7 +13,7 @@ custom_type: Blog
 published: false
 ---
 
-Buenas una semana más, en las ultimas semanas hemos visto como poder ver nuestros correos des del Postman [ver aquí](/blog/api-graph-en-postman/), configurar Azure y registrar una aplicación [ver aquí](/blog/registrar-app-y-dar-permisos-en-azure/) y en Postman leer un correo [ver aquí](/blog/configurar-y-leer-en-postman-un-correo/).
+Buenas una semana más, en las ultimas semanas hemos visto como configurar el API Graph en Postman [ver aquí](/blog/api-graph-en-postman/), configurar Azure y registrar una aplicación [ver aquí](/blog/registrar-app-y-dar-permisos-en-azure/) y en Postman leer un correo [ver aquí](/blog/configurar-y-leer-en-postman-un-correo/).
 
 <br>
 
@@ -88,6 +88,8 @@ Para comprobar que todo funciona correctamente, añadiremos la llamada en el OnR
 ```javascript
 
     trigger OnRun()
+    var
+        AccessToken:Text;
     begin
         //Añadir el dato extraído de Azure
         ClientID := '';
