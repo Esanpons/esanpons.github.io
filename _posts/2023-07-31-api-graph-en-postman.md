@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Implementando un diálogo de progreso"
-summary: "Aprende a implementar un diálogo de progreso. Descubre cómo crear una codeunit, definir variables y desarrollar funciones para abrir, actualizar y cerrar el diálogo. Mejora la experiencia del usuario en tus proyectos y mantén informados a los usuarios sobre el progreso de las tareas."
+title: "Descubre la potencia de la API Graph de Microsoft"
+summary: " Descubre cómo configurar Postman con la potente API Graph de Microsoft. Simplifica tu proceso de desarrollo y aprovecha al máximo los recursos y datos disponibles en la API Graph de Microsoft con la ayuda de Postman."
 author: "Esteve Sanpons"
 date: "2023-07-30 04:00:00 +0200"
 #cSpell:disable
