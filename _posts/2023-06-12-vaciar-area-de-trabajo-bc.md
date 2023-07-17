@@ -3,7 +3,7 @@ layout: post
 title: "Mejorando la seguridad y personalización en Business Central con ControlAddin"
 summary: "Descubre cómo utilizar ControlAddin para ocultar áreas y elementos en Business Central, brindando mayor seguridad y personalización a los usuarios, optimizando así su experiencia y eficiencia en la plataforma."
 author: "Esteve Sanpons"
-date: "2023-06-10 07:00:00 +0200"
+date: "2023-06-12 07:00:00 +0200"
 #cSpell:disable
 category: ["JavaScript", "ControlAddin", "Business_Central", "Role_Center"]
 thumbnail: /assets/img/posts/vaciar-area-de-trabajo-bc/Imagen01.jpg
@@ -36,16 +36,16 @@ Como siempre después de la breve explicación ¡Vamos manos a la obra! :clap:
 
 Lo primero, como siempre en estos casos, es crear el proyecto con sus carpetas.
 
-- controladdin
-  - CleanUpRoleCenter
-    - js
-      - scripts.js
-      - startup.js
-    - CleanUpRoleCenter.ControlAddin.al
-- page
-  - CleanUpRoleCenterPart.Page.al
-- pageextension
-  - OrderProcessorRoleCenter.PageExt.al
+-   controladdin
+    -   CleanUpRoleCenter
+        -   js
+            -   scripts.js
+            -   startup.js
+        -   CleanUpRoleCenter.ControlAddin.al
+-   page
+    -   CleanUpRoleCenterPart.Page.al
+-   pageextension
+    -   OrderProcessorRoleCenter.PageExt.al
 
 <br><br>
 
@@ -90,44 +90,44 @@ Pasamos al archivo principal donde estará toda nuestra funcionalidad, "scripts.
 
 ```javascript
 function RemoveItem(IdItem) {
-  //Es para eliminar cualquier item dentro el controlAddIn
-  $(IdItem).remove();
+    //Es para eliminar cualquier item dentro el controlAddIn
+    $(IdItem).remove();
 }
 
 function RemoveParentItem(IdItem) {
-  //Es para eliminar cualquier item por encima del controlAddIn
-  parent.$(IdItem).remove();
+    //Es para eliminar cualquier item por encima del controlAddIn
+    parent.$(IdItem).remove();
 }
 
 function RemoveParentParentItem(IdItem) {
-  //Es para eliminar cualquier item dos veces por encima del controlAddIn
-  parent.parent.$(IdItem).remove();
+    //Es para eliminar cualquier item dos veces por encima del controlAddIn
+    parent.parent.$(IdItem).remove();
 }
 
 function HideItem(IdItem) {
-  //Es para ocultar cualquier item dentro el controlAddIn
-  $(IdItem).hide();
+    //Es para ocultar cualquier item dentro el controlAddIn
+    $(IdItem).hide();
 }
 
 function HideParentItem(IdItem) {
-  //Es para ocultar cualquier item por encima del controlAddIn
-  parent.$(IdItem).hide();
+    //Es para ocultar cualquier item por encima del controlAddIn
+    parent.$(IdItem).hide();
 }
 
 function HideParentParentItem(IdItem) {
-  //Es para ocultar cualquier item dos veces por encima del controlAddIn
-  parent.parent.$(IdItem).hide();
+    //Es para ocultar cualquier item dos veces por encima del controlAddIn
+    parent.parent.$(IdItem).hide();
 }
 
 function WeMakeTheControlAddinInTakeUpLessSpace(IdControlAddIn) {
-  // Hacemos que el controlAddIn ocupe menos espacio
-  parent.$(IdControlAddIn).removeClass();
-  parent
-    .$(IdControlAddIn)
-    .attr(
-      "style",
-      "width: 1px !important; height: 1px !important; min-width: 1px !important; min-height: 1px !important; max-width: 1px !important; max-height: 1px !important;"
-    );
+    // Hacemos que el controlAddIn ocupe menos espacio
+    parent.$(IdControlAddIn).removeClass();
+    parent
+        .$(IdControlAddIn)
+        .attr(
+            "style",
+            "width: 1px !important; height: 1px !important; min-width: 1px !important; min-height: 1px !important; max-width: 1px !important; max-height: 1px !important;"
+        );
 }
 ```
 

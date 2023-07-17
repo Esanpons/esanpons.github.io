@@ -4,7 +4,7 @@ title: "Evita errores comunes: Replicación de campos en tablas"
 summary: 'Descubre cómo evitar el error "Los campos siguientes deben ser del mismo tipo..." al registrar pedidos, facturas, devoluciones....  
 Aprende la importancia de replicar correctamente los campos en las tablas. Obtén consejos prácticos y soluciones para mantener la coherencia de los campos y evitar dolores de cabeza en tu sistema.'
 author: "Esteve Sanpons"
-date: "2023-07-02 04:00:00 +0200"
+date: "2023-07-03 04:00:00 +0200"
 #cSpell:disable
 category: ["Navision", "Business_Central"]
 thumbnail: /assets/img/posts/replica-de-campos-en-tablas/imagen01.png

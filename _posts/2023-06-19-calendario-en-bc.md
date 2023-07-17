@@ -3,7 +3,7 @@ layout: post
 title: "Creación de calendarios personalizados en Business Central utilizando JavaScript"
 summary: "Aprende cómo utilizar JavaScript y la librería FullCalendar para crear calendarios personalizados en tu aplicación de Business Central. Descubre cómo visualizar y gestionar datos de manera eficiente utilizando esta poderosa herramienta. Mejora la experiencia de usuario y maximiza el potencial de tu ERP con calendarios interactivos y personalizables."
 author: "Esteve Sanpons"
-date: "2023-06-18 04:00:00 +0200"
+date: "2023-06-19 04:00:00 +0200"
 #cSpell:disable
 category: ["JavaScript", "ControlAddin", "Business_Central"]
 thumbnail: /assets/img/posts/calendario-controladdin-en-bc/imagen01.jpg
@@ -37,18 +37,18 @@ Vamos a poner ¡manos a la obra! :muscle:
 
 Lo primero que haremos es crear la estructura del ControlAddin, como siempre. En el proyecto, añadimos los objetos de la siguiente manera:
 
-- controladdin
-  - Calendar
-    - css
-      StyleSheets.css
-    - html
-      - main.html
-    - js
-      - script.js
-      - startup.js
-    - Calendar.ControlAddin.al
-- page
-  - Calendar.Page.al
+-   controladdin
+    -   Calendar
+        -   css
+            StyleSheets.css
+        -   html
+            -   main.html
+        -   js
+            -   script.js
+            -   startup.js
+        -   Calendar.ControlAddin.al
+-   page
+    -   Calendar.Page.al
 
 <br><br>
 
@@ -103,25 +103,25 @@ El archivo CSS se utiliza para los estilos de las leyendas, colocándolas en el 
 
 ```css
 .legend {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .legend-item {
-  display: flex;
-  align-items: center;
-  margin-right: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
 }
 
 .legend-color {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
 }
 
 .legend-label {
-  font-size: 14px;
+    font-size: 14px;
 }
 ```
 
@@ -133,44 +133,44 @@ Primero, creamos estas variables. La primera se utilizará para rellenar y dar f
 
 ```javascript
 var events = [
-  {
-    title: "Event 1",
-    start: "2023-06-01",
-    end: "2023-06-03",
-    color1: "red",
-    color2: "blue",
-    textColor: "white",
-  },
-  {
-    title: "Event 2",
-    start: "2023-06-05",
-    end: "2023-06-05",
-    color1: "green",
-    color2: "yellow",
-    textColor: "black",
-  },
+    {
+        title: "Event 1",
+        start: "2023-06-01",
+        end: "2023-06-03",
+        color1: "red",
+        color2: "blue",
+        textColor: "white",
+    },
+    {
+        title: "Event 2",
+        start: "2023-06-05",
+        end: "2023-06-05",
+        color1: "green",
+        color2: "yellow",
+        textColor: "black",
+    },
 ];
 
 var legendItems = [
-  {
-    name: "Color 2: Event 1",
-    color: "blue",
-  },
-  {
-    name: "Color 2: Event 2",
-    color: "yellow",
-  },
+    {
+        name: "Color 2: Event 1",
+        color: "blue",
+    },
+    {
+        name: "Color 2: Event 2",
+        color: "yellow",
+    },
 ];
 
 var legendItems2 = [
-  {
-    name: "Color 1: Event 1",
-    color: "red",
-  },
-  {
-    name: "Color 1: Event 2",
-    color: "green",
-  },
+    {
+        name: "Color 1: Event 1",
+        color: "red",
+    },
+    {
+        name: "Color 1: Event 2",
+        color: "green",
+    },
 ];
 ```
 
@@ -180,73 +180,65 @@ Ahora vamos a crear la función para inicializar el calendario:
 
 ```javascript
 function InitCalendar() {
-  var getHtml = $.get(
-    Microsoft.Dynamics.NAV.GetImageResource(
-      "src/controladdin/Calendar/html/main.html"
-    ),
-    function (htmlExterno) {
-      Html = htmlExterno;
-      console.log(Html);
-    }
-  );
+    var getHtml = $.get(
+        Microsoft.Dynamics.NAV.GetImageResource("src/controladdin/Calendar/html/main.html"),
+        function (htmlExterno) {
+            Html = htmlExterno;
+            console.log(Html);
+        }
+    );
 
-  getHtml.done(function () {
-    controlAddIn = $("#controlAddIn");
-    controlAddIn.empty();
-    controlAddIn.html(Html);
+    getHtml.done(function () {
+        controlAddIn = $("#controlAddIn");
+        controlAddIn.empty();
+        controlAddIn.html(Html);
 
-    var calendarOptions = {
-      height: $(window).height() * 0.93,
-      initialView: "dayGridMonth",
-      locale: "es",
-      timeZone: "Europe/Madrid",
-      events: events,
-      eventRender: function (event, element) {
-        var gradient =
-          "linear-gradient(to right, " +
-          event.color1 +
-          ", " +
-          event.color1 +
-          " 15px, " +
-          event.color2 +
-          " 15px, " +
-          event.color2 +
-          ")";
-        element.css("background", gradient);
+        var calendarOptions = {
+            height: $(window).height() * 0.93,
+            initialView: "dayGridMonth",
+            locale: "es",
+            timeZone: "Europe/Madrid",
+            events: events,
+            eventRender: function (event, element) {
+                var gradient =
+                    "linear-gradient(to right, " +
+                    event.color1 +
+                    ", " +
+                    event.color1 +
+                    " 15px, " +
+                    event.color2 +
+                    " 15px, " +
+                    event.color2 +
+                    ")";
+                element.css("background", gradient);
 
-        var titleElement = element.find(".fc-title");
-        titleElement.css("padding-left", "25px");
-        titleElement.css("color", event.textColor);
-      },
-    };
+                var titleElement = element.find(".fc-title");
+                titleElement.css("padding-left", "25px");
+                titleElement.css("color", event.textColor);
+            },
+        };
 
-    $("#calendar").fullCalendar(calendarOptions);
+        $("#calendar").fullCalendar(calendarOptions);
 
-    // Generar la leyenda de colores dinámicamente
-    var legendElement = $("#legend1");
-    legendItems.forEach(function (item) {
-      var legendItem = $("<div>", { class: "legend-item" });
-      var legendColor = $("<div>", { class: "legend-color" }).css(
-        "background-color",
-        item.color
-      );
-      var legendLabel = $("<div>", { class: "legend-label" }).text(item.name);
-      legendItem.append(legendColor, legendLabel);
-      legendElement.append(legendItem);
+        // Generar la leyenda de colores dinámicamente
+        var legendElement = $("#legend1");
+        legendItems.forEach(function (item) {
+            var legendItem = $("<div>", { class: "legend-item" });
+            var legendColor = $("<div>", { class: "legend-color" }).css("background-color", item.color);
+            var legendLabel = $("<div>", { class: "legend-label" }).text(item.name);
+            legendItem.append(legendColor, legendLabel);
+            legendElement.append(legendItem);
+        });
+
+        var legendElement2 = $("#legend2");
+        legendItems2.forEach(function (item) {
+            var legendItem = $("<div>", { class: "legend-item" });
+            var legendColor = $("<div>", { class: "legend-color" }).css("background-color", item.color);
+            var legendLabel = $("<div>", { class: "legend-label" }).text(item.name);
+            legendItem.append(legendColor, legendLabel);
+            legendElement2.append(legendItem);
+        });
     });
-
-    var legendElement2 = $("#legend2");
-    legendItems2.forEach(function (item) {
-      var legendItem = $("<div>", { class: "legend-item" });
-      var legendColor = $("<div>", { class: "legend-color" }).css(
-        "background-color",
-        item.color
-      );
-      var legendLabel = $("<div>", { class: "legend-label" }).text(item.name);
-      legendItem.append(legendColor, legendLabel);
-      legendElement2.append(legendItem);
-    });
-  });
 }
 ```
 
