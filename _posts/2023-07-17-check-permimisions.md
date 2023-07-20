@@ -26,7 +26,7 @@ Fue en ese momento cuando me propuse buscar una alternativa más ordenada, y as�
 
 <br>
 
-Sin más preámbulos, ¡vamos manos a la obra! :sunglasses:
+Sin más preámbulos, ¡vamos manos a la obra! 🥳
 
 <br>
 

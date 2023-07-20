@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Descubre la potencia de la API Graph de Microsoft"
-summary: " Descubre cómo configurar Postman con la potente API Graph de Microsoft. Simplifica tu proceso de desarrollo y aprovecha al máximo los recursos y datos disponibles en la API Graph de Microsoft con la ayuda de Postman."
+summary: "Descubre cómo configurar Postman con la potente API Graph de Microsoft. Simplifica tu proceso de desarrollo y aprovecha al máximo los recursos y datos disponibles en la API Graph de Microsoft con la ayuda de Postman."
 author: "Esteve Sanpons"
 date: "2023-07-30 04:00:00 +0200"
 #cSpell:disable
@@ -10,7 +10,6 @@ thumbnail: /assets/img/posts/api-graph-en-postman/imagen01.png
 permalink: /blog/api-graph-en-postman/
 custom_type: Blog
 #cSpell:enable
-published: false
 ---
 
 ¡Hola! ¡Aquí estoy una semana más para traeros un montón de descubrimientos nuevos!
@@ -42,7 +41,7 @@ Tenéis que tener en cuenta que hay un sinfín de ecosistemas en la API Graph de
 
 <br>
 
-Dicho todo esto vamos manos a la obra. :satisfied:
+Dicho todo esto vamos manos a la obra. 😆
 
 <br>
 

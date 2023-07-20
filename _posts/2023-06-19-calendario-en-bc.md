@@ -31,7 +31,7 @@ Con esta librería y realizando algunas modificaciones en Business Central, pode
 
 <br><br><br>
 
-Vamos a poner ¡manos a la obra! :muscle:
+Vamos a poner ¡manos a la obra! 💪
 
 <br>
 

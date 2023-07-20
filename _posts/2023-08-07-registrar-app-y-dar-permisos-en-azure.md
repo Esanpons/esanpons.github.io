@@ -10,7 +10,6 @@ thumbnail: /assets/img/posts/registrar-app-y-dar-permisos-en-azure/imagen01.png
 permalink: /blog/registrar-app-y-dar-permisos-en-azure/
 custom_type: Blog
 #cSpell:enable
-published: false
 ---
 
 ¡Buenas una semana más!

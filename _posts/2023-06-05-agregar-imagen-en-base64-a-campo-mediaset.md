@@ -22,7 +22,7 @@ Si queréis obtener más información sobre este campo, podéis consultar la doc
 
 <br>
 
-Bueno, después de esta breve explicación, ¡pongámonos manos a la obra! :sunglasses:
+Bueno, después de esta breve explicación, ¡pongámonos manos a la obra! 😆
 
 <br>
 

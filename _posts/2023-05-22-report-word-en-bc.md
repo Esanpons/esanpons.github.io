@@ -22,7 +22,7 @@ En esta publicación, aprenderemos cómo utilizar los reports con Word en Micros
 
 Un report con Word en Business Central es un informe que se genera utilizando una plantilla de Word como diseño base. Con esta funcionalidad, podemos diseñar informes personalizados, agregar formato avanzado, incluir gráficos, tablas e imágenes, y aprovechar la funcionalidad de Word para crear documentos altamente profesionales. Además, los reports con Word nos permiten fusionar datos desde Business Central directamente en la plantilla de Word, lo que facilita la generación de informes consistentes y actualizados.
 
-Bueno, después de la explicación, vamos manos a la obra :sunglasses:
+Bueno, después de la explicación, vamos manos a la obra 😎
 
 Vamos a crear un report sencillo de cliente:
 

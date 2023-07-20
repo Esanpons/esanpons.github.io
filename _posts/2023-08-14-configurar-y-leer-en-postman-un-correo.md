@@ -10,7 +10,6 @@ thumbnail: /assets/img/posts/configurar-y-leer-en-postman-un-correo/imagen01.png
 permalink: /blog/configurar-y-leer-en-postman-un-correo/
 custom_type: Blog
 #cSpell:enable
-published: false
 ---
 
 ¡Buenas una semana más! Hoy continuaremos explorando el API Graph.
@@ -25,7 +24,7 @@ Esta semana nos centraremos en la configuración y lectura de correos desde Post
 
 <br>
 
-Sin mas dilación vamos manos a la obra. :stuck_out_tongue_winking_eye:
+Sin mas dilación vamos manos a la obra. 😜
 
 <br>
 

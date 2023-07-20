@@ -33,7 +33,7 @@ Es sumamente importante asegurarse de que los campos estén replicados correctam
 
 <br>
 
-Sin más preámbulos, ¡vamos manos a la obra! :sunglasses:
+Sin más preámbulos, ¡vamos manos a la obra! 😎
 
 <br>
 

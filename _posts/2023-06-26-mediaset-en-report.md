@@ -19,7 +19,7 @@ y también la inserción de esta firma en un campo MediaSet, que vimos en el pos
 
 Por lo tanto, si no los habéis leído, os aconsejo que primero los vayáis a revisar.
 
-Bueno, después de la breve explicación, vamos manos a la obra. :sunglasses:
+Bueno, después de la breve explicación, vamos manos a la obra. 😁
 
 <br>
 

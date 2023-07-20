@@ -25,7 +25,7 @@ Un diálogo de progreso es una herramienta comúnmente utilizada cuando necesita
 
 <br><br><br>
 
-Bueno, después de esta breve explicación, ¡pongámonos manos a la obra! :sunglasses:
+Bueno, después de esta breve explicación, ¡pongámonos manos a la obra! 😎
 
 <br>
 

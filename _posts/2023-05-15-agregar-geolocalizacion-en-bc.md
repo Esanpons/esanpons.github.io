@@ -18,21 +18,21 @@ La geolocalización se ha convertido en una funcionalidad cada vez más importan
 
 Antes de comenzar, es importante tener en cuenta que para utilizar la geolocalización en un ControlAddin de AL Business Central, debes incluir el código JavaScript, html necesario.
 
-Bueno, después de la breve explicación, vamos manos a la obra :sunglasses:
+Bueno, después de la breve explicación, vamos manos a la obra 😎
 
 Lo primero que haremos es crear la estructura de los archivos.
 En el proyecto añadimos los objetos tal cual te los muestro a continuación.
 
-- controladdin
-  - Geolocalizacion
-    - html
-      - index.html
-    - js
-      - script.js
-      - startup.js
-    - Geolocalizacion.ControlAddin.al
-- page
-  - Geolocalizacion.Page.al
+-   controladdin
+    -   Geolocalizacion
+        -   html
+            -   index.html
+        -   js
+            -   script.js
+            -   startup.js
+        -   Geolocalizacion.ControlAddin.al
+-   page
+    -   Geolocalizacion.Page.al
 
 <br>
 
@@ -83,39 +83,37 @@ Ahora viene la parte interesante, el JavaScript que geolocaliza nuestra posició
 
 ```javascript
 function init() {
-  var controlAddIn = $("#controlAddIn");
-  controlAddIn.empty();
+    var controlAddIn = $("#controlAddIn");
+    controlAddIn.empty();
 
-  $.get(
-    Microsoft.Dynamics.NAV.GetImageResource(
-      "src/controlAddIn/Geolocalizacion/html/index.html"
-    ),
-    function (htmlExterno) {
-      controlAddIn.html(htmlExterno);
-      console.log(htmlExterno);
-      obtenerUbicacion();
-    }
-  );
+    $.get(
+        Microsoft.Dynamics.NAV.GetImageResource("src/controlAddIn/Geolocalizacion/html/index.html"),
+        function (htmlExterno) {
+            controlAddIn.html(htmlExterno);
+            console.log(htmlExterno);
+            obtenerUbicacion();
+        }
+    );
 }
 
 function obtenerUbicacion() {
-  const ubicacionDiv = document.getElementById("ubicacion");
+    const ubicacionDiv = document.getElementById("ubicacion");
 
-  navigator.geolocation.getCurrentPosition(
-    (position) => {
-      const { latitude, longitude } = position.coords;
-      ubicacionDiv.innerHTML = `Tu ubicación es: Latitud ${latitude}, Longitud ${longitude}`;
-    },
-    (error) => {
-      console.error(error);
-      alert("Hubo un error al obtener la ubicación.");
-    },
-    {
-      enableHighAccuracy: true,
-      maximumAge: 0,
-      timeout: 5000,
-    }
-  );
+    navigator.geolocation.getCurrentPosition(
+        (position) => {
+            const { latitude, longitude } = position.coords;
+            ubicacionDiv.innerHTML = `Tu ubicación es: Latitud ${latitude}, Longitud ${longitude}`;
+        },
+        (error) => {
+            console.error(error);
+            alert("Hubo un error al obtener la ubicación.");
+        },
+        {
+            enableHighAccuracy: true,
+            maximumAge: 0,
+            timeout: 5000,
+        }
+    );
 }
 
 const boton = document.getElementById("boton-ubicacion");

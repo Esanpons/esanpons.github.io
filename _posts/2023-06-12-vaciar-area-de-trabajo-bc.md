@@ -30,7 +30,7 @@ Hemos eliminado la mayoría de las configuraciones y búsquedas para que el usua
 
 <br><br><br>
 
-Como siempre después de la breve explicación ¡Vamos manos a la obra! :clap:
+Como siempre después de la breve explicación ¡Vamos manos a la obra! 👏
 
 <br>
 

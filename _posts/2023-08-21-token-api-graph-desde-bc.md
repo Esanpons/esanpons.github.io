@@ -10,7 +10,6 @@ thumbnail: /assets/img/posts/token-api-graph-desde-bc/imagen01.png
 permalink: /blog/token-api-graph-desde-bc/
 custom_type: Blog
 #cSpell:enable
-published: false
 ---
 
 Buenas una semana más, en las ultimas semanas hemos visto como configurar el API Graph en Postman [ver aquí](/blog/api-graph-en-postman/), configurar Azure y registrar una aplicación [ver aquí](/blog/registrar-app-y-dar-permisos-en-azure/) y en Postman leer un correo [ver aquí](/blog/configurar-y-leer-en-postman-un-correo/).
@@ -22,7 +21,7 @@ El token como explique es algo necesario para el inicio de las transacciones con
 
 <br>
 
-No nos entretendremos mucho, así que ¡Vamos manos a la obra! :sunglasses:
+No nos entretendremos mucho, así que ¡Vamos manos a la obra! 🧐
 
 <br>
 
