@@ -177,7 +177,7 @@ En este blog, exploramos las ventajas de utilizar RecordRef y FieldRef en Dynami
 
 <br><br>
 
-Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/ApiGraph)
+Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/RecordRefAndFieldRef)
 
 <br>
 
