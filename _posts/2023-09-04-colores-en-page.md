@@ -6,11 +6,11 @@ author: "Esteve Sanpons"
 date: "2023-09-03 07:00:00 +0200"
 #cSpell:disable
 category: ["Navision", "Business_Central"]
-thumbnail: /assets/img/posts/colores-en-page/imagen01.png
+thumbnail: /assets/img/posts/colores-en-page/imagen01.jpg
 permalink: /blog/colores-en-page/
 custom_type: Blog
 #cSpell:enable
-publised:false
+publised: false
 ---
 
 ¡Hola a todos! Confío en que estéis disfrutando de una semana productiva y llena de nuevos conocimientos.
