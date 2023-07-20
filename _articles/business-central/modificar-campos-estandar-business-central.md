@@ -111,4 +111,4 @@ Nos abrirá la página de proveedores.
 </label>
 <br><br>
 
-GitHub de los ejemplos en el [Link](https://github.com/Esanpons/EjemploSencillos-AL/tree/main/ModifyFieldProperties)
+GitHub de los ejemplos en el [Link](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/ModifyFieldProperties)

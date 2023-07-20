@@ -142,7 +142,7 @@ En resumen, hemos visto cómo utilizar la API de Graph de Microsoft para obtener
 
 <br><br>
 
-Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/ApiGraph)
+Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/ApiGraph)
 
 <br>
 

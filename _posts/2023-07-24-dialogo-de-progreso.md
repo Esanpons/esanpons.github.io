@@ -128,7 +128,7 @@ Ahora podrás utilizar esta herramienta para mejorar la experiencia del usuario 
 <br>
 <br>
 
-Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/EjemploSencillos-AL/tree/main/MgtDialogoDeProceso)
+Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/DialogoDeProceso)
 
 <br>
 

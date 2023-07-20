@@ -114,4 +114,4 @@ Resumiendo hemos creado un report vinculado con clientes para mostrar todos los 
 <br>
 <br>
 
-Como siempre podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/report-bc)
+Como siempre podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/report-bc)

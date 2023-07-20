@@ -109,7 +109,7 @@ En resumen, hemos explorado cómo convertir una imagen en Base64 y agregarla a u
 <br>
 <br>
 
-Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/EjemploSencillos-AL/tree/main/Base64ToMediset)
+Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/Base64ToMediset)
 
 <br>
 

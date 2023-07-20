@@ -139,7 +139,7 @@ Con esto, podemos utilizar estas funciones tanto para mostrar errores directos c
 
 <br>
 
-Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/EjemplosSencillosCAL/tree/main/Check%20Permimisions)
+Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/ejemplos-blog/tree/main/CAL/CheckPermimisions)
 
 <br>
 

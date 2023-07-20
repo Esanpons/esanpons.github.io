@@ -112,7 +112,7 @@ Hemos aprendido cómo obtener el token de acceso para Microsoft Graph en program
 
 <br><br>
 
-Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/ApiGraph)
+Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/ApiGraph)
 
 <br>
 

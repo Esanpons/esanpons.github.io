@@ -233,10 +233,10 @@ Creamos la variable de clientes. Después el texto donde recibiremos el resultad
 Los labels de parámetros son lo más complicado de entender de esta función, sobre todo el label “WhereLbl”. Este label hará que la función haga una cosa u otra dependiendo de lo que le añadamos.
 Los tipos pueden ser:
 
-- “=” todos los textos iguales se eliminan que el parámetro indicado.
-- “<” se eliminan los textos que empiecen por el parámetro indicado.
-- “>” se eliminan los texto que finalicen por el parámetro indicado.
-- Si esta vacío devolverá el teto tal cual esta.
+-   “=” todos los textos iguales se eliminan que el parámetro indicado.
+-   “<” se eliminan los textos que empiecen por el parámetro indicado.
+-   “>” se eliminan los texto que finalicen por el parámetro indicado.
+-   Si esta vacío devolverá el teto tal cual esta.
 
 El segundo parámetro es para indicarle que queremos eliminar.
 En este ejemplo lo que hemos querido eliminar es la letra “D”.
@@ -437,4 +437,4 @@ El resultado sería:
 
 <br><br><br><br>
 
-GitHub de los ejemplos en el [Link](https://github.com/Esanpons/EjemploSencillos-AL/tree/main/FunctionsStrings)
+GitHub de los ejemplos en el [Link](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/FunctionsStrings)
