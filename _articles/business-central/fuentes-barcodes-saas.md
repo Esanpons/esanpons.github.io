@@ -4,7 +4,7 @@ summary: "En este ejemplo lo que mostramos es como se pueden leer los codigos de
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
-category: [Business_Central,Reports]
+category: [Business_Central, Reports]
 custom_type: Boveda
 permalink: /boveda/fuentes-barcodes-saas
 #cSpell:enable
@@ -14,10 +14,7 @@ LinkedIn: false
 
 # Fuentes barcode SaaS
 
-
 En este ejemplo lo que mostramos es como se pueden leer los códigos de barras en SaaS.
-
-
 
 ### Código Objeto BC
 
@@ -173,7 +170,6 @@ A continuación, creamos un diseño para el informe.
 </label>
 <br><br>
 
-
 Dado que la fuente no está instalada localmente, debe configurar la fuente correcta para el campo de código de barras.
 Haga clic con el botón derecho en el cuadro de texto y, a continuación, **seleccione Propiedades del cuadro de texto**.
 <br><br>
@@ -211,9 +207,10 @@ Por ejemplo, Código 39 Nombres de fuentes y datos de aplicaciones
 </label>
 <br><br><br><br>
 
-
 ## Fuentes de prueba: solo para referencia
+
 ### Codabar : IDAutomationHCBL
+
 <input type="checkbox" id="image-checkbox-06" class="image-checkbox">
 <label for="image-checkbox-06"  class="image-label">
     <img class="img-container" src="/assets/img/articles/fuentes-barcodes-saas/imagen006.png">
@@ -221,6 +218,7 @@ Por ejemplo, Código 39 Nombres de fuentes y datos de aplicaciones
 <br><br>
 
 ### Código 128 : IDAutomationC128S
+
 <input type="checkbox" id="image-checkbox-07" class="image-checkbox">
 <label for="image-checkbox-07"  class="image-label">
     <img class="img-container" src="/assets/img/articles/fuentes-barcodes-saas/imagen007.png">
@@ -228,6 +226,7 @@ Por ejemplo, Código 39 Nombres de fuentes y datos de aplicaciones
 <br><br>
 
 ### Código 39 : IDAutomationHC39M
+
 <input type="checkbox" id="image-checkbox-08" class="image-checkbox">
 <label for="image-checkbox-08"  class="image-label">
     <img class="img-container" src="/assets/img/articles/fuentes-barcodes-saas/imagen008.png">
@@ -235,6 +234,7 @@ Por ejemplo, Código 39 Nombres de fuentes y datos de aplicaciones
 <br><br>
 
 ### Código 93 : IDAutomationC93M
+
 <input type="checkbox" id="image-checkbox-09" class="image-checkbox">
 <label for="image-checkbox-09"  class="image-label">
     <img class="img-container" src="/assets/img/articles/fuentes-barcodes-saas/imagen009.png">
@@ -242,6 +242,7 @@ Por ejemplo, Código 39 Nombres de fuentes y datos de aplicaciones
 <br><br>
 
 ### Intercalado 2 de 5 : IDAutomationHI25M
+
 <input type="checkbox" id="image-checkbox-10" class="image-checkbox">
 <label for="image-checkbox-10"  class="image-label">
     <img class="img-container" src="/assets/img/articles/fuentes-barcodes-saas/imagen010.png">
@@ -249,16 +250,21 @@ Por ejemplo, Código 39 Nombres de fuentes y datos de aplicaciones
 <br><br>
 
 ### MSI : IDAutomatizaciónMSIM
+
 <input type="checkbox" id="image-checkbox-11" class="image-checkbox">
 <label for="image-checkbox-11"  class="image-label">
     <img class="img-container" src="/assets/img/articles/fuentes-barcodes-saas/imagen011.png">
 </label>
 <br><br>
 
-
-
 <br><br>
+
 Extractos sacados de [link](https://yzhums.com/11763/)
+
 <br><br>
+
 Ejemplo oficial [link](https://docs.microsoft.com/es-es/learn/modules/understand-report-triggers-functions/4a-adding-barcodes)
 
+<br><br>
+
+GitHub del ejemplo en el [Link](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/barcodes-in-sandbox)
