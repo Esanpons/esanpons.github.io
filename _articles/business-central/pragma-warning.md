@@ -3,7 +3,7 @@ title: "Optimizando el Desarrollo en Business Central: Domina las Advertencias c
 summary: "Aprende a maximizar la eficiencia de tu desarrollo en Business Central utilizando la potente funcionalidad de Pragma. Descubre cómo desactivar selectivamente advertencias innecesarias y mantener el control sobre el código, garantizando un proceso de desarrollo más limpio y productivo."
 layout: article
 #cSpell:disable
-category: ["Business_Central", Navision]
+category: ["Business_Central"]
 custom_type: Boveda
 permalink: /boveda/pragma-warning
 #cSpell:enable
