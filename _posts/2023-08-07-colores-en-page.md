@@ -3,14 +3,13 @@ layout: post
 title: "Añade Color y Estilo a tus Páginas"
 summary: "Descubre cómo destacar información relevante y mejorar la presentación de tus páginas y campos. Aprende a aplicar estilos y colores de manera sencilla y efectiva, utilizando AL y Enums."
 author: "Esteve Sanpons"
-date: "2023-09-03 07:00:00 +0200"
+date: "2023-08-06 07:00:00 +0200"
 #cSpell:disable
 category: ["Navision", "Business_Central"]
-thumbnail: /assets/img/posts/colores-en-page/imagen01.jpg
+thumbnail: /assets/img/posts/colores-en-page/imagen01.png
 permalink: /blog/colores-en-page/
 custom_type: Blog
 #cSpell:enable
-publised: false
 ---
 
 ¡Hola a todos! Confío en que estéis disfrutando de una semana productiva y llena de nuevos conocimientos.
@@ -200,7 +199,7 @@ En este blog, hemos explorado un método sencillo y efectivo para mejorar la pre
 
 <br>
 
-Como siempre, podréis ver el ejemplo completo en el [Link](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/ColorEnCamposDePage)
+Como siempre, podréis ver el ejemplo completo en el [GitHub](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/ColorEnCamposDePage)
 
 <br>
 

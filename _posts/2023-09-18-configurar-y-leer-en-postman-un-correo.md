@@ -3,7 +3,7 @@ layout: post
 title: "Configurar y leer correos en Postman usando el API Graph"
 summary: " En este artículo aprenderás cómo configurar y leer correos utilizando el API Graph desde Postman. Te guiaré paso a paso para que puedas conectar tu aplicación y obtener acceso a los mensajes de correo de un usuario en particular. Además, te mostraré cómo filtrar los correos no leídos en el buzón de entrada."
 author: "Esteve Sanpons"
-date: "2023-08-13 04:00:00 +0200"
+date: "2023-09-17 04:00:00 +0200"
 #cSpell:disable
 category: ["API_Graph", "Postman"]
 thumbnail: /assets/img/posts/configurar-y-leer-en-postman-un-correo/imagen01.png

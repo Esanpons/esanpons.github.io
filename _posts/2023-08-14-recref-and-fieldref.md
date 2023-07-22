@@ -3,13 +3,12 @@ layout: post
 title: "Dominando RecordRef y FieldRef: Potencia tus Desarrollos."
 summary: "Descubre cómo utilizar las poderosas variables RecordRef y FieldRef en Dynamics 365 para trabajar dinámicamente con registros y campos. Aprende a modificar y obtener datos de manera eficiente, ampliando tus capacidades de desarrollo con ejemplos prácticos y sencillos de implementar."
 author: "Esteve Sanpons"
-date: "2023-09-10 04:00:00 +0200"
+date: "2023-08-13 04:00:00 +0200"
 #cSpell:disable
 category: ["Navision", "Business_Central"]
-thumbnail: /assets/img/posts/recref-and-fieldref/imagen01.jpg
+thumbnail: /assets/img/posts/recref-and-fieldref/imagen01.png
 permalink: /blog/recref-and-fieldref/
 custom_type: Blog
-publised: false
 #cSpell:enable
 ---
 
@@ -177,7 +176,7 @@ En este blog, exploramos las ventajas de utilizar RecordRef y FieldRef en Dynami
 
 <br><br>
 
-Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/RecordRefAndFieldRef)
+Como siempre, podréis ver el ejemplo entero en el [GitHub](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/RecordRefAndFieldRef)
 
 <br>
 

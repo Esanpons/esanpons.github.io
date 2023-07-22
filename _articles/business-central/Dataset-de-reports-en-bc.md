@@ -1,6 +1,6 @@
 ---
-title: ""
-summary: ""
+title: "¡Redescubre el Zoom del Dataset en Business Central y mejora tus informes!"
+summary: "Si provienes de versiones antiguas de Business Central y solías usar el Zoom del Dataset en tus informes. Ahora, podrás investigar problemas e irregularidades en tus informes de manera sencilla y eficiente. Descubre cómo utilizar esta herramienta para visualizar el dataset completo en forma de tabla y analizar tus datos de forma cómoda y versátil."
 layout: article
 #cSpell:disable
 category: ["Business_Central", Reports]

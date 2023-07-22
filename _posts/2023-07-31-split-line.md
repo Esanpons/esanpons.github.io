@@ -3,13 +3,12 @@ layout: post
 title: "División Inteligente de Líneas"
 summary: "Descubre cómo realizar una división precisa de líneas en tus documentos. Aprende una solución ingeniosa para agregar nuevos elementos entre líneas existentes sin complicaciones."
 author: "Esteve Sanpons"
-date: "2023-09-24 04:00:00 +0200"
+date: "2023-07-30 04:00:00 +0200"
 #cSpell:disable
 category: ["Navision", "Business_Central"]
-thumbnail: /assets/img/posts/split-line/imagen01.jpg
+thumbnail: /assets/img/posts/split-line/imagen01.png
 permalink: /blog/split-line/
 custom_type: Blog
-publised: false
 #cSpell:enable
 ---
 
@@ -76,7 +75,7 @@ En resumen, hemos explorado una funcionalidad invaluable para desarrolladores qu
 
 <br><br>
 
-Como siempre, podréis ver el ejemplo entero en el [Link](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/DividirLinea)
+Como siempre, podréis ver el ejemplo entero en el [GitHub](https://github.com/Esanpons/ejemplos-blog/tree/main/AL/DividirLinea)
 
 <br>
 
