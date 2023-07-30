@@ -35,7 +35,9 @@ Tenemos 5 pasos que debemos seguir y os los iré explicando en los próximos dí
 5. Realizar la misma solicitud de recepción de correo, pero esta vez en Business Central.
 6. Como veis, hay mucha información, pero os aseguro que es muy útil.
 
-El ejemplo que vamos a seguir es para poder leer los correos electrónicos que estén en la bandeja de entrada y que no estén leídos.
+<br>
+
+El objetivo final es para poder leer los correos electrónicos que estén en la bandeja de entrada y que no estén leídos en nuestro Business Central.
 
 Tenéis que tener en cuenta que hay un sinfín de ecosistemas en la API Graph de Microsoft, por lo que esto no tiene límite.
 
