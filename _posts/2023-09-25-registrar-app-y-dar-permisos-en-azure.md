@@ -3,7 +3,7 @@ layout: post
 title: "Cómo registrar una aplicación y otorgar permisos en Azure"
 summary: "En este blog, aprenderemos cómo registrar una aplicación en Azure Active Directory y otorgarle los permisos necesarios. Seguiremos los pasos para crear una aplicación registrada, obtener los ID necesarios, generar un secreto y configurar los permisos en Azure. ¡Descubre cómo hacerlo paso a paso!"
 author: "Esteve Sanpons"
-date: "2023-09-10 04:00:00 +0200"
+date: "2023-09-24 04:00:00 +0200"
 #cSpell:disable
 category: ["API_Graph", "Azure"]
 thumbnail: /assets/img/posts/registrar-app-y-dar-permisos-en-azure/imagen01.png
