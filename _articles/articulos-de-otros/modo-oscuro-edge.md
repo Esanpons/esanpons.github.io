@@ -13,4 +13,4 @@ date: 2023-06-23 21:00:00 +0200
 
 ## Activar modo oscuro en Business Central
 
-[Link](<[label](mrp-o-mps.md)>)
+[Link](https://www.youtube.com/watch?v=Db15f7pxUoI)
