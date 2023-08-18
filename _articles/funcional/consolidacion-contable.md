@@ -6,7 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [Funcional, Manuales, Finanzas]
 custom_type: Boveda
-permalink: /boveda/consolidacion-contable
+permalink: /boveda/4
 #cSpell:enable
 date: 2022-08-13 15:00:00 +0200
 ---
@@ -26,29 +26,29 @@ y en la que no se realizan transacciones empresariales.
 
 Navision permite consolidar:
 
-- Empresas con varios planes de cuentas.
+-   Empresas con varios planes de cuentas.
 
-- Empresas con ejercicios distintos.
+-   Empresas con ejercicios distintos.
 
-- Empresas con divisas distintas.
+-   Empresas con divisas distintas.
 
-- El importe total o un porcentaje específico de la información
-  financiera de una empresa determinada.
+-   El importe total o un porcentaje específico de la información
+    financiera de una empresa determinada.
 
-- Utilizando métodos distintos de conversión de cuentas individuales.
+-   Utilizando métodos distintos de conversión de cuentas individuales.
 
 Por otro lado, se pueden consolidar empresas pertenecientes a:
 
-- La misma base de datos que la empresa consolidada.
+-   La misma base de datos que la empresa consolidada.
 
-- Otras bases de datos de Microsoft Navision.
+-   Otras bases de datos de Microsoft Navision.
 
-- Otros sistemas contables y de gestión empresarial (siempre que se
-  pueda exportar la información del otro sistema a un archivo con el
-  formato adecuado).
+-   Otros sistemas contables y de gestión empresarial (siempre que se
+    pueda exportar la información del otro sistema a un archivo con el
+    formato adecuado).
 
-- En un archivo \"sin formato\" (.txt de versiones anteriores a la
-  4.0) con campos de longitud fija o desde formato XML.
+-   En un archivo \"sin formato\" (.txt de versiones anteriores a la
+    4.0) con campos de longitud fija o desde formato XML.
 
 La empresa consolidada se configura en una base de datos de la misma
 forma que otras empresas y su plan de cuentas es independiente de los
@@ -61,16 +61,16 @@ generar informes de consolidación.
 
 ### Pasos del proceso de consolidación
 
-- Configuración de la empresa y las subsidiarias de consolidación.
+-   Configuración de la empresa y las subsidiarias de consolidación.
 
-- Exportación de los datos para consolidación (si fuera necesario por
-  encontrarse en otra base de datos).
+-   Exportación de los datos para consolidación (si fuera necesario por
+    encontrarse en otra base de datos).
 
-- Comprobación de los datos que se van a consolidar.
+-   Comprobación de los datos que se van a consolidar.
 
-- Agregación de los datos que se van a consolidar.
+-   Agregación de los datos que se van a consolidar.
 
-- Procesamiento de las eliminaciones de consolidación.
+-   Procesamiento de las eliminaciones de consolidación.
 
 ## Configuración de la empresa y las subsidiarias de consolidación
 
@@ -78,7 +78,7 @@ Para poder llevar a cabo una consolidación, deberá haber configurado la
 empresa consolidada. La empresa debe configurarse en el sistema del
 mismo modo que cualquier
 
-<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image1.png">
+<img class="img-container"  src="/assets/img/articles/4/image1.png">
 <br><br><br>
 
 ### Configurar información de consolidación de las cuentas contables
@@ -90,7 +90,7 @@ que se transferirá el saldo al realizar la consolidación. Ésta es una
 asignación que permitirá que empresas con planes de cuentas distintos se
 consoliden juntas.
 
-<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image2.png">
+<img class="img-container"  src="/assets/img/articles/4/image2.png">
 <br><br><br>
 
 En esta pantalla, merece la pena comentar el campo de método traducción
@@ -104,26 +104,26 @@ cambio de divisa que se debe aplicar a la cuenta.
 
 Las opciones posibles son:
 
-- Tipo medio (manual) = Tipo medio del periodo que se va a consolidar.
-  El tipo medio se calcula como promedio aritmético o como la mejor
-  estimación y se introduce para cada empresa.
+-   Tipo medio (manual) = Tipo medio del periodo que se va a consolidar.
+    El tipo medio se calcula como promedio aritmético o como la mejor
+    estimación y se introduce para cada empresa.
 
-- Tipo cierre = Tipo de cambio en vigor en el mercado de divisas en la
-  fecha para la que se está preparando el saldo o la regularización.
-  El tipo de cambio se introduce para cada empresa.
+-   Tipo cierre = Tipo de cambio en vigor en el mercado de divisas en la
+    fecha para la que se está preparando el saldo o la regularización.
+    El tipo de cambio se introduce para cada empresa.
 
-- Tipo histórico = Tipo de cambio de la divisa extranjera en vigor en
-  el momento de la transacción.
+-   Tipo histórico = Tipo de cambio de la divisa extranjera en vigor en
+    el momento de la transacción.
 
-- Tipo compuesto = Los importes del periodo actual se traducen con el
-  tipo medio y se agregan a saldo registrado anteriormente en la
-  empresa consolidada. Este método se usa normalmente para cuentas
-  de ingresos retenidos, porque contienen importes de distintos
-  periodos y son, por ello, una combinación de importes convertidos
-  con distintos tipos de cambio.
+-   Tipo compuesto = Los importes del periodo actual se traducen con el
+    tipo medio y se agregan a saldo registrado anteriormente en la
+    empresa consolidada. Este método se usa normalmente para cuentas
+    de ingresos retenidos, porque contienen importes de distintos
+    periodos y son, por ello, una combinación de importes convertidos
+    con distintos tipos de cambio.
 
-- Tipo neto = Es parecido al compuesto. El registro de las diferencias
-  se hará en cuentas distintas.
+-   Tipo neto = Es parecido al compuesto. El registro de las diferencias
+    se hará en cuentas distintas.
 
 Una vez se han introducido los números de cuenta de todas las cuentas y
 se ha seleccionado el método de traducción de consolidación habrá que
@@ -145,10 +145,10 @@ Contabilidad, Actividades Periódicas, Consolidación, Empresas.
 
 Aparece la ventana Ficha de empresa:
 
-<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image3.png">
+<img class="img-container"  src="/assets/img/articles/4/image3.png">
 <br><br>
 
-<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image4.png">
+<img class="img-container"  src="/assets/img/articles/4/image4.png">
 <br><br><br>
 
 Los campos a comentar son los siguientes:
@@ -229,7 +229,7 @@ regularización.
 Para especificar los tipos de cambio para consolidaciones, hay que
 seleccionar la pestaña Navegar dentro de la ficha.
 
-<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image5.png">
+<img class="img-container"  src="/assets/img/articles/4/image5.png">
 <br><br><br>
 
 ### Configurar información de dimensiones para consolidaciones
@@ -240,7 +240,7 @@ de dimensiones.
 Esta acción se realiza en el menú de Gestión financiera, Configuración,
 Dimensiones, Dimensiones, Valores de dimensión
 
-<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image6.png">
+<img class="img-container"  src="/assets/img/articles/4/image6.png">
 <br><br><br>
 
 El campo Cód. consolidación se utiliza para la consolidación. El que se
@@ -266,7 +266,7 @@ incluye un proceso para realizar la exportación.
 El proceso se encuentra en Gestión financiera, Contabilidad, Actividades
 Periódicas, Consolidación, Exportar consolidación
 
-<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image7.png">
+<img class="img-container"  src="/assets/img/articles/4/image7.png">
 <br><br><br>
 
 Se debe seleccionar el formato de archivo en el que la empresa enviará
@@ -317,7 +317,7 @@ En el menú Gestión financiera, Contabilidad, Actividades Periódicas,
 Consolidación, Empresas, Pestaña Acciones, Ejecutar la acción de Test
 Archivo.
 
-<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image8.png">
+<img class="img-container"  src="/assets/img/articles/4/image8.png">
 <br><br><br>
 
 El informe procesa los datos financieros de la empresa que se exportaron
@@ -330,15 +330,15 @@ que no se ha configurado en la empresa consolidada la cuenta de Debe o
 la de Haber. Si, por el contrario, se muestra un valor de dimensión o
 una dimensión, es por una de las siguientes razones:
 
-- El código de consolidación que se configuró en la empresa no se
-  corresponde con un valor de dimensión configurado en la empresa
-  consolidada.
+-   El código de consolidación que se configuró en la empresa no se
+    corresponde con un valor de dimensión configurado en la empresa
+    consolidada.
 
-- Si no se utilizan códigos de consolidación, el código de valor de
-  dimensión no se configura en la empresa consolidada.
+-   Si no se utilizan códigos de consolidación, el código de valor de
+    dimensión no se configura en la empresa consolidada.
 
-- La dimensión del archivo no se ha configurado como dimensión en la
-  empresa consolidada.
+-   La dimensión del archivo no se ha configurado como dimensión en la
+    empresa consolidada.
 
 Deberán corregirse todos los errores antes de proceder a la importación
 del archivo para la consolidación.
@@ -354,7 +354,7 @@ Para comprobar bases de datos antes de realizar la consolidación, en
 punto de menú es el mismo que antes pero ahora ejecutamos la opción de
 Test Base de Datos
 
-<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image9.png">
+<img class="img-container"  src="/assets/img/articles/4/image9.png">
 <br><br><br>
 
 En la pestaña Código Empresa, se puede definir un filtro para
@@ -370,7 +370,7 @@ desde archivo. Describiremos el caso primero.
 En el menú Gestión financiera, Contabilidad, Actividades Periódicas,
 Consolidación, Empresas, Pestaña Acciones, Importar base de datos
 
-<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image10.png">
+<img class="img-container"  src="/assets/img/articles/4/image10.png">
 <br><br><br>
 
 Se rellenan los campos y se clica en Aceptar para iniciar la
@@ -438,7 +438,7 @@ adelante.
 En el menú Gestión financiera, Contabilidad, Actividades Periódicas,
 Consolidación, Empresas, Pestaña Informes, Eliminaciones.
 
-<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image11.png">
+<img class="img-container"  src="/assets/img/articles/4/image11.png">
 <br><br><br>
 
 En esta ventana a parte de las Fechas de inicio - final y Código
@@ -455,25 +455,25 @@ estructura del plan de cuentas). La cuenta no se muestra cuando todos
 los importes de la línea son 0. Se muestra la siguiente información para
 cada cuenta:
 
-- N.º cuenta
+-   N.º cuenta
 
-- Nombre cuenta
+-   Nombre cuenta
 
-  - Si seleccionó un código de empresa en el campo Cód. empresa de
-    la pestaña Opciones, se mostrará un total para la empresa
-    consolidada que incluye las eliminaciones registradas, pero
-    excluye los movimientos de consolidación y eliminaciones no
-    registradas de la empresa seleccionada. Si dejó en blanco el
-    campo Cód. empresa, se mostrará un total para la empresa
-    consolidada que excluye las eliminaciones registradas y no
-    registradas.
+    -   Si seleccionó un código de empresa en el campo Cód. empresa de
+        la pestaña Opciones, se mostrará un total para la empresa
+        consolidada que incluye las eliminaciones registradas, pero
+        excluye los movimientos de consolidación y eliminaciones no
+        registradas de la empresa seleccionada. Si dejó en blanco el
+        campo Cód. empresa, se mostrará un total para la empresa
+        consolidada que excluye las eliminaciones registradas y no
+        registradas.
 
-  - Si seleccionó un código de empresa en el campo Cód. empresa de
-    la pestaña Opciones, se mostrará un total para los movimientos
-    importados de la empresa. Si dejó en blanco el campo
+    -   Si seleccionó un código de empresa en el campo Cód. empresa de
+        la pestaña Opciones, se mostrará un total para los movimientos
+        importados de la empresa. Si dejó en blanco el campo
 
-- Cód. empresa, se mostrará un total para las eliminaciones
-  registradas de la empresa consolidada.
+-   Cód. empresa, se mostrará un total para las eliminaciones
+    registradas de la empresa consolidada.
 
 El total de la empresa consolidada con todas las empresas y todas las
 eliminaciones registradas.
@@ -515,7 +515,7 @@ saldo de cada cuenta antes y después de las eliminaciones junto con las
 eliminaciones registradas de cada cuenta. Los totales de cada empresa
 para una cuenta específica se muestran en líneas independientes.
 
-<img class="img-container"  src="/assets/img/articles/consolidacion-contable/image12.png">
+<img class="img-container"  src="/assets/img/articles/4/image12.png">
 <br><br><br>
 
 **Balance comprobación cons. (4)**

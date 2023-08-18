@@ -6,7 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [Funcional, Manuales, Reports, "Informacion_Otros"]
 custom_type: Boveda
-permalink: /boveda/diseños-personalizados-y-word-layouts
+permalink: /boveda/5
 #cSpell:enable
 date: 2022-08-13 15:30:00 +0200
 ---
@@ -46,17 +46,17 @@ herramientas Visual Studio o Report Builder para el diseño del impreso.
 Determinar que un impreso utilice su versión Word es muy simple.
 Únicamente necesitaremos seguir estos pasos:
 
-- El primer paso es acceder a la **Ventana Selección de diseño de
-  informes** donde podemos buscar el impreso a modificar.
+-   El primer paso es acceder a la **Ventana Selección de diseño de
+    informes** donde podemos buscar el impreso a modificar.
 
-<img class="img-container"  src="/assets/img/articles/diseños-personalizados-y-word-layouts/image1.jpg">
+<img class="img-container"  src="/assets/img/articles/5/image1.jpg">
 <br><br><br>
 
-- Para el impreso deseado optaremos por la opción de **_Diseño
-  seleccionado_** Word (integrado). Esta opción determina que el
-  impreso se ejecutará utilizando su plantilla de Word.
+-   Para el impreso deseado optaremos por la opción de **_Diseño
+    seleccionado_** Word (integrado). Esta opción determina que el
+    impreso se ejecutará utilizando su plantilla de Word.
 
-<img class="img-container"  src="/assets/img/articles/diseños-personalizados-y-word-layouts/image2.jpg">
+<img class="img-container"  src="/assets/img/articles/5/image2.jpg">
 <br><br><br>
 
 Dado que no todos los impresos disponen por defecto de una versión de
@@ -71,45 +71,45 @@ Vamos a mostrar la creación de uno nuevo diseño de plantilla Word para
 uno de nuestros informes de Microsoft Dynamics NAV. Por ejemplo, vamos a
 crear un albarán de compra personalizado.
 
-- El primer paso sería **crear**, en Word, **la plantilla**.
-  Empezaremos por un diseño muy simple. La ventaja que ofrece Word
-  es su facilidad en cuanto a la maquetación y sencillez de uso.
-  Ésta será la plantilla que importaremos a Microsoft Dynamics NAV
-  para asociarla con nuestro informe.
+-   El primer paso sería **crear**, en Word, **la plantilla**.
+    Empezaremos por un diseño muy simple. La ventaja que ofrece Word
+    es su facilidad en cuanto a la maquetación y sencillez de uso.
+    Ésta será la plantilla que importaremos a Microsoft Dynamics NAV
+    para asociarla con nuestro informe.
 
-<img class="img-container"  src="/assets/img/articles/diseños-personalizados-y-word-layouts/image3.jpg">
+<img class="img-container"  src="/assets/img/articles/5/image3.jpg">
 <br><br><br>
 
-- En Microsoft Dynamics NAV utilizaremos de nuevo las opciones de
-  la **Ventana Selección de diseño de informes** para buscar nuestro
-  informe.
+-   En Microsoft Dynamics NAV utilizaremos de nuevo las opciones de
+    la **Ventana Selección de diseño de informes** para buscar nuestro
+    informe.
 
-<img class="img-container"  src="/assets/img/articles/diseños-personalizados-y-word-layouts/image4.jpg">
+<img class="img-container"  src="/assets/img/articles/5/image4.jpg">
 <br><br><br>
 
-- Una vez encontrado el informe que deseamos adaptar seleccionamos la
-  opción \*de **Diseños personalizados\*** y creamos uno En este nuevo
-  diseño personalizado indicamos que queremos que su *Tipo* sea Word.
+-   Una vez encontrado el informe que deseamos adaptar seleccionamos la
+    opción \*de **Diseños personalizados\*** y creamos uno En este nuevo
+    diseño personalizado indicamos que queremos que su *Tipo* sea Word.
 
-<img class="img-container"  src="/assets/img/articles/diseños-personalizados-y-word-layouts/image5.jpg">
+<img class="img-container"  src="/assets/img/articles/5/image5.jpg">
 <br><br><br>
 
 También cabe destacar que se puede establecer la empresa para en la que
 queremos utilizar nuestro diseño personalizado. Así podemos realizar un
 diseño distinto para cada una de nuestras empresas.
 
-- El siguiente paso sería importar nuestra plantilla de Word para
-  asociarla al nuevo diseño. Utilizaremos para ello la opción
-  de **_Importar Diseño_**
+-   El siguiente paso sería importar nuestra plantilla de Word para
+    asociarla al nuevo diseño. Utilizaremos para ello la opción
+    de **_Importar Diseño_**
 
-<img class="img-container"  src="/assets/img/articles/diseños-personalizados-y-word-layouts/image6.jpg">
+<img class="img-container"  src="/assets/img/articles/5/image6.jpg">
 <br><br><br>
 
-- Una vez hecho esto se nos abrirá el Word con nuestra plantilla.
-  Tenemos que mostrar la pestaña de desarrollador, **Panel de
-  Asignación XML** para poder terminar nuestro trabajo.
+-   Una vez hecho esto se nos abrirá el Word con nuestra plantilla.
+    Tenemos que mostrar la pestaña de desarrollador, **Panel de
+    Asignación XML** para poder terminar nuestro trabajo.
 
-<img class="img-container"  src="/assets/img/articles/diseños-personalizados-y-word-layouts/image7.jpg">
+<img class="img-container"  src="/assets/img/articles/5/image7.jpg">
 <br><br><br>
 
 Como observamos, tenemos a nuestro alcance los datos incluidos en la
