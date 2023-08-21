@@ -15,7 +15,13 @@ date: 2023-08-21 21:00:00 +0200
 
 [vjekob/controladdin-starrating at nav2018](https://github.com/vjekob/controladdin-starrating/tree/nav2018)
 
+[usar la propiedad Controladdin Images para usar archivos HTML](https://github.com/vjekob/controladdin-html)
+
+[Microsoft.Dynamics.NAV.InvokeExtensibilityMethod - vjekob](https://vjeko.com/2019/11/19/microsoft-dynamics-nav-invokeextensibilitymethod/)
+
 [vjekob/supercharged_01 en 03-gulp-hola-mundo](https://github.com/vjekob/supercharged_01/tree/03-gulp-hello-world)
+
+[truco de HTML: usando imágenes - vjekob](https://vjeko.com/2018/12/12/extending-the-html-trick-using-actual-images/)
 
 [Cómo establecer el foco en los campos usando Javascript en Business Central | D365 BC y aplicaciones de energía](https://integrated.ee/posts/business-central-field-focus/)
 
@@ -38,3 +44,9 @@ date: 2023-08-21 21:00:00 +0200
 [Erik Hougaard, nos muestra como ampliar el tamaño de nuestro ControlAddin con JavaScript](https://www.youtube.com/watch?v=N3YB8s2b1hk&list=PLnldREWlGR0tQlOW5D40ruNop7GJU6MIH&index=16)
 
 [Erik Hougaard, nos enseña a como crear una ventana dentro de nuestro Business Central utilizando ControlAddins](https://www.youtube.com/watch?v=9PX2M1Kuvd4)
+
+[Barra de progreso con ControlAddIn - Erik Hougaard](https://www.hougaard.com/in-page-progress-bar-controladdin-from-scratch-in-al/)
+
+[truco para crear ControlAddins rápidos y sobre la marcha - Erik Hougaard](https://www.hougaard.com/viewer-submission-poor-mans-controladdin/)
+
+[Tamaño de los ControlAddIn - Erik Hougaard](https://www.hougaard.com/fixing-the-biggest-issue-i-have-with-controladdins-with-a-hack/)
