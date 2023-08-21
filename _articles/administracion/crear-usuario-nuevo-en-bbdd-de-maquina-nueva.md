@@ -5,7 +5,7 @@ layout: article
 #cSpell:disable
 category: ["Administracion", "Usuarios"]
 custom_type: Boveda
-permalink: /1
+permalink: /boveda/crear-usuario-nuevo-en-bbdd-de-maquina-nueva
 #cSpell:enable
 author: Esteve Sanpons
 date: 2022-08-13 08:00:00 +0200
@@ -18,17 +18,17 @@ date: 2022-08-13 08:00:00 +0200
 Lo primero es añadir el usuario de Windows a la BBDD
 Para ello nos vamos al usuario y de damos a propiedades.
 
-<img class="img-container"  src="/assets/img/articles/1/imagen1.png">
+<img class="img-container"  src="/assets/img/articles/crear-usuario-nuevo-en-bbdd-de-maquina-nueva/imagen1.png">
 <br><br><br><br>
 
 Después lo añadimos en la BBDD y le ponemos owner.
 
-<img class="img-container"  src="/assets/img/articles/1/imagen2.png">
+<img class="img-container"  src="/assets/img/articles/crear-usuario-nuevo-en-bbdd-de-maquina-nueva/imagen2.png">
 <br><br><br><br>
 
 Ahora vamos al servicio y añadimos el usuario administrador de la maquina a la instancia para que la arranque.
 
-<img class="img-container"  src="/assets/img/articles/1/imagen3.png">
+<img class="img-container"  src="/assets/img/articles/crear-usuario-nuevo-en-bbdd-de-maquina-nueva/imagen3.png">
 <br><br><br><br>
 
 Arrancamos instancia.
