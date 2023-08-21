@@ -5,7 +5,7 @@ layout: article
 #cSpell:disable
 category: ["Administracion", "Usuarios"]
 custom_type: Boveda
-permalink: /boveda/1
+permalink: /1
 #cSpell:enable
 author: Esteve Sanpons
 date: 2022-08-13 08:00:00 +0200

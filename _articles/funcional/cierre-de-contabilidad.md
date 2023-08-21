@@ -6,7 +6,7 @@ author: Esteve Sanpons
 #cSpell:disable
 category: [Funcional, Manuales, Finanzas]
 custom_type: Boveda
-permalink: /boveda/2
+permalink: /2
 #cSpell:enable
 date: 2022-08-13 13:01:00 +0200
 ---
