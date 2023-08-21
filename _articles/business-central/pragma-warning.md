@@ -10,6 +10,7 @@ permalink: /boveda/pragma-warning
 author: Esteve Sanpons
 date: 2023-07-21 02:00:00 +0200
 LinkedIn: false
+posible_blog: true
 ---
 
 Desarrollando para Business Central, es común encontrarnos con situaciones en las que el Analyzer nos muestra advertencias que no llegan a ser errores claros, pero que consideramos innecesarias para el desarrollo que estamos llevando a cabo. En este blog, quiero compartir con vosotros un ejemplo de una de estas advertencias y cómo podemos resolverla de manera efectiva.

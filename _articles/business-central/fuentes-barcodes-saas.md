@@ -10,6 +10,7 @@ permalink: /boveda/fuentes-barcodes-saas
 #cSpell:enable
 date: 2023-06-24 03:00:00 +0200
 LinkedIn: false
+posible_blog: true
 ---
 
 # Fuentes barcode SaaS

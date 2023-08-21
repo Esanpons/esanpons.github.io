@@ -10,6 +10,7 @@ permalink: /boveda/funciones-dialog
 author: Esteve Sanpons
 date: 2023-07-21 02:00:00 +0200
 LinkedIn: false
+posible_blog: true
 ---
 
 Este articulo esta dedicado a las funciones Confirm, Error, Message y STRMENU en el lenguaje de programación Business Central y Navision. Estas funciones son herramientas imprescindibles para interactuar con los usuarios y proporcionar información relevante en tus aplicaciones.

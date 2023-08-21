@@ -10,6 +10,7 @@ permalink: /boveda/funciones-string
 #cSpell:enable
 date: 2023-06-01 21:00:00 +0200
 LinkedIn: false
+posible_blog: true
 ---
 
 Los ejemplos los vamos a hacer en Business Central, pero sirven igual para las versiones anteriores.

@@ -10,6 +10,7 @@ permalink: /boveda/dataset-de-reports-en-bc
 author: Esteve Sanpons
 date: 2023-07-21 02:00:00 +0200
 LinkedIn: false
+posible_blog: true
 ---
 
 ¡Descubre una utilidad imprescindible para los usuarios que provienen de versiones antiguas de Business Central y que ha sido una gran ausencia durante muchos años!

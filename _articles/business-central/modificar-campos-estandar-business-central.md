@@ -10,6 +10,7 @@ permalink: /boveda/modificar-campos-estandar-business-central
 #cSpell:enable
 date: 2023-06-05 21:00:00 +0200
 LinkedIn: false
+posible_blog: true
 ---
 
 Os pongo en situación, como podéis ver en la tabla de cabecera de venta el campo de numero de cliente tiene el caption estándar.
