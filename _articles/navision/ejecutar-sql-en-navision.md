@@ -1,6 +1,6 @@
 ---
-title: ""
-summary: ""
+title: "Mgt. SQL"
+summary: "funcionalidad para ejecutar transacts sql des de Navision"
 layout: article
 #cSpell:disable
 category: [SQL, Navision]
