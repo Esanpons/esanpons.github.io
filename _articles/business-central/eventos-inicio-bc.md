@@ -4,7 +4,7 @@ summary: "Estos eventos son dados antes de que el area de trabajo la pueda visua
 layout: article
 author: Esteve Sanpons
 #cSpell:disable
-category: [Business_Central]
+category: [Business_Central, Eventos]
 custom_type: Boveda
 permalink: /boveda/eventos-inicio-bc
 #cSpell:enable
@@ -37,5 +37,3 @@ Estos eventos son dados antes de que el area de trabajo la pueda visualizar el u
 
 
 ```
-
-
