@@ -50,3 +50,5 @@ date: 2023-08-21 21:00:00 +0200
 [truco para crear ControlAddins rápidos y sobre la marcha - Erik Hougaard](https://www.hougaard.com/viewer-submission-poor-mans-controladdin/)
 
 [Tamaño de los ControlAddIn - Erik Hougaard](https://www.hougaard.com/fixing-the-biggest-issue-i-have-with-controladdins-with-a-hack/)
+
+[Carousel Control - Microsoft Dynamics 365 Business Central Control Add-in](https://github.com/msnraju/control-add-in-samples/tree/master/carousel)
