@@ -5,7 +5,7 @@ layout: article
 #cSpell:disable
 category: [SQL, Navision]
 custom_type: Boveda
-permalink: /boveda/
+permalink: /boveda/ejecutar-sql-en-navision
 #cSpell:enable
 author: Esteve Sanpons
 date: 2023-08-21 02:00:00 +0200
