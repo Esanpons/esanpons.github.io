@@ -1,5 +1,5 @@
 ---
-title: "title"
+title: "Dominando los ControlAddIns: Potencia tus desarrollos en Business Central"
 summary: "summary"
 layout: article
 #cSpell:disable
