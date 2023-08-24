@@ -1,6 +1,6 @@
 ---
 title: "Dominando los ControlAddIns: Potencia tus desarrollos en Business Central"
-summary: "summary"
+summary: "Explora el emocionante mundo de los ControlAddIns en Business Central y descubre cómo elevar tus aplicaciones con JavaScript, CSS y HTML."
 layout: article
 #cSpell:disable
 category: [JavaScript, "ControlAddin", "Business_Central"]
