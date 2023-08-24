@@ -11,17 +11,27 @@ author: Esteve Sanpons
 date: 2023-05-01 02:00:00 +0200
 ---
 
-Hoy, tengo algo que quiero compartir.
+¡Saludos a todos los apasionados del desarrollo y la programación!
 
-He descubierto algo realmente asombroso en el mundo del desarrollo: ¡puedes crear maravillas en JavaScript, Css y Html directamente en Business Central!
+Si eres un entusiasta de Business Central, estás a punto de descubrir un mundo de posibilidades emocionantes. En este artículo, nos sumergiremos en la fascinante creación de "ControlAddIns" y cómo pueden convertir tus desarrollos en auténticas maravillas visuales y funcionales.
 
-En el ejemplo que traigo, vamos a sumergirnos en algo tan básico como un "¡Hola, Mundo!".
+<br><br>
 
-<br>
+# ControlAddIns: Abriendo Nuevas Fronteras en Business Central
 
-Nuestra primera parada es la creación del proyecto y de un nuevo tipo de objeto al que llamaremos "controladdin".
+Antes de adentrarnos en los detalles, es crucial entender qué es exactamente un "ControlAddIn" en el contexto de Microsoft Business Central. Un ControlAddIn es una herramienta poderosa que te permite integrar componentes web en tus aplicaciones Business Central.
 
-Daremos vida a este objeto llamándolo "HolaMundoAddIn". En su composición se encuentran propiedades que van a definir nuestro ControlAddin, y lo más emocionante: los scripts y funciones que vamos a ejecutar.
+¿Qué significa eso? Puedes combinar la potencia de JavaScript, CSS y HTML para construir experiencias personalizadas y enriquecedoras directamente dentro de tu entorno de desarrollo.
+
+Esta integración es como un lienzo en blanco que te permite fusionar lo mejor del desarrollo web con la funcionalidad empresarial de Business Central. Imagina la capacidad de crear interfaces de usuario modernas y dinámicas, incorporar visualizaciones de datos interactivas, todo desde una única plataforma.
+
+Si deseas explorar más sobre ControlAddIns y cómo revolucionan el desarrollo en Business Central, te invito a visitar [la documentación oficial de Microsoft](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-object) para obtener una visión completa de sus posibilidades y beneficios.
+
+<br><br>
+
+# ¡Hola, Mundo!: Creando tu Primer ControlAddIn
+
+Ahora que entendemos la potencia de los ControlAddIns, ¡vamos a crear uno desde cero! Para este ejemplo, vamos a sumergirnos en algo tan fundamental como el icónico "¡Hola, Mundo!".
 
 ```javascript
 controladdin "HelloWorldAddIn"
@@ -47,13 +57,11 @@ controladdin "HelloWorldAddIn"
 
 <br><br>
 
-Echen un vistazo a este ControlAddin, aquí configuraremos un evento de arranque y una función.
+Un vistazo rápido al código y verás cómo configuramos la apariencia y el comportamiento de nuestro ControlAddIn. Las propiedades como RequestedHeight y RequestedWidth dan forma a su tamaño, mientras que StartupScript y StyleSheets indican los archivos de inicio y estilos. Además, eventos como CallBack() nos permiten saber cuando se inicia el ControlAddin.
 
-Por supuesto, vamos a cargar los scripts que contienen estas funciones y ajustar el tamaño y las configuraciones para que encajen a la perfección.
+Pero espera, hay algo nuevo aquí... ¿Sabías que incluso puedes crear controles personalizados y conectarlos con las funcionalidades de JavaScript? Esta es una forma poderosa de ampliar la interacción con los usuarios.
 
-Ah, notarán que las dos líneas de los Scripts están en rojo porque ¡faltan los archivos! Pero no te preocupes, ¡los vamos a crear enseguida!
-
-Primero, vayamos al script de inicio. Esto se ejecutará al iniciar el ControlAddin.
+Demos vida a nuestros scripts. El script de inicio se ejecutará al cargar el control:
 
 ```javascript
 Microsoft.Dynamics.NAV.InvokeExtensibilityMethod("CallBack", "");
@@ -61,9 +69,7 @@ Microsoft.Dynamics.NAV.InvokeExtensibilityMethod("CallBack", "");
 
 <br><br>
 
-En este script, simplemente llamamos al método de NAV con el mismo nombre del evento que hemos definido en el ControlAddin. Este método se ejecutará cuando cargue.
-
-El otro script es una maravilla sencilla: creamos la función para lanzar un mensaje "¡Hola, Mundo!".
+Y el mensaje "¡Hola, Mundo!" ahora se transforma en una función interactiva:
 
 ```javascript
 function HelloWorld(text) {
@@ -72,6 +78,7 @@ function HelloWorld(text) {
 ```
 
 <br><br>
+
 Con todo esto dicho, ahora solo nos falta llevar todo esto a una página para ver cómo se ejecuta nuestro mensaje.
 
 En el diseño, añadiremos un "usercontrol" que enlace con nuestro ControlAddin.
@@ -129,6 +136,91 @@ page 60061 "TestPageAddIn"
 
 Ya estamos. Compilamos todo y damos rienda suelta a la ejecución. Si mostramos la página que hemos configurado, veremos nuestro primer mensaje. Y si lo lanzamos desde el botón, ¡aparecerá el segundo mensaje!
 
-¡Bueno, hasta aquí el ejemplo sencillo!
+<br><br>
 
-Si quieres explorar más, puedes echar un vistazo al ejemplo completo en mi [GitHub](https://github.com/Esanpons/ControlAddIns-Business-Central)
+# De "¡Hola, Mundo!" a "¡Hola, Universo!"
+
+Ahora que dominamos los conceptos básicos, es hora de elevarlo a un nivel superior. Vamos a añadir más detalles y características a nuestro ejemplo.
+
+Comencemos por personalizar el archivo “InitScript.js”, incorporamos la función "init()":
+
+```javascript
+init();
+Microsoft.Dynamics.NAV.InvokeExtensibilityMethod("CallBack", "");
+```
+
+<br><br>
+
+Y en “Scripts.js”, creamos "init()", que agrega elementos HTML.
+
+En esta sección, examinamos de cerca un fragmento de código que desempeña un papel clave en la creación de elementos visuales en Business Central. Explicamos cómo este código interactúa con elementos HTML y cómo se utiliza para personalizar la apariencia de tu aplicación. Aquí está el desglose del código:
+
+-   Se establece una conexión con un elemento del ControlAddin utilizando su atributo id.
+-   Se utiliza la propiedad innerHTML para modificar el contenido HTML del elemento seleccionado.
+-   Se añaden elementos <div> y <span> para crear una estructura visual. Los elementos anidados permiten crear contenedores y segmentos de texto.
+-   Se aplican clases CSS, como "contenedor", "orange" y "ref", para dar estilo a los elementos y controlar su apariencia.
+-   Se proporciona una descripción detallada de cada paso del código y su función.
+
+```javascript
+function init() {
+    var div = document.getElementById("controlAddIn");
+
+    div.innerHTML += '<div class="contenedor">' + '    <div id="IDcontenedor"></div>' + "</div>";
+
+    div.innerHTML +=
+        '<span class="orange">' + "Esta es una línea, y a continuación insertamos un salto de línea.<br/>" + "</span>";
+
+    div.innerHTML += '<span class="ref">Un texto donde necesito alguna cosa</span>';
+}
+```
+
+<br><br>
+
+El ultimo archivo que tocaremos hoy es el de los estilos
+
+```css
+.contenedor {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+}
+
+.ref {
+    font-weight: negrita;
+    color: navy;
+    content: "Reference: ";
+}
+.orange {
+    width: 33.333%;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(234, 109, 0);
+}
+```
+
+<br><br>
+
+En este archivo añadiremos las configuraciones y los estilos de cada uno de los controles que antes hemos creado.
+
+Como podéis ver se llaman igual que los que hemos añadido en el archivo “Scripts.js” dentro del código de HTML.
+
+El resultado es digno de ver.
+
+Una caja azul con dos textos uno naranja y otro azul.
+
+<br><br>
+
+# Explorando Más Allá: Tu Trayecto de Desarrollo Continúa
+
+Si has llegado hasta aquí, ¡felicidades! Has recorrido un camino fascinante en el desarrollo en Business Central. Pero recuerda, esto es solo el comienzo.
+
+-   ¿Sabías que puedes incrustar gráficos interactivos utilizando bibliotecas como D3.js?
+-   ¿Qué tal integrar APIs externas para enriquecer tus aplicaciones con datos en tiempo real?
+-   ¿Has explorado las posibilidades de diseño responsivo para adaptar tus creaciones a diferentes dispositivos?
+
+La programación en Business Central es un universo de oportunidades. ¡Aprovecha al máximo cada herramienta y técnica que encuentres!
+
+<br>
+
+Y si deseas profundizar aún más, te invito a explorar el ejemplo completo en mi [GitHub](https://github.com/Esanpons/ControlAddIns-Business-Central). Allí encontrarás más ejemplos, trucos y descubrimientos que te inspirarán en tu viaje.
