@@ -211,16 +211,74 @@ Una caja azul con dos textos uno naranja y otro azul.
 
 <br><br>
 
-# Explorando Más Allá: Tu Trayecto de Desarrollo Continúa
+# Expandiendo los Horizontes con HTML Externo
 
-Si has llegado hasta aquí, ¡felicidades! Has recorrido un camino fascinante en el desarrollo en Business Central. Pero recuerda, esto es solo el comienzo.
+Vamos un paso más allá y exploremos cómo incorporar HTML desde un archivo externo. Esto agrega aún más flexibilidad y modularidad a nuestro desarrollo.
 
--   ¿Sabías que puedes incrustar gráficos interactivos utilizando bibliotecas como D3.js?
--   ¿Qué tal integrar APIs externas para enriquecer tus aplicaciones con datos en tiempo real?
--   ¿Has explorado las posibilidades de diseño responsivo para adaptar tus creaciones a diferentes dispositivos?
+Copiamos el contenido del archivo HTML en el archivo externo de la siguiente manera:
 
-La programación en Business Central es un universo de oportunidades. ¡Aprovecha al máximo cada herramienta y técnica que encuentres!
+```html
+<div class="contenedor">
+    <div id="IDcontenedor"></div>
+</div>
 
-<br>
+<span class="orange"> Esta es una línea, y a continuación insertamos un salto de línea. </span>
+<br />
+
+<span class="ref">Un texto donde necesito alguna cosa</span>
+```
+
+<br><br>
+
+También necesitamos ajustar nuestro "ControlAddIn":
+
+```javascript
+controladdin "HelloWorldExternalHTML"
+{
+    RequestedHeight = 300;
+    MinimumHeight = 300;
+    MaximumHeight = 300;
+    RequestedWidth = 700;
+    MinimumWidth = 700;
+    MaximumWidth = 700;
+    VerticalStretch = true;
+    VerticalShrink = true;
+    HorizontalStretch = true;
+    HorizontalShrink = true;
+    StartupScript = 'src\controladdin\HelloWorldExternalHTML\js\InitScript.js';
+    StyleSheets = 'src\controladdin\HelloWorldExternalHTML\css\StyleSheets.css';
+    Scripts = 'https://code.jquery.com/jquery-3.6.0.min.js',
+            'src\controladdin\HelloWorldExternalHTML\js\Scripts.js';
+    Images = 'src\controladdin\HelloWorldExternalHTML\html\main.html';
+
+    event CallBack();
+    procedure HelloWorld(text: Text);
+
+}
+```
+
+<br><br>
+
+En el archivo "Scripts.js", realizamos un cambio emocionante para cargar el archivo HTML externo:
+
+```javascript
+function init() {
+    $("#controlAddIn").load(
+        Microsoft.Dynamics.NAV.GetImageResource("src/controladdin/HelloWorldExternalHTML/html/main.html")
+    );
+}
+
+function HelloWorld(text) {
+    alert("Hello world en " + text);
+}
+```
+
+<br><br>
+
+Lo que estamos haciendo es cargar el archivo HTML externo que configuramos en el ControlAddIn. El fragmento $("#cosmicContainer") utiliza la librería jQuery para seleccionar un elemento HTML en la página, en este caso, con el identificador "#cosmicContainer". La función .load() de jQuery se emplea para cargar contenido desde un archivo externo y añadirlo al elemento seleccionado. Además, Microsoft.Dynamics.NAV.GetImageResource() nos permite acceder a recursos dentro del entorno de desarrollo.
+
+Estas línea de código carga el contenido del archivo HTML externo y lo integra de manera flexible en la interfaz de usuario de Business Central. Una vez más, los ControlAddIns se revelan como una herramienta asombrosa para personalizar y elevar la experiencia del usuario.
+
+<br><br>
 
 Y si deseas profundizar aún más, te invito a explorar el ejemplo completo en mi [GitHub](https://github.com/Esanpons/ControlAddIns-Business-Central). Allí encontrarás más ejemplos, trucos y descubrimientos que te inspirarán en tu viaje.
