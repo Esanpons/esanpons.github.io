@@ -5,7 +5,7 @@ layout: article
 #cSpell:disable
 category: [JavaScript, "ControlAddin", "Business_Central"]
 custom_type: Boveda
-permalink: /boveda/controladdin
+permalink: /boveda/ontroladdin-basico
 #cSpell:enable
 author: Esteve Sanpons
 date: 2023-05-01 02:00:00 +0200
