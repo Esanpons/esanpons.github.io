@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-summary: ""
+title: "Domina el Diseño de Páginas en Business Central: Ajustando Tamaños y Espacios"
+summary: "Aprende cómo ajustar dinámicamente tamaños y espacios en tu página de Business Central. Descubre cómo utilizar los ControlAddins para lograr un diseño perfecto y maximizar el espacio disponible."
 author: "Esteve Sanpons"
 date: "2021-10-22 08:00:00 +0200"
 #cSpell:disable
