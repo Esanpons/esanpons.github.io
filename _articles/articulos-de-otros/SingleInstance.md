@@ -8,7 +8,7 @@ category: [Informacion_Otros, "Business_Central"]
 custom_type: Boveda
 permalink: /boveda/SingleInstance
 #cSpell:enable
-date: 2023-08-09 03:00:00 +0200
+date: 2023-08-29 03:00:00 +0200
 ---
 
 ## Microsoft, añade la propiedad de SingleInstance para que des de cualquier lugar se llame a la codeunit y se puedan visualizar los mismos datos que se añadieron
