@@ -32,6 +32,8 @@ En resumen, "SingleInstance" facilita compartir variables entre diferentes parte
   </a>
 </div>
 
+EDIT: Erik Hougaard también habla de ello en este [video](https://www.youtube.com/watch?v=_MiBa2Fms1g)
+
 <br>
 
 La web origen de Microsoft Learn es [Link](https://learn.microsoft.com/)
