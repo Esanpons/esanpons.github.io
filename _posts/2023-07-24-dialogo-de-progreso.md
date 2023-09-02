@@ -3,7 +3,7 @@ layout: post
 title: "Implementando un diálogo de progreso"
 summary: "Aprende a implementar un diálogo de progreso. Descubre cómo crear una codeunit, definir variables y desarrollar funciones para abrir, actualizar y cerrar el diálogo. Mejora la experiencia del usuario en tus proyectos y mantén informados a los usuarios sobre el progreso de las tareas."
 author: "Esteve Sanpons"
-date: "2023-07-23 04:00:00 +0200"
+date: "2023-07-24 04:00:00 +0200"
 #cSpell:disable
 category: ["Navision", "Business_Central", "Utils"]
 thumbnail: /assets/img/posts/dialogo-de-progreso/imagen01.png

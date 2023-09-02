@@ -3,7 +3,7 @@ layout: post
 title: "Dominando RecordRef y FieldRef: Potencia tus Desarrollos."
 summary: "Descubre cómo utilizar las poderosas variables RecordRef y FieldRef en Dynamics 365 para trabajar dinámicamente con registros y campos. Aprende a modificar y obtener datos de manera eficiente, ampliando tus capacidades de desarrollo con ejemplos prácticos y sencillos de implementar."
 author: "Esteve Sanpons"
-date: "2023-08-13 04:00:00 +0200"
+date: "2023-08-14 04:00:00 +0200"
 #cSpell:disable
 category: ["Navision", "Business_Central"]
 thumbnail: /assets/img/posts/recref-and-fieldref/imagen01.png

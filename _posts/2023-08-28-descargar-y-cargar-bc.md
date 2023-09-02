@@ -3,7 +3,7 @@ layout: post
 title: "Optimizando la Exportación e Importación de Archivos en Business Central"
 summary: "Descubre cómo mejorar tus procesos de exportación e importación de archivos en Business Central. Aprende a realizar estas operaciones sin depender de la codeunit 419 y optimiza tus flujos de trabajo en entornos OnPrem y SAS."
 author: "Esteve Sanpons"
-date: "2023-08-27 04:00:00 +0200"
+date: "2023-08-28 04:00:00 +0200"
 #cSpell:disable
 category: ["Business_Central"]
 thumbnail: /assets/img/posts/descargar-y-cargar-bc/imagen01.png

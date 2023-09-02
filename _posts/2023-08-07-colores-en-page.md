@@ -3,7 +3,7 @@ layout: post
 title: "Añade Color y Estilo a tus Páginas"
 summary: "Descubre cómo destacar información relevante y mejorar la presentación de tus páginas y campos. Aprende a aplicar estilos y colores de manera sencilla y efectiva, utilizando AL y Enums."
 author: "Esteve Sanpons"
-date: "2023-08-06 07:00:00 +0200"
+date: "2023-08-07 07:00:00 +0200"
 #cSpell:disable
 category: ["Navision", "Business_Central"]
 thumbnail: /assets/img/posts/colores-en-page/imagen01.png

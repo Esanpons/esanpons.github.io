@@ -3,7 +3,7 @@ layout: post
 title: "División Inteligente de Líneas"
 summary: "Descubre cómo realizar una división precisa de líneas en tus documentos. Aprende una solución ingeniosa para agregar nuevos elementos entre líneas existentes sin complicaciones."
 author: "Esteve Sanpons"
-date: "2023-07-30 04:00:00 +0200"
+date: "2023-07-31 04:00:00 +0200"
 #cSpell:disable
 category: ["Navision", "Business_Central"]
 thumbnail: /assets/img/posts/split-line/imagen01.png
