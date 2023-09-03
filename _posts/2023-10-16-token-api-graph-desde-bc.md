@@ -3,7 +3,7 @@ layout: post
 title: "Cómo obtener el token de acceso para Microsoft Graph des de Business Central"
 summary: "En este blog, aprenderemos a obtener el token de acceso necesario para interactuar con la API Graph de Microsoft. Se explicará el proceso paso a paso, desde la creación de una codeunit hasta la llamada a la función de la codeunit OAuth2. Además, se proporcionará un ejemplo completo."
 author: "Esteve Sanpons"
-date: "2023-10-08 04:00:00 +0200"
+date: "2023-10-15 04:00:00 +0200"
 #cSpell:disable
 category: ["API_Graph", "Business_Central"]
 thumbnail: /assets/img/posts/token-api-graph-desde-bc/imagen01.png
