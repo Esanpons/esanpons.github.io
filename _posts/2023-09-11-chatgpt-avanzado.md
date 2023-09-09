@@ -95,7 +95,6 @@ pageextension 50000 "CustomerList" extends "Customer List"
         }
     }
 
-
     local procedure CreatePromptCustomer() ReturnValue: Text
     var
         JObject: JsonObject;
