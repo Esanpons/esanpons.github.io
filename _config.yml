@@ -36,6 +36,14 @@ hero_cover_img: fondo.jpg # replace this for changing homepage cover (eg. try co
 
 # Experiences
 author_work_experiences:
+    - company_name: Adderit
+      company_year: 2023 - Actual
+      company_logo: adderit.png
+      designation: Programador senior en AL
+      description:
+          Programador Senior en Business Central, me especializo en crear soluciones personalizadas, innovar en productos y optimizar procesos empresariales para impulsar el éxito de la empresa.
+          Mi experiencia incluye el diseño y desarrollo de aplicaciones a medida, la colaboración en la creación de nuevos productos y la automatización de procesos para reducir costos y mejorar la eficiencia operativa.
+      visibility: true
     - company_name: Mitra Global Service
       company_year: 2022 - 2023
       company_logo: mitra.png
