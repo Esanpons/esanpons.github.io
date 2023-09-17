@@ -3,11 +3,11 @@ layout: post
 title: "Transformando la Gestión de Archivos en Business Central: ¡Arrastra y Suelta para la Eficiencia!"
 summary: "Descubre cómo revolucionar la administración de archivos en Dynamics 365 Business Central mediante la implementación de una funcionalidad de arrastrar y soltar. En este artículo, exploramos el código y los componentes esenciales que te permitirán simplificar la gestión de documentos adjuntos."
 author: "Esteve Sanpons"
-date: "2023-11-13 08:00:00 +0200"
+date: "2023-11-19 04:00:00 +0200"
 #cSpell:disable
 category: ["JavaScript", "ControlAddin", "Business_Central"]
-thumbnail: /assets/img/posts/arrastrar-ysoltar-documentos-adjuntos/imagen01.png
-permalink: /blog/arrastrar-ysoltar-documentos-adjuntos/
+thumbnail: /assets/img/posts/arrastrar-y-soltar-documentos-adjuntos/imagen01.png
+permalink: /blog/arrastrar-y-soltar-documentos-adjuntos/
 custom_type: Blog
 #cSpell:enable
 ---
