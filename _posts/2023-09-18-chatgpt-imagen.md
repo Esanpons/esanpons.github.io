@@ -235,7 +235,7 @@ En resumen, este código enriquecido y ampliado nos permite interactuar de maner
 
 <br>
 
-Como siempre, podrás encontrar el ejemplo completo en el [GitHub](https://github.com/Esanpons/chatgpt-in-business-central/tree/Imaagen)
+Como siempre, podrás encontrar el ejemplo completo en el [GitHub](https://github.com/Esanpons/chatgpt-in-business-central)
 
 <br>
 

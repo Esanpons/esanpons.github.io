@@ -127,7 +127,7 @@ En resumen, hemos llevado la integración entre ChatGPT y Dynamics 365 Business 
 
 <br>
 
-Como siempre, podréis ver el ejemplo entero en el [GitHub](https://github.com/Esanpons/chatgpt-in-business-central/tree/avanzado)
+Como siempre, podréis ver el ejemplo entero en el [GitHub](https://github.com/Esanpons/chatgpt-in-business-central)
 
 <br>
 

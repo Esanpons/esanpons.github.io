@@ -447,7 +447,7 @@ Con esta integración entre Microsoft Business Central y ChatGPT, estaréis list
 
 <br>
 
-Como siempre, podréis ver el ejemplo entero en el [GitHub](https://github.com/Esanpons/chatgpt-in-business-central/tree/main)
+Como siempre, podréis ver el ejemplo entero en el [GitHub](https://github.com/Esanpons/chatgpt-in-business-central)
 
 <br>
 
