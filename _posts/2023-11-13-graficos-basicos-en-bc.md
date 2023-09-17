@@ -3,7 +3,7 @@ layout: post
 title: "¡Da Vida a tus Datos con Gráficos Impresionantes en Business Central!"
 summary: "Descubre cómo transformar tus datos aburridos en visualizaciones sorprendentes en Business Central utilizando ControlAddIns. En este emocionante recorrido, te guiaré a través del código que te permitirá crear gráficos impactantes con JavaScript, CSS y HTML."
 author: "Esteve Sanpons"
-date: "2029-01-01 08:00:00 +0200"
+date: "2023-11-13 08:00:00 +0200"
 #cSpell:disable
 category: ["JavaScript", "ControlAddin", "Business_Central"]
 thumbnail: /assets/img/posts/graficos-basicos-en-bc/imagen01.png
