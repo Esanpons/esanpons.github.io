@@ -3,7 +3,7 @@ layout: post
 title: "Innovación en Business Central: Generación de Imágenes con ChatGPT"
 summary: "Explora cómo hemos llevado Business Central al siguiente nivel al desafiar a ChatGPT para crear imágenes personalizadas en nuestra interfaz de usuario."
 author: "Esteve Sanpons"
-date: "2023-09-17 04:00:00 +0200"
+date: "2023-09-18 04:00:00 +0200"
 #cSpell:disable
 category: ["Business_Central", ChatGPT, HttpClient, JavaScript, ControlAddin]
 thumbnail: /assets/img/posts/chatgpt-imagen/imagen01.png

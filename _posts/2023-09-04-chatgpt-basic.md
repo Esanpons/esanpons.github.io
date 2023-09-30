@@ -3,7 +3,7 @@ layout: post
 title: "Integración Innovadora de Microsoft Business Central y ChatGPT"
 summary: "Descubran cómo fusionar la inteligencia de Microsoft Business Central con el poder del lenguaje natural en ChatGPT. Aprendan a configurar la interacción, desde la creación de claves API hasta la creación de páginas de preguntas y respuestas."
 author: "Esteve Sanpons"
-date: "2023-09-01 04:00:00 +0200"
+date: "2023-09-04 04:00:00 +0200"
 #cSpell:disable
 category: ["Business_Central", ChatGPT, HttpClient]
 thumbnail: /assets/img/posts/chatgpt-basic/imagen01.png

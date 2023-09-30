@@ -3,7 +3,7 @@ layout: post
 title: "Maximizando la Inteligencia Artificial en Business Central: ChatGPT y la Interacción con Datos de Clientes"
 summary: "Descubre cómo llevar la integración de ChatGPT y Business Central al siguiente nivel, utilizando datos de tu Base de Datos para obtener respuestas más precisas. Aprende a enviar información de clientes y realizar preguntas específicas, como analizar ventas y más."
 author: "Esteve Sanpons"
-date: "2023-09-09 04:00:00 +0200"
+date: "2023-09-11 04:00:00 +0200"
 #cSpell:disable
 category: ["Business_Central", ChatGPT, HttpClient]
 thumbnail: /assets/img/posts/chatgpt-avanzado/imagen01.png
