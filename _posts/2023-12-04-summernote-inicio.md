@@ -5,7 +5,7 @@ summary: "Explorando las Maravillas de Summernote en Business Central: Un Viaje 
 author: "Esteve Sanpons"
 date: "2023-12-03 04:00:00 +0200"
 #cSpell:disable
-category: ["JavaScript", "ControlAddin", "Business_Central"]
+category: ["JavaScript", "ControlAddin", "Business_Central", Summernote]
 thumbnail: /assets/img/posts/summernote-inicio/imagen01.png
 permalink: /blog/summernote-inicio/
 custom_type: Blog
