@@ -23,7 +23,7 @@ date: 2023-08-21 21:00:00 +0200
 
 [truco de HTML: usando imágenes - vjekob](https://vjeko.com/2018/12/12/extending-the-html-trick-using-actual-images/)
 
-[Cómo establecer el foco en los campos usando Javascript en Business Central | D365 BC y aplicaciones de energía](https://integrated.ee/posts/business-central-field-focus/)
+[Cómo establecer el foco en los campos usando Javascript en Business Central, D365 BC y aplicaciones de energía](https://integrated.ee/posts/business-central-field-focus/)
 
 [Using the WebPageViewer Add-In For Business Central – James Pearson](https://jpearson.blog/2021/03/29/using-the-webpageviewer-add-in-for-business-central/)
 
