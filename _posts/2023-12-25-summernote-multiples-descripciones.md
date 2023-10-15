@@ -12,7 +12,7 @@ custom_type: Blog
 #cSpell:enable
 ---
 
-¡Hola apasionados de la programación! Aquí estoy para llevarros a otro nivel en el universo de Business Central. 🚀 En las misiones anteriores, destripamos cómo forjar un controladdin, guardar y cargar datos, e incluso mencionar. Si te has perdido alguna de estas hazañas, ¡echa un vistazo [aquí](/categorias/Summernote/)!
+¡Hola apasionados de la programación! Aquí estoy para llevarros a otro nivel en el universo de Business Central. En las misiones anteriores, destripamos cómo forjar un controladdin, guardar y cargar datos, e incluso mencionar. Si te has perdido alguna de estas hazañas, ¡echa un vistazo [aquí](/categorias/Summernote/)!
 
 Pero hoy, estoy emocionado de presentaros una nueva joya para la lista de pedidos de venta. Imaginar esto: al final de tu lista de pedidos, un lugar donde puedes ver y modificar los textos enriquecidos de cada pedido, ¡todo sin abandonar la lista!
 
