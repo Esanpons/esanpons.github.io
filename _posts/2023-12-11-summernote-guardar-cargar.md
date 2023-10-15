@@ -5,7 +5,7 @@ summary: "Descubre cómo establecer una conexión sólida entre Summernote y la 
 author: "Esteve Sanpons"
 date: "2023-12-10 04:00:00 +0200"
 #cSpell:disable
-category: ["JavaScript", "ControlAddin", "Business_Central", Summernote]
+category: ["JavaScript", "ControlAddin", "Business_Central", "Summernote"]
 thumbnail: /assets/img/posts/summernote-guardar-cargar/imagen01.png
 permalink: /blog/summernote-guardar-cargar/
 custom_type: Blog
@@ -22,7 +22,7 @@ Para llevar esto a cabo, echaremos mano del campo 200 llamado "Work Description"
 
 <br>
 
-¡Sin más preámbulos!, ¡Vamos manos a la obra! 🤩
+¡Sin más preámbulos!, ¡Vamos manos a la obra! 😍
 
 <br>
 
