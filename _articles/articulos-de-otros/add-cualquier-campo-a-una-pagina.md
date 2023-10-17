@@ -8,7 +8,7 @@ category: ["Business_Central", "Utils", "Informacion_Otros"]
 custom_type: Boveda
 permalink: /boveda/add-cualquier-campo-a-una-pagina
 #cSpell:enable
-date: 2023-06-01 21:00:00 +0200
+date: 2023-10-17 21:00:00 +0200
 ---
 
 ## Roberto Corella, nos muestra una manera de como añadir cualquier campo a una página
