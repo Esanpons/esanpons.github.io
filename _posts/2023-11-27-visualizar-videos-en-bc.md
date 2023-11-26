@@ -11,7 +11,6 @@ permalink: /blog/visualizar-videos-en-bc/
 custom_type: Blog
 #cSpell:enable
 ---
-
 ¡Bienvenidos a un nuevo artículo en nuestro blog sobre el desarrollo en Business Central! Hoy, vamos a sumergirnos en el emocionante mundo de la integración de contenido de video en tus aplicaciones personalizadas a través de un ControlAddIn.
 
 Este componente personalizado te permitirá llevar la visualización de videos a otro nivel en Business Central, ya sea desde YouTube o tus propios recursos locales.
