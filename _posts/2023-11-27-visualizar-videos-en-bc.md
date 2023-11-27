@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Transformando la Gestión de Archivos en Business Central: ¡Arrastra y Suelta para la Eficiencia!"
-summary: "Descubre cómo revolucionar la administración de archivos en Dynamics 365 Business Central mediante la implementación de una funcionalidad de arrastrar y soltar. En este artículo, exploramos el código y los componentes esenciales que te permitirán simplificar la gestión de documentos adjuntos."
+title: "Revolucionando Business Central: Integración de Video con ControlAddIn"
+summary: "Descubre como insertar videos en Business Central con ControlAddin"
 author: "Esteve Sanpons"
 date: "2023-11-26 04:00:00 +0200"
 #cSpell:disable
@@ -11,6 +11,7 @@ permalink: /blog/visualizar-videos-en-bc/
 custom_type: Blog
 #cSpell:enable
 ---
+
 ¡Bienvenidos a un nuevo artículo en nuestro blog sobre el desarrollo en Business Central! Hoy, vamos a sumergirnos en el emocionante mundo de la integración de contenido de video en tus aplicaciones personalizadas a través de un ControlAddIn.
 
 Este componente personalizado te permitirá llevar la visualización de videos a otro nivel en Business Central, ya sea desde YouTube o tus propios recursos locales.
