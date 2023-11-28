@@ -3,7 +3,7 @@ layout: post
 title: "Domina el Diseño de Páginas en Business Central: Ajustando Tamaños y Espacios"
 summary: "Aprende cómo ajustar dinámicamente tamaños y espacios en tu página de Business Central. Descubre cómo utilizar los ControlAddins para lograr un diseño perfecto y maximizar el espacio disponible."
 author: "Esteve Sanpons"
-date: "2023-11-05 04:00:00 +0200"
+date: "2023-11-06 04:00:00 +0200"
 #cSpell:disable
 category: ["JavaScript", "ControlAddin", "Business_Central"]
 thumbnail: /assets/img/posts/cambiar-alto-y-ancho-elementos-bc/imagen01.png

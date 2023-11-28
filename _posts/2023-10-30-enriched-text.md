@@ -3,7 +3,7 @@ layout: post
 title: "Domina el Arte de la Edición de Texto Enriquecido en Business Central"
 summary: "Descubre cómo crear una caja de texto enriquecido en Microsoft Dynamics 365 Business Central. Te mostrare paso a paso cómo aprovechar al máximo los ControlAddins y la potente librería CKEditor. Edita y presenta tus datos de manera atractiva y profesional en tu aplicación Business Central."
 author: "Esteve Sanpons"
-date: "2023-10-29 04:00:00 +0200"
+date: "2023-10-30 04:00:00 +0200"
 #cSpell:disable
 category: ["JavaScript", "ControlAddin", "Business_Central"]
 thumbnail: /assets/img/posts/enriched-text/imagen01.png

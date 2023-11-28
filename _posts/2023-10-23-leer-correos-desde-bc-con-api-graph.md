@@ -3,7 +3,7 @@ layout: post
 title: "Conectándose a la API Graph de Microsoft desde Business Central para obtener correos electrónicos no leídos"
 summary: "Aprende cómo utilizar la API Graph de Microsoft en Business Central para obtener mensajes de correo electrónico no leídos de una bandeja de entrada específica. ¡Descubre las posibilidades que ofrece la API Graph de Microsoft!"
 author: "Esteve Sanpons"
-date: "2023-10-22 04:00:00 +0200"
+date: "2023-10-23 04:00:00 +0200"
 #cSpell:disable
 category: ["API_Graph", "Business_Central"]
 thumbnail: /assets/img/posts/leer-correos-desde-bc-con-api-graph/imagen01.png
