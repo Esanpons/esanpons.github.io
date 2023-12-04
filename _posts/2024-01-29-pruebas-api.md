@@ -3,7 +3,7 @@ layout: post
 title: "Dominando las Conexiones API en Business Central: Un Viaje Práctico"
 summary: "En la última entrega de nuestra serie sobre programación en API de Business Central, realizamos pruebas de la integración API para la gestión eficiente de clientes."
 author: "Esteve Sanpons"
-date: "2021-01-28 04:00:00 +0200"
+date: "2024-01-28 04:00:00 +0200"
 #cSpell:disable
 category: ["Business_Central", "API"]
 thumbnail: /assets/img/posts/pruebas-api/imagen01.png
