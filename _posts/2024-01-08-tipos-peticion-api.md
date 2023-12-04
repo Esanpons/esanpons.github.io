@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dominando las Conexiones API en Business Central: Un Viaje Práctico"
+title: "Explorando las Maravillas de las Conexiones API en Microsoft Business Centra"
 summary: "Exploraremos a fondo las conexiones a objetos de tipo API. Desde las peticiones GET para obtener datos precisos hasta la elegancia de los métodos POST y PUT para crear y modificar registros, este artículo te sumergirá en un universo de posibilidades."
 author: "Esteve Sanpons"
 date: "2024-01-07 04:00:00 +0200"

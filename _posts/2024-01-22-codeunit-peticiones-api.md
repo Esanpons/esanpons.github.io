@@ -22,7 +22,7 @@ Esto nos puede servir si disponemos de varias Bases de Datos o para externalizar
 
 <br>
 
-veamos el código, ¡Vamos manos a la obra! 🤩
+Veamos el código, ¡Vamos manos a la obra! 🤩
 
 <br>
 
@@ -90,7 +90,7 @@ El código proporcionado es una función llamada `CallWebService` escrita en AL,
 
 #### Inicialización de Variables
 
-```al
+```javascript
 var
     HttpClient: HttpClient;
     HttpHeaders: HttpHeaders;
@@ -101,13 +101,15 @@ var
     ResultLbl: Label 'Result: ', Comment = 'ESP="Resultado: "';
 ```
 
+<br>
+
 En esta sección, se definen varias variables que serán utilizadas a lo largo de la función. Estas incluyen instancias de clases proporcionadas por el framework AL para manejar operaciones HTTP, como `HttpClient`, `HttpHeaders`, `HttpContent`, `HttpResponseMessage`, y `HttpRequestMessage`. También se define una etiqueta (`ResultLbl`) para formatear mensajes de resultado.
 
 <br>
 
 #### Configuración de Encabezados
 
-```al
+```javascript
 HttpHeaders := HttpClient.DefaultRequestHeaders();
 
 if Authorization <> '' then
@@ -120,7 +122,7 @@ Aquí, se configuran los encabezados de la solicitud HTTP. Si se proporciona un 
 
 #### Manejo de Solicitudes HTTP
 
-```al
+```javascript
 case RequestType of
     'Get':
         HttpClient.Get(URL, HttpResponseMessage);
@@ -137,6 +139,8 @@ case RequestType of
 end;
 ```
 
+<br>
+
 El código utiliza una estructura de casos (`case`) para manejar diferentes tipos de solicitudes HTTP, como GET, PUT, PATCH, POST, DELETE y una solicitud personalizada llamada 'Function'. Cada bloque de código dentro de los casos demuestra cómo se realiza una solicitud HTTP específica.
 
 <br>
@@ -145,7 +149,7 @@ El código utiliza una estructura de casos (`case`) para manejar diferentes tipo
 
 ##### PUT
 
-```al
+```javascript
 'Put':
     begin
         HttpHeaders.Add('If-Match', '*');
@@ -160,13 +164,15 @@ El código utiliza una estructura de casos (`case`) para manejar diferentes tipo
     end;
 ```
 
+<br>
+
 En el caso de una solicitud PUT, se añade un encabezado específico ('If-Match: \*'). Luego, se escriben los datos JSON en el contenido de la solicitud (`HttpContent`). Finalmente, se configuran los encabezados de contenido y se realiza la llamada PUT utilizando `HttpClient`.
 
 <br>
 
 ##### PATCH
 
-```al
+```javascript
 'Patch':
     begin
         Clear(HttpClient);
@@ -193,13 +199,15 @@ En el caso de una solicitud PUT, se añade un encabezado específico ('If-Match:
     end;
 ```
 
+<br>
+
 Para una solicitud PATCH, se realiza una limpieza de variables y se configuran los encabezados y el contenido de la solicitud. Luego, se utiliza `HttpRequestMessage` para configurar la solicitud como PATCH antes de realizar la llamada con `HttpClient`.
 
 <br>
 
 ##### POST
 
-```al
+```javascript
 'Post':
     begin
         HttpContent.WriteFrom(jsonText);
@@ -212,13 +220,15 @@ Para una solicitud PATCH, se realiza una limpieza de variables y se configuran l
     end;
 ```
 
+<br>
+
 En el caso de una solicitud POST, se escribe el contenido JSON, se configuran los encabezados y se realiza la llamada POST utilizando `HttpClient`.
 
 <br>
 
 ##### DELETE
 
-```al
+```javascript
 'Delete':
     begin
         HttpClient.Delete(URL, HttpResponseMessage);
@@ -227,13 +237,15 @@ En el caso de una solicitud POST, se escribe el contenido JSON, se configuran lo
     end;
 ```
 
+<br>
+
 Para las solicitudes DELETE, se realizan llamadas DELETE. Además, se maneja el resultado de estas operaciones, en este caso, se verifica si la operación fue exitosa antes de salir de la función.
 
 <br>
 
 ##### DELETE
 
-```al
+```javascript
 'Function':
     begin
         HttpClient.Post(URL, HttpContent, HttpResponseMessage);
@@ -242,15 +254,19 @@ Para las solicitudes DELETE, se realizan llamadas DELETE. Además, se maneja el 
     end;
 ```
 
+<br>
+
 Las funciones como hemos explicado en anteriores artículos lo que realizara sera ejecutar una función que hay en una pagina de tipo API.
 
 <br>
 
 #### Lectura de la Respuesta
 
-```al
+```javascript
 HttpResponseMessage.Content().ReadAs(ReturnValue);
 ```
+
+<br>
 
 Finalmente, se lee el contenido de la respuesta HTTP (`HttpResponseMessage`) y se almacena en la variable `ReturnValue`.
 
