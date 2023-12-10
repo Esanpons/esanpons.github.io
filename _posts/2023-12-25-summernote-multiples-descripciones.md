@@ -18,13 +18,11 @@ Pero hoy, estoy emocionado de presentaros una nueva joya para la lista de pedido
 
 Visualicemos la meta:
 
-```html
 <input type="checkbox" id="image-checkbox-02" class="image-checkbox" />
 <label for="image-checkbox-02" class="image-label">
     <img class="img-container" src="/assets/img/posts/summernote-multiples-descripciones/imagen02.png" />
 </label>
 <br />
-```
 
 La idea es simple pero poderosa: tener un espacio donde puedan personalizar cada pedido, editándolo y guardándolo sobre la marcha.
 
