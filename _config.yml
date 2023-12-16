@@ -30,7 +30,7 @@ author_birth_date: 8 Enero 1984
 author_languages: Catalán y Castellano
 author_email: "esteve@aesva.es"
 author_location: Barcelona
-author_website_url: "https://www.aesva.es"
+author_website_url: "esanpons.github.io"
 typewrite-text: Soy un apasionado de la programación.
 hero_cover_img: fondo.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
